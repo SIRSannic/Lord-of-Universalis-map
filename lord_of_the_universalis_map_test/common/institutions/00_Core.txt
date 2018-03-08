@@ -1,0 +1,1744 @@
+#
+# remember to add graphics for relevant ones when you add to this
+#
+# if a modifier is scaled, its multiplied with development in the province.
+
+
+# any_friendly_coast_border_province is a special scope made for institution spread.
+# It checks for adjacent provinces or provinces one seazone away.
+# Friendly is defined as at positive relations or owned by the same country that owns the province.
+
+#######################################
+# Feudalism.  
+# 
+# Most in the old world start with it.
+#######################################
+
+feudalism = {
+	penalty = 0.1
+	bonus = {
+		free_leader_pool = 1
+	}
+	
+	historical_start_date = 2559.12.31
+	historical_start_province = 679 # Dain Halls
+
+	history = {
+		
+		OR = {
+			AND = {
+				is_year = 2560
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 2560
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 2560
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 2560
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 2560
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 2560
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 2565
+				region = rhun_region
+			}
+			AND = {
+				is_year = 2570
+				region = gondor_region
+			}
+			AND = {
+				is_year = 2570
+				region = rohan_region
+			}
+			AND = {
+				is_year = 2570
+				region = mordor_region
+			}
+			AND = {
+				is_year = 2575
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 2575
+				region = eregion_region
+			}
+			AND = {
+				is_year = 2575
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 2575
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 2575
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 2575
+				region = angmar_region
+			}
+			AND = {
+				is_year = 2575
+				region = lindon_region
+			}
+			AND = {
+				is_year = 2575
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 2575
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 2575
+				region = harad_region
+			}
+			AND = {
+				is_year = 2575
+				region = khand_region
+			}
+			AND = {
+				is_year = 2575
+				region = far_harad_region
+			}
+			is_year = 2580
+		}
+	}
+	
+	# no need for events, as its there from the start.
+	#can_start = {	is_year = 2560	}
+	#start_chance = 100
+	#on_start = institution_events.1
+
+	can_embrace = {
+		always = yes
+	}
+
+	embracement_speed = {
+		modifier = {
+			factor = 1
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
+				any_friendly_coast_border_province = {
+					feudalism = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						feudalism = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = NEIGHBOR_NOT_OWNED_IS_FEUDAL
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					feudalism = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = feudalism
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_feudalism_embraced
+				owner = {
+					has_institution = feudalism
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.25
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.25
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.30
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 2580
+				development = 5
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#######################################
+# The Coming of Smaug 2770 (Renaissance)
+# 
+# Flows from Erebor(Rhovanion)
+#######################################
+
+renaissance = {
+	penalty = 0.5
+
+	bonus = {
+		garrison_size = 0.25
+	}
+
+
+	historical_start_date = 2770.1.1
+	historical_start_province = 292 # Erebor
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 2770
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 2775
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 2775
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 2775
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 2775
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 2775
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 2775
+				region = rhun_region
+			}
+			AND = {
+				is_year = 2775
+				region = gondor_region
+			}
+			AND = {
+				is_year = 2775
+				region = rohan_region
+			}
+			AND = {
+				is_year = 2775
+				region = mordor_region
+			}
+			AND = {
+				is_year = 2780
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 2780
+				region = eregion_region
+			}
+			AND = {
+				is_year = 2780
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 2785
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 2785
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 2780
+				region = angmar_region
+			}
+			AND = {
+				is_year = 2790
+				region = lindon_region
+			}
+			AND = {
+				is_year = 2790
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 2780
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 2785
+				region = harad_region
+			}
+			AND = {
+				is_year = 2780
+				region = khand_region
+			}
+			AND = {
+				is_year = 2780
+				region = far_harad_region
+			}
+			is_year = 2790
+		}
+	}
+	
+	can_start = {
+		is_year = 2770
+		#region = rhovanion_region
+		province_id = 292
+		is_island = no
+		OR = {
+			development = 3
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+	}
+	start_chance = 100		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.2
+	
+	can_embrace = {
+		owner = { has_institution = feudalism }
+	}
+	
+	embracement_speed = {
+		modifier = {
+			scale = yes
+			factor = 0.6
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
+				any_friendly_coast_border_province = {
+					renaissance = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.3
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						renaissance = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_renaissance
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					renaissance = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			potential = {
+				region = rhovanion_region
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_italian_capital
+				is_capital = yes
+				region = rhovanion_region
+			}
+			
+			
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 2771
+				development = 5
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = renaissance
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_renaissance_embraced
+				owner = {
+					has_institution = renaissance
+				}
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+
+#######################################
+# War of the Dwarves and Orcs 2799 (New World)
+# 
+# Moria
+#######################################
+new_world_i = {
+	penalty = 0.5
+
+	bonus = {
+		idea_cost = -0.1
+	}
+
+
+	historical_start_date = 2799.1.1
+	historical_start_province = 285 #Eastern Moria
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 2804
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 2804
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 2804
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 2799
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 2804
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 2804
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 2809
+				region = rhun_region
+			}
+			AND = {
+				is_year = 2809
+				region = gondor_region
+			}
+			AND = {
+				is_year = 2804
+				region = rohan_region
+			}
+			AND = {
+				is_year = 2809
+				region = mordor_region
+			}
+			AND = {
+				is_year = 2804
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 2804
+				region = eregion_region
+			}
+			AND = {
+				is_year = 2804
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 2809
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 2809
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 2804
+				region = angmar_region
+			}
+			AND = {
+				is_year = 2814
+				region = lindon_region
+			}
+			AND = {
+				is_year = 2814
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 2814
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 2819
+				region = harad_region
+			}
+			AND = {
+				is_year = 2814
+				region = khand_region
+			}
+			AND = {
+				is_year = 2819
+				region = far_harad_region
+			}
+			is_year = 2819
+		}
+	}
+	
+	can_start = {
+		is_year = 2799
+		#region = rhovanion_region
+		province_id = 285
+		is_island = no
+		OR = {
+			development = 3
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+	}
+	start_chance = 100		#in 100 for when a province can_start
+	
+	on_start = institution_events.3
+	
+	can_embrace = {
+		always = yes
+	}
+
+	embracement_speed = {
+	
+		modifier = {
+			factor = 1.2
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
+				any_friendly_coast_border_province = {
+					new_world_i = 100
+				}
+			}
+			
+		}
+		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				has_port = yes
+				NOT = {
+					any_friendly_coast_border_province = {
+						new_world_i = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_new_world
+				has_port = yes
+				any_neighbor_province = {
+					new_world_i = 100
+				}
+			}
+		}
+		
+		#Port provinces in countries with colonial subjects
+		modifier = {
+			factor = 10
+			potential = {
+				OR = {
+					has_port = yes
+					is_capital = yes
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = new_world_i
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_new_world_i_embraced
+				owner = {
+					has_institution = new_world_i
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 2804
+				development = 5
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+#######################################
+# Darkness and Corruption of Dol Guldur 2850 (Amon Lanc) (printing_press)
+#######################################
+printing_press = {
+	penalty = 0.5
+
+	bonus = {
+		war_exhaustion = -0.25
+	}
+
+
+	historical_start_date = 2850.1.1
+	historical_start_province = 310 #Amon Lanc
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 2855
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 2855
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 2850
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 2855
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 2860
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 2860
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 2860
+				region = rhun_region
+			}
+			AND = {
+				is_year = 2860
+				region = gondor_region
+			}
+			AND = {
+				is_year = 2860
+				region = rohan_region
+			}
+			AND = {
+				is_year = 2860
+				region = mordor_region
+			}
+			AND = {
+				is_year = 2865
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 2865
+				region = eregion_region
+			}
+			AND = {
+				is_year = 2865
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 2870
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 2870
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 2865
+				region = angmar_region
+			}
+			AND = {
+				is_year = 2875
+				region = lindon_region
+			}
+			AND = {
+				is_year = 2875
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 2865
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 2870
+				region = harad_region
+			}
+			AND = {
+				is_year = 2865
+				region = khand_region
+			}
+			AND = {
+				is_year = 2870
+				region = far_harad_region
+			}
+			is_year = 2870
+		}
+	}
+	
+	can_start = {
+		is_year = 2850
+		province_id = 310
+		is_island = no
+		OR = {
+			development = 3
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+	}
+	start_chance = 100		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.4
+	
+	
+	can_embrace = {
+		always = yes
+	}
+
+	
+	embracement_speed = {
+	
+		modifier = {
+			factor = 0.6
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
+				any_friendly_coast_border_province = {
+					printing_press = 100
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.2
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						printing_press = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_printing_press
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					printing_press = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 1
+			custom_trigger_tooltip = {
+				tooltip = tooltip_dip_tech15_capital
+				is_capital = yes
+				owner = {
+					dip_tech = 15
+				}
+			}
+		}
+		modifier = {
+			factor = 5
+			scale = yes
+			potential = {
+				owner = {
+					is_colonial_nation = yes
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_colonial_overlord_printing_press
+				OR = {
+					has_port = yes
+					is_capital = yes
+				}
+				owner = {
+					is_colonial_nation = yes
+					overlord = { has_institution = printing_press }
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = printing_press
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_printing_press_embraced
+				owner = {
+					has_institution = printing_press
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 2870
+				development = 5
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+
+
+
+
+#######################################
+# Umbar's rising power (Global Trade) (2885) (Umbar)
+#######################################
+global_trade = {
+	penalty = 0.5
+
+	bonus = {
+		naval_morale = 0.25
+		merchants = 1
+	}
+
+	historical_start_date = 2885.1.1
+	historical_start_province = 430 #Umbar
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 2910
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 2905
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 2905
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 2905
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 2905
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 2915
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 2900
+				region = rhun_region
+			}
+			AND = {
+				is_year = 2895
+				region = gondor_region
+			}
+			AND = {
+				is_year = 2900
+				region = rohan_region
+			}
+			AND = {
+				is_year = 2900
+				region = mordor_region
+			}
+			AND = {
+				is_year = 2900
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 2905
+				region = eregion_region
+			}
+			AND = {
+				is_year = 2910
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 2905
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 2910
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 2915
+				region = angmar_region
+			}
+			AND = {
+				is_year = 2910
+				region = lindon_region
+			}
+			AND = {
+				is_year = 2910
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 2890
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 2890
+				region = harad_region
+			}
+			AND = {
+				is_year = 2895
+				region = khand_region
+			}
+			AND = {
+				is_year = 2885
+				region = far_harad_region
+			}
+			is_year = 2915
+		}
+	}
+	
+	can_start = {
+		is_year = 2885
+		province_id = 430
+		is_island = no
+		OR = {
+			development = 3
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+	}
+	start_chance = 100		#in 100 for when a province can_start
+	
+	on_start = institution_events.5
+	
+	
+	can_embrace = {
+		always = yes
+	}
+
+	
+	embracement_speed = {
+
+		modifier = {
+			factor = 0.25
+			scale = yes
+			potential = {
+				has_port = no
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_non_port_province_global_trade
+				has_port = no
+				any_neighbor_province = {
+					global_trade = 100
+					
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.5
+			scale = yes
+			potential = {
+				has_port = yes
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_neighbor_port_province_global_trade
+				has_port = yes
+				any_neighbor_province = {
+					global_trade = 100
+					
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = global_trade
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_global_trade_embraced
+				owner = {
+					has_institution = global_trade
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 2910
+				development = 5
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+
+#######################################
+# The Battle of Middle Earth (Manufactories) (2942) (Barad Dur)
+#######################################
+manufactories = {
+	penalty = 0.5
+
+	bonus = {
+		army_tradition = 1
+		army_tradition_decay = -0.10
+	}
+
+	historical_start_date = 2942.2.1
+	historical_start_province = 654 #Barad Dur
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 2952
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 2947
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 2952
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 2952
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 2957
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 2962
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 2947
+				region = rhun_region
+			}
+			AND = {
+				is_year = 2947
+				region = gondor_region
+			}
+			AND = {
+				is_year = 2947
+				region = rohan_region
+			}
+			AND = {
+				is_year = 2942
+				region = mordor_region
+			}
+			AND = {
+				is_year = 2952
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 2957
+				region = eregion_region
+			}
+			AND = {
+				is_year = 2962
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 2957
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 2962
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 2967
+				region = angmar_region
+			}
+			AND = {
+				is_year = 2962
+				region = lindon_region
+			}
+			AND = {
+				is_year = 2967
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 2947
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 2952
+				region = harad_region
+			}
+			AND = {
+				is_year = 2947
+				region = khand_region
+			}
+			AND = {
+				is_year = 2952
+				region = far_harad_region
+			}
+			is_year = 2967
+		}
+	}
+	
+	can_start = {
+		is_year = 2943
+		province_id = 654
+		is_island = no
+		OR = {
+			development = 3
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+	}
+	start_chance = 100		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.6
+	
+	
+	can_embrace = {
+		always = yes
+	}
+
+	embracement_speed = {
+		modifier = {
+			factor = 0.35
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_manufactories
+				any_friendly_coast_border_province = {
+					manufactories = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						manufactories = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_manufactories
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					manufactories = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = manufactories
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_manufactories_embraced
+				owner = {
+					has_institution = manufactories
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 2950
+				development = 5
+			}
+		}
+
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}
+
+
+
+#######################################
+# The Fourth Age (Enlightenment) (3019) (Minas Tirith)
+#######################################
+enlightenment = {
+	penalty = 0.5
+
+	bonus = {
+		religious_unity = 0.25
+	}
+
+	historical_start_date = 3019.1.1
+	historical_start_province = 422 #Minas Tirith
+
+	history = {
+		OR = {
+			AND = {
+				is_year = 3034
+				region = grey_mountains_region
+			}
+			AND = {
+				is_year = 3024
+				region = rhovanion_region
+			}
+			AND = {
+				is_year = 3029
+				region = mirkwood_region
+			}
+			AND = {
+				is_year = 3029
+				region = vales_of_anduin_region
+			}
+			AND = {
+				is_year = 3034
+				region = misty_mountains_region
+			}
+			AND = {
+				is_year = 3039
+				region = forodwaith_region
+			}
+			AND = {
+				is_year = 3029
+				region = rhun_region
+			}
+			AND = {
+				is_year = 3019
+				region = gondor_region
+			}
+			AND = {
+				is_year = 3024
+				region = rohan_region
+			}
+			AND = {
+				is_year = 3024
+				region = mordor_region
+			}
+			AND = {
+				is_year = 3024
+				region = enedwaith_region
+			}
+			AND = {
+				is_year = 3029
+				region = eregion_region
+			}
+			AND = {
+				is_year = 3034
+				region = rhudaur_region
+			}
+			AND = {
+				is_year = 3029
+				region = cardolan_region
+			}
+			AND = {
+				is_year = 3034
+				region = arthedain_region
+			}
+			AND = {
+				is_year = 3039
+				region = angmar_region
+			}
+			AND = {
+				is_year = 3034
+				region = lindon_region
+			}
+			AND = {
+				is_year = 3039
+				region = ered_luin_region
+			}
+			AND = {
+				is_year = 3024
+				region = near_harad_region
+			}
+			AND = {
+				is_year = 3029
+				region = harad_region
+			}
+			AND = {
+				is_year = 3034
+				region = khand_region
+			}
+			AND = {
+				is_year = 3029
+				region = far_harad_region
+			}
+			is_year = 3039
+		}
+	}
+	
+	can_start = {
+		is_year = 3019
+		province_id = 422
+		is_island = no
+		OR = {
+			development = 3
+			is_capital = yes
+			normal_or_historical_nations = no
+		}
+	}
+	start_chance = 100		#in 100 for when a province can_start
+	
+	
+	on_start = institution_events.7
+	
+	
+	can_embrace = {
+		always = yes
+	}
+
+	
+	embracement_speed = {
+		modifier = {
+			factor = 0.1
+			scale = yes
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_enlightenment
+				any_friendly_coast_border_province = {
+					enlightenment = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				NOT = {
+					any_friendly_coast_border_province = {
+						enlightenment = 100
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_any_neighbor_has_embraced_enlightenment
+				any_neighbor_province = {
+					NOT = { owned_by = ROOT }
+					enlightenment = 100
+				}
+			}
+		}
+		modifier = {
+			factor = 2
+			scale = yes
+			potential = {
+				owner = {
+					has_institution = enlightenment
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_enlightenment_embraced
+				owner = {
+					has_institution = enlightenment
+				}
+			}
+		}
+		
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_10
+				continent = middle_earth
+				development = 10
+			}
+		}
+		modifier = {
+			factor = 0.05
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_20
+				development = 20
+				continent = middle_earth
+			}
+		}
+		modifier = {
+			factor = 0.1
+			scale = yes
+			potential = {
+				continent = middle_earth
+			}
+			custom_trigger_tooltip = {
+				tooltip = tooltip_development_5_post_1500
+				continent = middle_earth
+				is_year = 3038
+				development = 5
+			}
+		}
+	}
+	
+	ai_will_do = { #Cost of embracing institution must be lower than this factor * last month's regular income, and higher if loans are needed. (Or it has a more than long term goal...)
+		factor = 24
+		
+		modifier = {
+			factor = 0.25
+			is_at_war = yes
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.1
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.2
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.3
+		}
+		modifier = {
+			factor = 2
+			neighbors_tech_discount = 0.4
+		}
+	}
+}

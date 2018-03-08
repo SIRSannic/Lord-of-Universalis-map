@@ -1,0 +1,47 @@
+spriteTypes = {
+    #----------------------------------------------
+	# Institutions
+	#----------------------------------------------
+	spriteType = {
+		name = "GFX_icon_institution_feudalism"
+		texturefile = "gfx//interface//institutions//feudalism.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+	spriteType = {
+		name = "GFX_icon_institution_renaissance"
+		texturefile = "gfx//interface//institutions//renaissance.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+ 	spriteType = {
+		name = "GFX_icon_institution_new_world_i"
+		texturefile = "gfx//interface//institutions//new_world_i.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+ 	spriteType = {
+		name = "GFX_icon_institution_printing_press"
+		texturefile = "gfx//interface//institutions//printing_press.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+ 	spriteType = {
+		name = "GFX_icon_institution_global_trade"
+		texturefile = "gfx//interface//institutions//global_trade.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+ 	spriteType = {
+		name = "GFX_icon_institution_manufactories"
+		texturefile = "gfx//interface//institutions//manufactories.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}	
+ 	spriteType = {
+		name = "GFX_icon_institution_enlightenment"
+		texturefile = "gfx//interface//institutions//enlightenment.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

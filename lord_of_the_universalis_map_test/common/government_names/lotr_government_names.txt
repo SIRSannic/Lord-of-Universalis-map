@@ -1,0 +1,675 @@
+# For specific government types
+# Will pick the first valid one it finds in list
+
+gov_lotr_kingship = {
+	rank = {
+		1 = lotr_kingship
+		2 = lotr_kingship
+		3 = lotr_kingship
+	}
+	
+	ruler_male = {
+		1 = lotr_kingship_ruler
+		2 = lotr_kingship_ruler
+		3 = lotr_kingship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_kingship_ruler_female
+		2 = lotr_kingship_ruler_female
+		3 = lotr_kingship_ruler_female
+	}
+	
+    consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN_CONSORT
+		3 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_kingship
+	}
+}
+
+gov_lotr_administrative_kingship = {
+	rank = {
+		1 = lotr_administrative_kingship
+		2 = lotr_administrative_kingship
+		3 = lotr_administrative_kingship
+	}
+	
+	ruler_male = {
+		1 = lotr_kingship_ruler
+		2 = lotr_kingship_ruler
+		3 = lotr_kingship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_kingship_ruler_female
+		2 = lotr_kingship_ruler_female
+		3 = lotr_kingship_ruler_female
+	}
+	
+    consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN_CONSORT
+		3 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_administrative_kingship
+	}
+}
+
+
+gov_lotr_absolute_kingship = {
+	rank = {
+		1 = lotr_absolute_kingship
+		2 = lotr_absolute_kingship
+		3 = lotr_absolute_kingship
+	}
+	
+	ruler_male = {
+		1 = lotr_kingship_ruler
+		2 = lotr_kingship_ruler
+		3 = lotr_kingship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_kingship_ruler_female
+		2 = lotr_kingship_ruler_female
+		3 = lotr_kingship_ruler_female
+	}
+	
+    consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN_CONSORT
+		3 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_absolute_kingship
+	}
+}
+
+gov_lotr_principality = {
+	rank = {
+		1 = lotr_principality
+		2 = lotr_principality
+		3 = lotr_principality
+	}
+
+	ruler_male = {
+		1 = lotr_principality_ruler
+		2 = lotr_principality_ruler
+		3 = lotr_principality_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_principality_ruler_female
+		2 = lotr_principality_ruler_female
+		3 = lotr_principality_ruler_female
+	}
+	
+    consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN_CONSORT
+		3 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_principality
+	}
+}
+
+gov_lotr_stewardship = {
+	rank = {
+		1 = lotr_stewardship
+		2 = lotr_stewardship
+		3 = lotr_stewardship
+	}
+	
+	ruler_male = {
+		1 = lotr_stewardship_ruler
+		2 = lotr_stewardship_ruler
+		3 = lotr_stewardship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_stewardship_ruler_female
+		2 = lotr_stewardship_ruler_female
+		3 = lotr_stewardship_ruler_female
+	}
+	
+    consort_male  = {
+		1 = PRINCE_CONSORT
+		2 = PRINCE_CONSORT
+		3 = PRINCE_CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = QUEEN_CONSORT
+		3 = EMPRESS_CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_stewardship
+	}
+}
+
+gov_lotr_administrative_stewardship = {
+	rank = {
+		1 = lotr_administrative_stewardship
+		2 = lotr_administrative_stewardship
+		3 = lotr_administrative_stewardship
+	}
+	
+	ruler_male = {
+		1 = lotr_administrative_stewardship_ruler
+		2 = lotr_administrative_stewardship_ruler
+		3 = lotr_administrative_stewardship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_administrative_stewardship_ruler_female
+		2 = lotr_administrative_stewardship_ruler_female
+		3 = lotr_administrative_stewardship_ruler_female
+	}
+	
+	trigger = {
+		government = lotr_administrative_stewardship
+	}
+}
+
+gov_lotr_absolute_stewardship = {
+	rank = {
+		1 = lotr_absolute_stewardship
+		2 = lotr_absolute_stewardship
+		3 = lotr_absolute_stewardship
+	}
+	
+	ruler_male = {
+		1 = lotr_absolute_stewardship_ruler
+		2 = lotr_absolute_stewardship_ruler
+		3 = lotr_absolute_stewardship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_absolute_stewardship_ruler_female
+		2 = lotr_absolute_stewardship_ruler_female
+		3 = lotr_absolute_stewardship_ruler_female
+	}
+	
+	trigger = {
+		government = lotr_absolute_stewardship
+	}
+}
+
+gov_lotr_mayorship = {
+	rank = {
+		1 = lotr_mayorship
+		2 = lotr_mayorship
+		3 = lotr_mayorship
+	}
+	
+	ruler_male = {
+		1 = lotr_mayorship_ruler
+		2 = lotr_mayorship_ruler
+		3 = lotr_mayorship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_mayorship_ruler
+		2 = lotr_mayorship_ruler
+		3 = lotr_mayorship_ruler
+	}
+	
+	trigger = {
+		government = lotr_mayorship
+	}
+}
+
+gov_lotr_administrative_mayorship = {
+	rank = {
+		1 = lotr_administrative_mayorship
+		2 = lotr_administrative_mayorship
+		3 = lotr_administrative_mayorship
+	}
+	
+	ruler_male = {
+		1 = lotr_administrative_mayorship_ruler
+		2 = lotr_administrative_mayorship_ruler
+		3 = lotr_administrative_mayorship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_administrative_mayorship_ruler
+		2 = lotr_administrative_mayorship_ruler
+		3 = lotr_administrative_mayorship_ruler
+	}
+	
+	trigger = {
+		government = lotr_administrative_mayorship
+	}
+}
+
+gov_lotr_absolute_mayorship = {
+	rank = {
+		1 = lotr_absolute_mayorship
+		2 = lotr_absolute_mayorship
+		3 = lotr_absolute_mayorship
+	}
+	
+	ruler_male = {
+		1 = lotr_absolute_mayorship_ruler
+		2 = lotr_absolute_mayorship_ruler
+		3 = lotr_absolute_mayorship_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_absolute_mayorship_ruler
+		2 = lotr_absolute_mayorship_ruler
+		3 = lotr_absolute_mayorship_ruler
+	}
+	
+	trigger = {
+		government = lotr_absolute_mayorship
+	}
+}
+
+gov_lotr_clan = {
+	rank = {
+		1 = lotr_clan
+		2 = lotr_clan
+		3 = lotr_clan
+	}
+	
+	ruler_male = {
+		1 = lotr_clan_ruler
+		2 = lotr_clan_ruler
+		3 = lotr_clan_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_clan_ruler_female
+		2 = lotr_clan_ruler_female
+		3 = lotr_clan_ruler_female
+	}
+	
+	trigger = {
+		government = lotr_kingship
+	}
+}
+
+gov_lotr_clan_federation = {
+	rank = {
+		1 = lotr_clan_federation
+		2 = lotr_clan_federation
+		3 = lotr_clan_federation
+	}
+	
+	ruler_male = {
+		1 = lotr_clan_ruler
+		2 = lotr_clan_ruler
+		3 = lotr_clan_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_clan_ruler_female
+		2 = lotr_clan_ruler_female
+		3 = lotr_clan_ruler_female
+	}
+	
+    consort_male  = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_clan_federation
+	}
+}
+
+gov_lotr_clan_democracy = {
+	rank = {
+		1 = lotr_clan_democracy
+		2 = lotr_clan_democracy
+		3 = lotr_clan_democracy
+	}
+	
+	ruler_male = {
+		1 = lotr_clan_ruler
+		2 = lotr_clan_ruler
+		3 = lotr_clan_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_clan_ruler_female
+		2 = lotr_clan_ruler_female
+		3 = lotr_clan_ruler_female
+	}
+	
+    consort_male  = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_clan_democracy
+	}
+}
+
+gov_lotr_dragon_council = {
+	rank = {
+		1 = lotr_dragon_council
+		2 = lotr_dragon_council
+		3 = lotr_dragon_council
+	}
+	
+	ruler_male = {
+		1 = lotr_dragon_council_ruler
+		2 = lotr_dragon_council_ruler
+		3 = lotr_dragon_council_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_dragon_council_ruler
+		2 = lotr_dragon_council_ruler
+		3 = lotr_dragon_council_ruler
+	}
+	
+    consort_male  = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_dragon_council
+	}
+}
+
+gov_lotr_hand_of_angmar = {
+	rank = {
+		1 = lotr_hand_of_angmar
+		2 = lotr_hand_of_angmar
+		3 = lotr_hand_of_angmar
+	}
+	
+	ruler_male = {
+		1 = lotr_hand_of_angmar_ruler
+		2 = lotr_hand_of_angmar_ruler
+		3 = lotr_hand_of_angmar_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_hand_of_angmar_ruler
+		2 = lotr_hand_of_angmar_ruler
+		3 = lotr_hand_of_angmar_ruler
+	}
+	
+    consort_male  = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_hand_of_angmar
+	}
+}
+
+gov_lotr_hand_of_isengard = {
+	rank = {
+		1 = lotr_hand_of_isengard
+		2 = lotr_hand_of_isengard
+		3 = lotr_hand_of_isengard
+	}
+	
+	ruler_male = {
+		1 = lotr_hand_of_isengard_ruler
+		2 = lotr_hand_of_isengard_ruler
+		3 = lotr_hand_of_isengard_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_hand_of_isengard_ruler
+		2 = lotr_hand_of_isengard_ruler
+		3 = lotr_hand_of_isengard_ruler
+	}
+	
+    consort_male  = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_hand_of_isengard
+	}
+}
+
+gov_lotr_hand_of_mordor = {
+	rank = {
+		1 = lotr_hand_of_mordor
+		2 = lotr_hand_of_mordor
+		3 = lotr_hand_of_mordor
+	}
+	
+	ruler_male = {
+		1 = lotr_hand_of_mordor_ruler
+		2 = lotr_hand_of_mordor_ruler
+		3 = lotr_hand_of_mordor_ruler
+	}
+	
+	ruler_female = {
+		1 = lotr_hand_of_mordor_ruler
+		2 = lotr_hand_of_mordor_ruler
+		3 = lotr_hand_of_mordor_ruler
+	}
+	
+    consort_male  = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	consort_female = {
+		1 = CONSORT
+		2 = CONSORT
+		3 = CONSORT
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+	
+	heir_female = {
+		1 = HEIR
+		2 = HEIR	
+		3 = HEIR
+	}
+    
+	trigger = {
+		government = lotr_hand_of_mordor
+	}
+}

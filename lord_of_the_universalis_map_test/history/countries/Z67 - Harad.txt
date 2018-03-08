@@ -1,0 +1,30 @@
+government = lotr_kingship
+mercantilism = 0.1
+primary_culture = culture_haradrim
+religion = religion_southron
+technology_group = lotr_haradrim
+capital = 131	# Abarloni
+
+national_focus = MIL
+
+2560.1.1 = {
+	monarch = {
+		name = "Carthalo"
+		dynasty = "Abârloni"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	
+	heir = {
+		name = " Abbar"
+		monarch_name = " Abbar"
+		dynasty = "Abârloni"
+		birth_date = 2560.1.1
+		death_date = 2960.1.1
+		claim = 100
+		adm = 5
+		dip = 4
+		mil = 3
+	}
+}

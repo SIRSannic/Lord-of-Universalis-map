@@ -1,0 +1,18 @@
+mercantilism = 0.1
+government = lotr_clan
+primary_culture = culture_variags
+religion = religion_easterlings
+technology_group = lotr_easterling
+capital = 451
+
+9650.1.1 = {
+	monarch = {
+		name = "Ásgautr"
+		dynasty = "Artashires"
+		adm = 4
+		dip = 5
+		mil = 4
+		birth_date = 9608.1.1	# 42
+		death_date = 9660.1.1 # Not accurate
+	}
+}

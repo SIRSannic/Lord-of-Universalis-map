@@ -1,0 +1,28 @@
+# Province ID : 2459
+# Province Name : Haraelin
+# Province Area : null
+# Province Region : null
+# Province Super Region : null
+# Province Continent : null
+# Province Tradenode : null
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : true
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 1
+native_ferocity = 3
+native_hostileness = 6
+
+base_tax = 2
+base_production = 10
+base_manpower = 6
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = cloth
+

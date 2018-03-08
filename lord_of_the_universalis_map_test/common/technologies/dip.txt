@@ -1,0 +1,907 @@
+monarch_power = DIP
+
+# applied when a country is ahead of time in this technology
+ahead_of_time = {
+	trade_efficiency = 0.2
+}
+
+# Pre-era techs
+technology = {
+	# Tech 0
+	year = 2560
+
+	shipyard = yes 
+	
+	naval_maintenance		=	0.1
+	naval_morale			=	2.0
+	range					=	50
+	trade_range				=	250
+	merchants = yes
+	
+	allow_client_states = yes
+	
+	enable = lotr_warship
+	enable = lotr_cargoship
+	enable = lotr_galley
+	enable = lotr_cog
+	may_fabricate_claims = yes
+
+	may_steal_maps = yes
+	may_study_technology = yes
+	may_slander_merchants = yes
+	may_sabotage_recruitment = yes
+	may_sow_discontent = yes
+	may_sabotage_reputation = yes
+	may_corrupt_officials = yes
+	may_agitate_for_liberty = yes
+	may_infiltrate_administration = yes
+
+	num_accepted_cultures = 2
+}
+
+# allow_client_states = yes		
+# reduced_naval_attrition = yes
+
+technology = {
+	# Tech 1
+	year = 2570
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 2
+	year = 2580
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 3
+	year = 2590
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 4
+	year = 2600
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 5
+	year = 2610
+
+	trade_depot = yes
+	dock = yes
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 6
+	year = 2620
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 7
+	year = 2630
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 8
+	year = 2640
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 9
+	year = 2650
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 10
+	year = 2660
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 11
+	year = 2670
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 12
+	year = 2680
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 13
+	year = 2690
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 14
+	year = 2700
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 15
+	year = 2710
+
+	marketplace = yes 
+	drydock = yes 
+	grand_shipyard = yes 
+	wharf = yes 
+	textile = yes
+	plantations = yes
+	tradecompany = yes
+	farm_estate = yes
+	mills = yes
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 16
+	year = 2720
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 17
+	year = 2730
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 18
+	year = 2740
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 19
+	year = 2750
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 20
+	year = 2760
+
+	stock_exchange = yes
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 21
+	year = 2770
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 22
+	year = 2780
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 23
+	year = 2790
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 24
+	year = 2800
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 25
+	year = 2810
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 26
+	year = 2820
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 27
+	year = 2830
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 28
+	year = 2840
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 29
+	year = 2850
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 30
+	year = 2860
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 31
+	year = 2870
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 32
+	year = 2880
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 33
+	year = 2890
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 34
+	year = 2900
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 35
+	year = 2910
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 36
+	year = 2920
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 37
+	year = 2930
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 38
+	year = 2940
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 39
+	year = 2950
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 40
+	year = 2960
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 41
+	year = 2970
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 42
+	year = 2980
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 43
+	year = 2990
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 44
+	year = 3000
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 45
+	year = 3010
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 46
+	year = 3020
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 47
+	year = 3030
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 48
+	year = 3040
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 49
+	year = 3050
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 50
+	year = 3060
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 51
+	year = 3070
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 52
+	year = 3080
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 53
+	year = 3090
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 54
+	year = 3100
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 55
+	year = 3110
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 56
+	year = 3120
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 57
+	year = 3130
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 58
+	year = 3140
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 59
+	year = 3150
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 60
+	year = 3160
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 61
+	year = 3170
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 62
+	year = 3180
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 63
+	year = 3190
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 64
+	year = 3200
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 65
+	year = 3210
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 66
+	year = 3220
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 67
+	year = 3230
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 68
+	year = 3240
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 69
+	year = 3250
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 70
+	year = 3260
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 71
+	year = 3270
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 72
+	year = 3280
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 73
+	year = 3290
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 74
+	year = 3300
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 75
+	year = 3310
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 76
+	year = 3320
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 77
+	year = 3330
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 78
+	year = 3340
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 79
+	year = 3350
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 80
+	year = 3360
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 81
+	year = 3370
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 82
+	year = 3380
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 83
+	year = 3390
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 84
+	year = 3400
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 85
+	year = 3410
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 86
+	year = 3420
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 87
+	year = 3430
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 88
+	year = 3440
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 89
+	year = 3450
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 90
+	year = 3460
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 91
+	year = 3470
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 92
+	year = 3480
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+}
+
+technology = {
+	# Tech 93
+	year = 3490
+
+	naval_maintenance		= 0.01
+	naval_morale		= 0.5
+	range		= 5
+}
+
+technology = {
+	# Tech 94
+	year = 3500
+
+	trade_range		= 25
+	trade_efficiency		= 0.02
+	global_colonial_growth		= 5
+	
+	reduced_naval_attrition = yes
+}
+

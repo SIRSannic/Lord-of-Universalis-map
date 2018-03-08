@@ -1,0 +1,24 @@
+name = "War of the Dwarves and Orcs"
+#casus_belli = cb_conquest type = take_capital_conquest
+war_goal = {
+	type = annex_country
+	casus_belli = cb_war_of_the_dwarves_and_orcs
+}
+
+2793.1.1 = {
+	add_attacker = Z71
+	add_attacker = Z06
+	add_attacker = X02
+	add_attacker = X03
+	add_attacker = X42
+	add_attacker = X43
+	
+	add_defender = Z64
+	add_defender = Z02
+	add_defender = X09
+}
+
+2799.6.1 = {
+	rem_attacker = Z71
+	rem_defender = Z64
+}

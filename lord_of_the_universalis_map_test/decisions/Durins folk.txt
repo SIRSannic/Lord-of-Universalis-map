@@ -1,0 +1,55 @@
+country_decisions = {
+
+	durins_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X28 }
+			AND = {
+				primary_culture = culture_longbeard
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 888
+			owns_core_province = 676
+			owns_core_province = 882
+			owns_core_province = 285
+			owns_core_province = 292
+			owns_core_province = 679
+		}
+		effect = {
+			change_tag = X28
+			add_prestige = 100
+			
+			X28 = {
+				set_capital = 679		# Moria
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

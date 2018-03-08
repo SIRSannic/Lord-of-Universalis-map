@@ -1,0 +1,124 @@
+country_decisions = {
+
+	gondor_nation = {
+		major = yes
+		potential = {
+			AND = {
+				NOT = { exists = X12 }
+				NOT = { exists = Z99 }
+				religion = religion_dunedain
+				OR = {
+					primary_culture = culture_gondorian
+					primary_culture = culture_gondorian_middlemen
+				}
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_at_war = no
+
+			#Minas Tirith
+			#owns_core_province = 422
+			
+			minas_tirith_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			osgiliath_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			#Osgiliath
+			#owns_core_province = 427
+			#owns_core_province = 428
+			
+			#Pelargir
+			owns_core_province = 18
+			
+			#Curedain
+			owns_core_province = 53
+		}
+		effect = {
+			change_tag = X12
+			add_prestige = 50
+			
+			X12 = {
+				set_capital = 422		# Minas Tirith
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		ai_importance = 100
+	}
+	
+	gondor_gain_claim_on_south_gondor = {
+		major = yes
+		potential = {
+			AND = {
+				tag = X12
+				religion = religion_dunedain
+				OR = {
+					primary_culture = culture_gondorian
+					primary_culture = culture_gondorian_middlemen
+				}
+			}
+			NOT = {
+				has_country_flag = gondor_gain_claim_on_south_gondor
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+		}
+		allow = {
+			adm_tech = 0
+			is_subject = no
+			is_at_war = no
+			
+			gondor_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			tooltip = {
+				harnendor_region = {
+					add_permanent_claim = X12
+				}
+			}
+			
+			hidden_effect = {
+				country_event = {
+					id = flavor_gondor.13
+					#days = 1
+				}
+				set_country_flag = gondor_gain_claim_on_south_gondor
+			}
+			
+			
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		ai_importance = 100
+	}
+}

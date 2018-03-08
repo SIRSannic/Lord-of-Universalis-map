@@ -1,0 +1,19 @@
+# Rohirrim Swordsmen
+type = infantry
+unit_type = lotr_wildman
+
+maneuver = 1
+offensive_morale = 1
+defensive_morale = 1
+offensive_fire = 0
+defensive_fire = 2
+offensive_shock = 2
+defensive_shock = 2
+
+trigger = {
+	OR = {
+	tag = X56
+	tag = Z59
+	primary_culture = culture_lossoth
+	}
+}

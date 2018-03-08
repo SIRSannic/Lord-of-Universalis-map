@@ -1,0 +1,256 @@
+#Country Name: Please see filename.
+graphical_culture = muslimgfx
+
+color = { 5 119 191 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_easterling_tribesmen_1
+	lotr_easterling_clansmen_shields_2
+	lotr_easterling_golden_pikes_3
+	lotr_easterling_clan_guard_4
+	lotr_easterling_loke_flag_gamp_spearmen_5
+
+	lotr_easterling_horse_riders_1
+	lotr_easterling_steppe_riders_2
+	lotr_easterling_loke_innas_rim_cavalry_3
+	lotr_easterling_vainrider_chariot_4
+}
+
+monarch_names = {
+	"Khamûl" = 10
+	"Abagha" = 10
+	"Achigh" = 10
+	"Aguchu" = 10
+	"Ajai" = 10
+	"Ajinai" = 10
+	"Akhutai" = 10
+	"Alagh" = 10
+	"Alchi" = 10
+	"Alchidai" = 10
+	"Altan" = 10
+	"Ambaghai" = 10
+	"Arkhai" = 10
+	"Arasen" = 10
+	"Babur" = 10
+	"Badai" = 10
+	"Bagaridai" = 10
+	"Bala" = 10
+	"Barghujin" = 10
+	"Bartan" = 10
+	"Batu" = 10
+	"Bedugun" = 10
+	"Begter" = 10
+	"Belgutei" = 10
+	"Belgunutei" = 10
+	"Bilge" = 10
+	"Berke" = 10
+	"Bodonchar" = 10
+	"Bogen" = 10
+	"Bogorchu" = 10
+	"Bolkhadar" = 10
+	"Borjigidai" = 10
+	"Boroghul" = 10
+	"Bughu" = 10
+	"Bugidai" = 10
+	"Bugunutei" = 10
+	"Bujeg" = 10
+	"Bukha" = 10
+	"Bulughan" = 10
+	"Buri" = 10
+	"Burkhan" = 10
+	"Burundai" = 10
+	"Chagatai" = 10
+	"Chaghagan" = 10
+	"Chanai" = 10
+	"Chigu" = 10
+	"Chidukhul" = 10
+	"Chilagun" = 10
+	"Chiledu" = 10
+	"Chormakhan" = 10
+	"Chulgetei" = 10
+	"Dagun" = 10
+	"Daritai" = 10
+	"Dayir" = 10
+	"Dodai" = 10
+	"Duua" = 10
+	"Eljigedei" = 10
+	"Ghazan" = 10
+	"Ghunan" = 10
+	"Guchu" = 10
+	"Gughlug" = 10
+	"Guyug" = 10
+	"Harghasun" = 10
+	"Horkhudagh" = 10
+	"Hulegu" = 10
+	"Husun" = 10
+	"Inalchi" = 10
+	"Inancha" = 10
+	"Iturgen" = 10
+	"Jajiradai" = 10
+	"Jamugha" = 10
+	"Jebe" = 10
+	"Jochi" = 10
+	"Jurchedei" = 10
+	"Khabichi" = 10
+	"Khachi" = 10
+	"Khachigun" = 10
+	"Khadagh" = 10
+	"Khagatai" = 10
+	"Khaidu" = 10
+	"Khal" = 10
+	"Khorchi" = 10
+	"Khorilartai" = 10
+	"Khubilai" = 10
+	"Khudu" = 10
+	"Khutula" = 10
+	"Khuyildar" = 10
+	"Kogsegu" = 10
+	"Kokochu" = 10
+	"Megetu" = 10
+	"Megujin" = 10
+	"Menggei" = 10
+	"Mongke" = 10
+	"Morokha" = 10
+	"Munglig" = 10
+	"Nakhu" = 10
+	"Narin" = 10
+	"Nayaga" = 10
+	"Nogai" = 10
+	"Odchigin" = 10
+	"Ogodei" = 10
+	"Okhotur" = 10
+	"Oljaitu" = 10
+	"Oronartai" = 10
+	"Shiraghul" = 10
+	"Shirgugetu" = 10
+	"Subetei" = 10
+	"Suyiketu" = 10
+	"Taghai" = 10
+	"Tamachi" = 10
+	"Targhutai" = 10
+	"Temuge" = 10
+	"Temujin" = 10
+	"Temur" = 10
+	"Todogen" = 10
+	"Toghoril" = 10
+	"Toghtoga" = 10
+	"Tokhtamis" = 10
+	"Tolui" = 10
+	"Torolchi" = 10
+	"Tumen" = 10
+	"Uighurtai" = 10
+	"Ukhuna" = 10
+	"Usun" = 10
+	"Yedi" = 10
+	"Yegu" = 10
+	"Yeke" = 10
+	"Yesugei" = 10
+	"Yesunge" = 10
+	"Yokhunan" = 10
+	"Kadan" = 10
+	"Godan" = 10
+	
+	"Al-Alta" = -10
+	"Alan" = -10
+	"Altani" = -10
+	"Borte" = -10
+	"Botokhui" = -10
+	"Bulughan" = -10
+	"Chabi" = -10
+	"Chagur" = -10
+	"Chakha" = -10
+	"Checheyigen" = -10
+	"Chotan" = -10
+	"Doregene" = -10
+	"Doquz" = -10
+	"Ebegei" = -10
+	"Gurbesu" = -10
+	"Hogelun" = -10
+	"Holuikhan" = -10
+	"Ibakha" = -10
+	"Khadagan" = -10
+	"Khogaghchin" = -10
+	"Khojin" = -10
+	"Khorijin" = -10
+	"Khugurchin" = -10
+	"Khulan" = -10
+	"Mandukhai" = -10
+	"Mongoljin" = -10
+	"Nomolun" = -10
+	"Oghul" = -10
+	"Orbei" = -10
+	"Sokhatai" = -10
+	"Sorkhaghatani" = -10
+	"Tekine" = -10
+	"Temulun" = -10
+	"Töregene" = -10
+	"Yesugun" = -10
+	"Yesui" = -10
+	"Hoelun" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

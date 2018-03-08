@@ -1,0 +1,54 @@
+# A region can only belong to one super region.
+
+middle_eath_sea_superregion= {
+	middle_earth_sea_region
+}
+
+eriador_superregion= {
+	ered_luin_region
+	enedwaith_region
+	arthedain_region
+	cardolan_region
+	rhudaur_region
+	eregion_region
+	lindon_region
+}
+
+gondor_superregion= {
+	gondor_region
+}
+
+rohan_superregion= {
+	rohan_region
+}
+
+rhovanion_superregion= {
+	rhovanion_region
+	mirkwood_region
+	vales_of_anduin_region
+	grey_mountains_region
+}
+
+mordor_superregion= {
+	mordor_region
+}
+
+harad_superregion= {
+	harnendor_region
+	harad_region
+	near_harad_region
+	far_harad_region
+	khand_region
+}
+
+rhun_superregion= {
+	rhun_region
+}
+
+forodwaith_superregion= {
+	forodwaith_region
+	angmar_region
+}
+
+new_world_superregion ={
+}

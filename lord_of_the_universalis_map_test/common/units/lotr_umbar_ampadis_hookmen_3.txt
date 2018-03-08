@@ -1,0 +1,21 @@
+# Haradrim Swordsmen
+type = infantry
+unit_type = lotr_haradrim
+
+maneuver = 1
+offensive_morale = 2
+defensive_morale = 2
+offensive_fire = 2
+defensive_fire = 2
+offensive_shock = 1
+defensive_shock = 1
+
+trigger = {
+	OR = {
+	tag = X78
+	tag = X29
+	tag = X30
+	primary_culture = culture_black_numenorean
+	religion = religion_black_numenorean
+	}
+}

@@ -1,0 +1,62 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+
+WMI_ideas = {
+	start = {
+		defensiveness = 0.25
+		war_exhaustion = -0.1
+	}
+
+	bonus = {
+		technology_cost = -0.05
+	}
+	
+	trigger = {
+		AND = {
+			technology_group = lotr_wildman
+			NOT = {
+				religion = religion_haldadian
+			}
+		}
+	}
+	free = yes		#will be added at load.
+	
+	true_to_middle_earth = {
+		core_creation = -0.5
+		prestige_decay = -0.01
+	}
+	moving_through_the_lands = {
+		leader_land_manuever = 1
+		land_attrition = -0.25
+	}
+	relentless = {
+		siege_ability = 0.1
+		army_tradition_decay = -0.01
+
+	}
+	home_ground = {
+		global_garrison_growth = 0.1
+		land_maintenance_modifier = -0.1
+
+	}
+	removing_opposers = {
+		global_missionary_strength = 0.02
+		global_unrest = -1
+
+	}
+	cheiftains = {
+		free_leader_pool = 1
+		advisor_pool = 2
+
+	}
+	invade_the_invaders = {
+		army_tradition = 1
+		infantry_power = 0.3
+		leader_land_shock = 1
+	}
+}

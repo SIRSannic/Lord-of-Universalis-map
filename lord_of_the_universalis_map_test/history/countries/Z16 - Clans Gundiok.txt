@@ -1,0 +1,20 @@
+mercantilism = 0.1
+government = lotr_clan
+primary_culture = culture_hillmen
+religion = religion_haldadian
+technology_group = lotr_wildman
+capital = 172
+
+government_rank = 1
+
+9650.1.1 = {
+	monarch = {
+		name = "Pryderi"
+		dynasty = "Avanc-lûth"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 9617.1.1	# 33
+		death_date = 9660.1.1 	# Not accurate
+	}
+}

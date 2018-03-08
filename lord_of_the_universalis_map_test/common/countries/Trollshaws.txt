@@ -1,0 +1,127 @@
+#Country Name: Please see filename.
+graphical_culture = africangfx
+
+color = { 75 100 165 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_troll_hill_1
+	lotr_troll_hill_2
+	lotr_troll_hill_3
+}
+
+monarch_names = {
+	"Bûrat" = 10 
+	"Bert" = 10 
+	"Tûma" = 10
+	"Wûluag" = 10
+	"Dhît" = 10
+	"Huggin" = 10 
+	"Hugh" = 10 
+	"Agin" = 10 
+	"Ardagor" = 10 
+	"Baltab" = 10 
+	"Brök" = 10 
+	"Drek" = 10 
+	"Freg" = 10 
+	"Trek" = 10 
+	"Krog" = 10 
+	"Krek" = 10
+	"Buhrdur" = 10
+	"Bulrakur" = 10 
+	"Burazog" = 10 
+	"Burzash" = 10 
+	"Buthrakur" = 10 
+	"Gorthog" = 10 
+	"Gothmog" = 10 
+	"Hargrog" = 10 
+	"Huntan" = 10 
+	"Hunatoth" = 10 
+	"Kadak" = 10 
+	"Kur-Tuk" = 10
+	"Lugronk" = 10 
+	"Muranog" = 10 
+	"Obirt" = 10 
+	"Ognor" = 10 
+	"Orkamur" = 10
+	"Rogash" = 10 
+	"Rugrul" = 10 
+	"Rogrog" = 10 
+	"Saggo" = 10 
+	"Tol-Tuk" = 10 
+	"Tormog" = 10 
+	"Ufgamog" = 10 
+	"Ulthug" = 10
+	"Umagaur" = 10 
+	"Uthcu" = 10 
+	"Waren" = 10 
+	"Ubrut" = 10 
+	"Kibdur" = 10 
+	"Barbrut" = 10 
+	"Garghir" = 10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

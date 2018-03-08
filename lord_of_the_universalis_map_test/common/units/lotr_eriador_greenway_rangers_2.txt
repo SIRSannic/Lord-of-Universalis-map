@@ -1,0 +1,19 @@
+# Arnorian Archers
+type = infantry
+unit_type = lotr_arnor_men
+
+maneuver = 1
+offensive_morale = 2
+defensive_morale = 2
+offensive_fire = 2
+defensive_fire = 2
+offensive_shock = 0
+defensive_shock = 1
+
+trigger = {
+	OR = {
+	religion = religion_eriadorians
+	primary_culture = culture_dunedain
+	primary_culture = culture_arnorian
+	}
+}

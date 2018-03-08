@@ -1,0 +1,46 @@
+#Country Name: Please see filename.
+graphical_culture = easterngfx
+
+color = { 193 206 80 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_eriador_lumbermen_1
+	lotr_eriador_greenway_guards_2
+	lotr_eriador_merchant_militia_3
+	lotr_eriador_greenleaf_pikes_4
+
+	lotr_eriador_greenway_sentries_1
+	lotr_eriador_merchant_cavalry_2
+	lotr_eriador_greenleaf_cavalry_3
+}
+
+monarch_names = {
+	
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

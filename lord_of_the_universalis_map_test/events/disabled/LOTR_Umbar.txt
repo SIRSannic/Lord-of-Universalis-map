@@ -1,0 +1,387 @@
+namespace = lotr_umbar
+
+#title: Upset in Umbar
+#desc: The nobility of Umbar have been plotting to weaken the power of the corsairs, and their plot is coming into fruition. Only a show of might will force to back off.
+#1: Utilise force.
+#2: See their plot through. 
+
+country_event = {
+	id = lotr_umbar.1
+	title = "lotr_umbar.1t"
+	desc = "lotr_umbar.1d"
+	picture = REVOLUTION_eventPicture
+	
+	trigger = {
+		tag = UMB
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_umbar.1a"
+		
+		add_mil_power = 50
+		add_adm_power = -50
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "lotr_umbar.1b"
+		
+		add_legitimacy = -10
+		add_adm_power = 50
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#title: Raid on Gondor
+#desc: Our fleet is our source of strength, and without displaying our strength, others may think us weak. A raid on a province belong to Gondor would do much to bolster our strength.
+#1: Raid!
+#2: Call off the raid.
+country_event = {
+	id = lotr_umbar.2
+	title = "lotr_umbar.2t"
+	desc = "lotr_umbar.2d"
+	picture = NAVAL_MILITARY_eventPicture
+	
+	trigger = {
+		tag = UMB
+		navy_size_percentage = 0.25
+		exists = GON
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_umbar.2a"
+		
+		add_years_of_income = 0.25
+		add_yearly_manpower = 0.25
+
+		GON = {
+			add_opinion = { who = UMB modifier = raided }
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "lotr_umbar.2b"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#title: Haradrim Merchants
+#desc: Our brothers in Harad make valuable trading partners. However recently merchants from Harad having been demanding  a larger cut of the profits. 
+#1: Cut them down to size.
+#2: Give in.
+country_event = {
+	id = lotr_umbar.3
+	title = "lotr_umbar.3t"
+	desc = "lotr_umbar.3d"
+	picture = HARBOUR_eventPicture
+	
+	trigger = {
+		tag = UMB
+		exists = HAD
+		HAD = {
+			has_opinion = {
+				who = UMB
+				value = 0
+			}
+		}
+		any_trade_node = {  
+			has_trader = HAD
+			has_trader = UMB
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_umbar.3a"
+		
+		add_dip_power = 100
+		
+		every_active_trade_node = {
+			limit = {
+				has_trader = HAD
+				has_trader = UMB
+			}
+			add_trade_modifier = {
+				who = ROOT
+				duration = 120
+				power = -5
+				key = haradrim_umbar_dispute
+			}
+		}
+
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "lotr_umbar.3b"
+		
+		add_dip_power = -100
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+#title: Sauron's Influence
+#desc: Our proximity to Mordor has lead to many of our brothers supporting the Dark Lord Sauron. Now a messenger from Mordor has arrived to our lands, and wants to know if we will support Sauron.
+#1: Support Sauron.
+#2: We will never support such evil.
+country_event = {
+	id = lotr_umbar.4
+	title = "lotr_umbar.4t"
+	desc = "lotr_umbar.4d"
+	picture = BIG_BOOK_eventPicture
+	
+	trigger = {
+		tag = UMB
+		exists = MDR
+		MDR = {
+			has_opinion = {
+				who = UMB
+				value = 0
+			}
+		}
+		NOT = { has_country_flag = sauron_check }
+	}
+	
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	immediate = {
+		set_country_flag = sauron_check
+	}
+	
+	option = {
+		name = "lotr_umbar.4a"
+		
+		MDR = {
+			create_union = ROOT
+		}
+		
+		add_stability = 6
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "lotr_umbar.4b"
+		
+		MDR = {
+			add_opinion = { who = UMB modifier = rejected_sauron }
+		}
+		
+		add_stability = -1
+		add_adm_power = -100
+		add_dip_power = -100
+		add_mil_power = -100
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#title: Corsairs' demand new ships
+#desc: Some of the corsairs we support are demanding new ships, otherwise they will defect to the Haradrim. We cannot allow this!
+#1: Build them new ships.
+#2: Let them go.
+country_event = {
+	id = lotr_umbar.5
+	title = "lotr_umbar.5t"
+	desc = "lotr_umbar.5d"
+	picture = NAVAL_MILITARY_eventPicture
+	
+	trigger = {
+		tag = UMB
+		has_privateers = yes
+	}
+	
+	mean_time_to_happen = {
+		months = 420
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_umbar.5a"
+		
+		add_dip_power = -100
+		add_years_of_income = -1
+		
+		random_owned_province = {
+			limit = {
+				has_port = yes
+			}
+			build_to_forcelimit = {
+				galley = 0.75
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	option = {
+		name = "lotr_umbar.5b"
+		
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}

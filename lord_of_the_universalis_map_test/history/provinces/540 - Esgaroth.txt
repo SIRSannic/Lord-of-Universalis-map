@@ -1,0 +1,74 @@
+# Province ID : 540
+# Province Name : Esgaroth
+# Province Area : Nan Annen
+# Province Region : Rhovanion
+# Province Super Region : Rhovanion
+# Province Continent : Middle Earth
+# Province Tradenode : Dale
+# Province Climate : Normal_winter
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = yes
+
+add_core = X25
+owner = X25
+controller = X25
+
+base_tax = 2
+base_production= 3
+base_manpower = 3
+
+culture = culture_barding
+religion = religion_rhovanion
+
+trade_goods = fish
+hre = no
+
+add_permanent_province_modifier = {
+	name = river_estuary_modifier
+	duration = -1
+}
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul
+
+2770.1.1 = {
+	add_core = Z72
+	controller = Z72
+	owner = Z72
+}
+
+2941.11.23 = {
+	add_core = X25
+	controller = X25
+	owner = X25
+	culture = culture_barding
+	religion = religion_rhovanion
+	add_province_modifier = {
+	name = ruins_debuff
+	duration = -1
+	}
+}
+
+2960.1.1 = {
+	remove_province_modifier = ruins_debuff
+}

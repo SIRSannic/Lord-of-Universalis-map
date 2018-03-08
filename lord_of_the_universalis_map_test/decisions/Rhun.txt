@@ -1,0 +1,59 @@
+country_decisions = {
+
+	rhun_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X85 }
+			OR = {
+				religion = religion_easterlings
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 601
+			owns_core_province = 607
+			owns_core_province = 614
+			owns_core_province = 617
+			owns_core_province = 604
+			owns_core_province = 450
+			owns_core_province = 647
+			owns_core_province = 821
+			owns_core_province = 810
+			owns_core_province = 812
+		}
+		effect = {
+			change_tag = X85
+			add_prestige = 100
+			
+			X85 = {
+				set_capital = 601		# Dilgul
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

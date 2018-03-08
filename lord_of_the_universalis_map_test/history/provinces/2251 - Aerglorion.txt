@@ -1,0 +1,32 @@
+# Province ID : 2251
+# Province Name : Aerglorion
+# Province Area : Tawaraer Gulf
+# Province Region : null
+# Province Super Region : null
+# Province Continent : null
+# Province Tradenode : null
+# Province Climate : null
+# Province is Sea Province : true
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul

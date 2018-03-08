@@ -1,0 +1,25 @@
+mercantilism = 0.1
+government = lotr_orc_clan
+primary_culture = culture_orkish
+religion = religion_orkish
+technology_group = lotr_orc
+capital = 805
+
+government_rank = 1
+
+historical_friend = X16
+historical_friend = X08
+historical_rival = X28
+
+2540.1.1 = {
+	monarch = {
+		name = "Golfimbul"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 2540.1.1
+		death_date = 3040.3.15 	
+	}
+
+	add_ruler_personality = immortal_personality
+}

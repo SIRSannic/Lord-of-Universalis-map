@@ -1,0 +1,59 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+
+RUN_ideas = {
+	start = {
+		global_tax_modifier = 0.10
+		production_efficiency = 0.10
+	}
+
+	bonus = {
+		trade_efficiency = 0.10
+	}
+	
+	trigger = {
+		OR = {
+			tag = X85
+		}
+	}
+	free = yes		#will be added at load.
+	
+	covering_a_continent = {
+		merchants = 1
+		global_trade_power = 0.1
+	}
+	many_cultures = {
+		tolerance_heathen = 1
+		tolerance_heretic = 1
+		num_accepted_cultures = 1
+
+	}
+	copper_mines = {
+		infantry_power = 0.10
+		cavalry_power = 0.10
+		artillery_power = 0.10
+
+
+	}
+	expanding_the_army = {
+		land_forcelimit_modifier = 0.10
+
+	}
+	noble_lords = {
+		prestige = 1
+	}
+	trading_all_kinds = {
+		trade_range_modifier = 0.25
+		trade_steering = 0.25
+
+	}
+	rhunic_war_traditions = {
+		discipline = 0.10
+		land_morale = 0.10
+	}
+}

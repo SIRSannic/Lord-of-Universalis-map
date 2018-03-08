@@ -1,0 +1,37 @@
+mercantilism = 0.1
+government = lotr_hand_of_mordor
+primary_culture = culture_orkish
+add_accepted_culture = culture_guldurim
+religion = religion_orkish
+technology_group = lotr_orc
+capital = 310
+
+historical_friend = X09
+historical_friend = X08
+historical_rival = X12
+historical_rival = X17
+historical_rival = X14
+
+2540.1.1 = {
+	monarch = {
+		name = "Necromancer"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 2540.1.1	# 9645
+		death_date = 9660.1.1 	# Not accurate
+	}
+	add_ruler_personality = immortal_personality
+}
+
+2951.1.1 = {
+	monarch = {
+		name = "Nazgûl Khamûl"
+		adm = 5
+		dip = 4
+		mil = 6
+		birth_date = 2930.1.1	# 9645
+		death_date = 9660.1.1 	# Not accurate
+	}
+	add_ruler_personality = immortal_personality
+}

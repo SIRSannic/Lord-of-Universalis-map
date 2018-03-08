@@ -1,0 +1,60 @@
+country_decisions = {
+
+	nuriags_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X81 }
+			NOT = { tag = X85 }
+			OR = {
+				primary_culture = culture_nuriags
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 450
+			owns_core_province = 645
+			owns_core_province = 646
+			owns_core_province = 647
+			owns_core_province = 648
+			owns_core_province = 649
+			owns_core_province = 650
+			owns_core_province = 651
+			owns_core_province = 652
+			owns_core_province = 653
+		}
+		effect = {
+			change_tag = X81
+			add_prestige = 25
+			
+			X83 = {
+				set_capital = 450		# Ahrûl Admal
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

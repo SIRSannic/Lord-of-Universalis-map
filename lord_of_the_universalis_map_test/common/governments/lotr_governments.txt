@@ -1,0 +1,625 @@
+#Do not change tags in here without changing every other reference to them.
+#If adding new forms of governemnts, make sure they are uniquely named.
+
+#Uses all 'modifiers' possible that's exported as a Modifier.
+
+# valid_for_new_country determines which governments can be converted to normally
+# allow_convert determines which governments can be force-converted to and from via CBs
+
+#ai_will_do will only check if it's valid,and won't break unions or switch to republic from monarchy, nor check to convert to something earlier in the file.
+
+lotr_kingship = {
+	monarchy = yes
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 179 25 25 }
+
+	max_states = 2
+	
+	rank = {
+		1 = {
+			global_manpower_modifier = 0.1
+			global_unrest = -1
+		}
+		2 = { 
+			global_manpower_modifier = 0.1
+			global_unrest = -1
+		}
+		3 = { 
+			global_manpower_modifier = 0.1
+			global_unrest = -1
+		}
+	}
+}
+
+lotr_administrative_kingship = {
+	monarchy = yes
+	
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 179 51 51 }
+
+	max_states = 2
+	
+	#bonus
+	rank = {
+		1 = {
+			global_tax_modifier = 0.1
+			production_efficiency = 0.1
+			global_autonomy = -0.05
+		}
+		2 = {
+			global_tax_modifier = 0.1
+			production_efficiency = 0.1
+			global_autonomy = -0.05
+		}
+		3 = {
+			global_tax_modifier = 0.1
+			production_efficiency = 0.1
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_absolute_kingship = {
+	monarchy = yes
+	
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 179 75 75 }
+
+	max_states = 2
+	
+	#bonus
+	rank = {
+		1 = {
+			discipline = 0.05
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		2 = {
+			discipline = 0.05
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		3 = {
+			discipline = 0.05
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_stewardship = {
+	monarchy = yes
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 179 100 100 }
+
+	max_states = 2
+	
+	#bonus
+	rank = {
+		1 = {
+			global_tax_modifier = 0.1
+			global_unrest = -1
+		}
+		2 = {
+			global_tax_modifier = 0.1
+			global_unrest = -1
+		}
+		3 = {
+			global_tax_modifier = 0.1
+			global_unrest = -1
+		}
+	}
+}
+
+lotr_administrative_stewardship = {
+	monarchy = yes
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 179 125 125 }
+
+	max_states = 2
+	
+	#bonus
+	rank = {
+		1 = {
+			diplomatic_upkeep = 1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		2 = {
+			diplomatic_upkeep = 1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		3 = {
+			diplomatic_upkeep = 1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_absolute_stewardship = {
+	monarchy = yes
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 179 150 150 }
+
+	max_states = 2
+	
+	#bonus
+	rank = {
+		1 = {
+			land_morale = 0.1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		2 = {
+			land_morale = 0.1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		3 = {
+			land_morale = 0.1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_principality = {
+	monarchy = yes
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	color = { 179 175 175 }
+
+	max_states = 2
+	
+	#bonus
+	rank = {
+		1 = {
+			global_tax_modifier = 0.1
+			stability_cost_modifier = -0.2
+		
+		}
+		2 = {
+			global_tax_modifier = 0.1
+			stability_cost_modifier = -0.2
+		
+		}
+		3 = {
+			global_tax_modifier = 0.1
+			stability_cost_modifier = -0.2
+		
+		}
+	}
+}
+
+lotr_mayorship = {
+	republic = yes
+	
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	duration = 7
+
+	republican_name = yes
+
+	color = { 40 130 200 }
+
+	max_states = 2
+
+	#bonus
+	rank = {
+		1 = {
+			ae_impact = -0.05
+			stability_cost_modifier = -0.1
+		}
+		2 = {
+			ae_impact = -0.05
+			stability_cost_modifier = -0.1
+		}
+		3 = {
+			ae_impact = -0.05
+			stability_cost_modifier = -0.1
+		}
+	}
+}
+
+lotr_administrative_mayorship = {
+	republic = yes
+	
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 140 200 240 }
+	
+	duration = 5
+
+	republican_name = yes
+
+	max_states = 2
+
+	#bonus
+	rank = {
+		1 = {
+			global_tax_modifier = 0.1
+			production_efficiency = 0.1
+		
+			global_autonomy = -0.05
+		}
+		2 = {
+			global_tax_modifier = 0.1
+			production_efficiency = 0.1
+		
+			global_autonomy = -0.05
+		}
+		3 = {
+			global_tax_modifier = 0.1
+			production_efficiency = 0.1
+		
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_absolute_mayorship = {
+	republic = yes
+	
+	valid_for_new_country = yes
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	republican_name = yes
+
+	color = { 140 180 220 }
+
+	max_states = 2
+
+	#bonus
+	rank = {
+		1 = {
+			global_manpower_modifier = 0.1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		2 = {
+			global_manpower_modifier = 0.1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+		3 = {
+			global_manpower_modifier = 0.1
+			global_unrest = -1
+		
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_clan = {
+	monarchy = yes
+	tribal = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	ai_will_do = {
+		factor = 0
+	}
+	min_autonomy = 25
+
+	color = { 105 170 220 }
+
+	max_states = 2
+	
+	rank = {
+		1 = {
+			core_creation = -0.1
+			global_unrest = 1
+			diplomatic_upkeep = -1
+		}
+		2 = {
+			core_creation = -0.1
+			global_unrest = 1
+			diplomatic_upkeep = -1
+		}
+		3 = {
+			core_creation = -0.1
+			global_unrest = 1
+			diplomatic_upkeep = -1
+		}
+	}
+}
+
+lotr_clan_federation = {
+	monarchy = yes
+	tribal = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 105 170 220 }
+
+	max_states = 2
+	
+	ai_will_do = {
+		factor = 0
+	}
+	min_autonomy = 25
+	
+	rank = {
+		1 = {
+			land_forcelimit_modifier = 0.2
+			global_manpower_modifier = 0.2
+			diplomatic_upkeep = -1
+		}
+		2 = {
+			land_forcelimit_modifier = 0.2
+			global_manpower_modifier = 0.2
+			diplomatic_upkeep = -1
+		}
+		3 = {
+			land_forcelimit_modifier = 0.2
+			global_manpower_modifier = 0.2
+			diplomatic_upkeep = -1
+		}
+	}
+}
+
+lotr_clan_democracy = {
+	monarchy = yes
+	tribal = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 65 155 220 }
+
+	max_states = 2
+	
+	ai_will_do = {
+		factor = 0
+	}
+	min_autonomy = 25
+	
+	rank = {
+		1 = {
+			stability_cost_modifier = -0.33
+			technology_cost = 0.1
+			diplomatic_upkeep = -1
+		}
+		2 = {
+			stability_cost_modifier = -0.33
+			technology_cost = 0.1
+			diplomatic_upkeep = -1
+		}
+		3 = {
+			stability_cost_modifier = -0.33
+			technology_cost = 0.1
+			diplomatic_upkeep = -1
+		}
+	}
+}
+
+lotr_dragon_council = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 25 65 205 }
+
+	max_states = 2
+	
+	allow_convert = no
+	heir = no
+	queen = no
+
+	rank = {
+		1 = {
+			tolerance_own = 1
+			prestige = 1
+			global_autonomy = -0.1
+		}
+		2 = {
+			tolerance_own = 1
+			prestige = 1
+			global_autonomy = -0.1
+		}
+		3 = {
+			tolerance_own = 1
+			prestige = 1
+			global_autonomy = -0.1
+		}
+	}
+}
+
+lotr_hand_of_angmar = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 50 85 210 }
+
+	max_states = 2
+	
+	allow_convert = no
+	heir = no
+	queen = no
+
+	rank = {
+		1 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		2 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		3 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_hand_of_isengard = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 230 175 175 }
+
+	max_states = 2
+	
+	allow_convert = no
+	heir = no
+	queen = no
+
+	rank = {
+		1 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		2 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		3 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_hand_of_mordor = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 230 155 155 }
+
+	max_states = 2
+	
+	allow_convert = no
+	heir = no
+	queen = no
+
+	rank = {
+		1 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		2 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		3 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+	}
+}
+
+lotr_orc_clan = {
+	monarchy = yes
+
+	valid_for_new_country = no
+	allow_convert = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	color = { 210 195 35 }
+
+	max_states = 2
+	
+	allow_convert = no
+	heir = no
+	queen = no
+
+	rank = {
+		1 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		2 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+		3 = {
+			tolerance_own = 2
+			tolerance_heretic = -2
+			global_autonomy = -0.05
+		}
+	}
+}

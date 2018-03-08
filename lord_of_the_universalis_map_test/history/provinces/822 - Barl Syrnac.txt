@@ -1,0 +1,45 @@
+# Province ID : 822
+# Province Name : Barl Syrnac
+# Province Area : Barl Syrnac
+# Province Region : Forodwaith
+# Province Super Region : Forodwaith
+# Province Continent : Middle Earth
+# Province Tradenode : Iron Hills
+# Province Climate : Severe_winter
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+add_core = Z59
+owner = Z59
+controller = Z59
+
+base_tax = 1
+base_production= 2
+base_manpower = 2
+
+culture = culture_lossoth
+religion = religion_lossoth
+
+trade_goods = fur
+hre = no
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul

@@ -1,0 +1,10 @@
+mercantilism = 0.1
+government = lotr_orc_clan
+primary_culture = culture_goblin
+religion = religion_goblin
+technology_group = lotr_goblin
+capital = 345
+
+historical_friend = X16
+historical_friend = X08
+historical_rival = X28

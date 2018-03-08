@@ -1,0 +1,18 @@
+mercantilism = 0.1
+government = lotr_clan
+primary_culture = culture_myriad
+religion = religion_easterlings
+technology_group = lotr_easterling
+capital = 911
+
+9650.1.1 = {
+	monarch = {
+		name = "Khabichi"
+		dynasty = "Asgonin"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 9583.1.1	# 67
+		death_date = 9660.1.1 	# Not accurate
+	}
+}

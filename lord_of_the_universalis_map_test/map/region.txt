@@ -1,0 +1,651 @@
+# A province can belong to several regions.
+random_new_world_region = {
+
+}
+
+#---------------------------
+# Middlearth                           
+#---------------------------
+ered_luin_region = {
+	areas = {
+		north_blue_mountains_area
+		south_blue_mountains_area
+	}
+}
+
+arthedain_region = {
+	areas = {
+		shire_west_farthing_area
+		shire_east_farthing_area
+		shire_north_farthing_area
+		shire_south_farthing_area
+		shire_westmarch_area
+		shire_buckland_area
+		breeland_area
+		northdowns_area
+		weather_hills_area
+		noirinanyar_area
+		eketyar_area
+		formenyar_area
+		towerhills_area
+		caras_celairnen_area
+		tumnogoth_laur_area
+		egenyar_area
+		nenuial_lake_area
+		siragale_area
+		tarmear_area
+		hyarromenyar_area
+		brethyar_area
+		emenyar_area
+		celephyar_area
+		oronyar_area
+		orromenyar_area
+	}
+}
+
+cardolan_region = {
+	areas = {
+		girithlin_area
+		saralainn_area
+		dol_tinereb_area
+		dol_caladir_area
+		tharbad_area
+		faerdor_area
+		southdowns_area
+		eryn_vorn_area
+		bregnas_area
+		helegnel_area
+		argond_area
+	}
+}
+
+rhudaur_region = {
+	areas = {
+		melosse_area
+		magillos_area
+		eldanaryar_area
+		eredoriath_area
+		cameth_brin_area
+		imlad_mitheithel_area
+	}
+}
+
+lindon_region = {
+	areas = {
+		tol_fuin_area
+		lothlann_area
+		mithlond_area
+		lindon_area
+		harlindon_area
+		gulf_of_lhun_sea_area
+		numeriador_area
+		laerglinn_area
+	}
+}
+
+eregion_region = {
+	areas = {
+		high_hollin_area
+		low_hollin_area
+		rivendell_area
+	}
+}
+
+enedwaith_region = {
+	areas = {
+		dunland_area
+		dunfearen_area
+		angren_area
+		gwathlo_area
+		old_pukel_land_area
+		enedwaith_area
+		grey_flood_river_area
+		harmaavirta_area
+	}
+}
+
+gondor_region = {
+	areas = {
+		andrast_area
+		pinnath_gelin_area
+		anfalas_area
+		lamedon_area
+		mornan_area
+		lossarnach_area
+		corgonin_area
+		edhellond_area
+		dol_amroth_area
+		belfalas_area
+		tol_falas_area
+		linhir_area
+		pelargir_area
+		lebennin_area
+		minas_tirith_area
+		anorien_area
+		osgiliath_area
+		north_ithilien_area
+		south_ithilien_area
+		anduin_river_s_area
+		white_mountains_area
+	}
+}
+
+rohan_region = {
+	areas = {
+		west_march_area
+		isengard_area
+		gap_of_rohan_area
+		fangorn_area
+		westemnet_area
+		westfold_area
+		eastfold_area
+		entwade_area
+		eastemnet_area
+		wold_area
+		sarn_gebir_area
+	}
+}
+
+rhovanion_region = {
+	areas = {
+		brownlands_area
+		emyn_muil_area
+		celduin_area
+		celduin_river_area
+		carnen_area
+		dagor_area
+		dor_rhunen_area
+		dunheath_area
+		dorwinion_area
+		orocarni_area
+		esgaroth_area
+		eastbight_area
+		esgalbar_area
+		deneral_area
+		grasgard_area
+		nan_lothanduin_area
+		uvanwaith_area
+		duhok_bron_area
+		emyn_rhain_area
+		duil_rewinion_area
+		taj_ures_area
+	}
+}
+
+grey_mountains_region = {
+	areas = {
+		lonely_mountain_area
+		iron_hills_area
+		grey_mountains_area
+		grey_mountains_narrows_area
+	}
+}
+
+mirkwood_region = {
+	areas = {
+		dol_guldur_area
+		galdesgal_area
+		taur-e-ndaedlos_area
+		emyn-i-thang_area
+		narrows_of_mirkwood_area
+		nan_lanc_area
+	}
+}
+
+vales_of_anduin_region = {
+	areas = {
+		ronen-in-anduin_area
+		westbight_area
+		dungirith_area
+		lorien_area
+		anduin_river_n_area
+		amrun_anduin_area
+		gladden_fields_area
+		glennen_area
+		middlevales_area
+		upper_anduin_vales_area
+	}
+}
+
+
+forodwaith_region = {
+	areas = {
+		barl_syrnac_area
+		withered_heath_area
+		forovirkain_area
+		forodwaith_area
+		gundabad_area
+		dyr_area
+		signal_nara_area
+		isles_of_illuin_area
+		forochel_area
+		everdalf_area
+	}
+}
+
+angmar_region = {
+	areas = {
+		en_udanoriath_area
+		mount_gram_area
+		carn_dum_area
+		angmar_highlands_area
+		angmar_lowlands_area
+		angmar_mountains_area
+	}
+}
+
+misty_mountains_region = {
+	areas = {
+		misty_mountains_area
+		high_pass_area
+		moria_area
+	}
+}
+
+mordor_region = {
+	areas = {
+		mordor_area
+		gorgoth_area
+		south_nurn_area
+		north_nurn_area
+		west_nurn_area
+		east_nurn_area
+		shadow_mountains_area
+		ash_mountains_area
+		sea_of_nurnen_lake_area
+	}
+}
+
+harnendor_region = {
+	areas = {
+		northern_mirlond_area
+		emyn_annun_area
+		amonost_area
+		radhrim_area
+		minas_laer_area
+		caradhram_area
+	}
+}
+
+near_harad_region = {
+	areas = {
+		arat_agmir_area
+		southern_mirlond_area
+		chelkar_area
+		glinfalas_area
+		harnen_area
+		haruzan_area
+		kajbah_area
+	}
+}
+
+far_harad_region = {
+	areas = {
+		an_karagmir_area
+		umbar_area
+		umbar_peninsular_area
+		mardruak_area
+		bellakar_area
+		tol_uialgaer_area
+		dune_sea_area
+		
+		havens_of_umbar_area
+		calenfalas_area
+	}
+}
+
+khand_region = {
+	areas = {
+		north_khand_area
+		south_khand_area
+		lower_khand_area
+	}
+}
+
+harad_region = {
+	areas = {
+		pezarsan_area
+		arysis_area
+		north_dune_area
+		lurmsakun_area
+		hidar_area
+		red_mountains_area
+		siakan_area
+		enmahadah_area
+	}
+}
+
+rhun_region = {
+	areas = {
+		nurad_area_east
+		nurad_area_west
+		ilapar_area
+		kas_rhun_area
+		agasha_dag_area
+		wintirion_laur_area
+		logathavuld_area
+		sagath_area
+		gathod_area
+		sagathvuld_area
+		vag_chy_area
+		southern_chy_area
+		northern_chy_area
+		southern_chey_area
+		northern_chey_area
+		relmether_area
+		menelothriand_area
+		kykyruan_area
+		talath_balchorh_area
+		falasmor_area
+		loton_area
+		pelepelplu_area
+	}
+}
+
+# Near East
+# Kargagis Ahar (massive plains)
+# Far East
+# Urd (north)
+near_east_lands_region = {
+    areas = {
+        tumrost_area
+        agcoth_area
+        gortirith_area
+        samduin_area
+        sarndaer_area
+        inlad_area
+        baraeg_area
+        emyn_estel_area
+        ororn_area
+        rhugil_area
+        erienarase_area
+        fornorn_area
+        methedethir_area
+        damramb_area
+        methedfalch_area
+        crissarth_area
+    }
+}
+
+kargagis_ahar_region = {
+    areas = {
+        dagraug_area
+        caras_caun_area
+        lachaew_area
+        orodras_area
+        dru_thanc_area
+        gwaraudion_area
+        ostlung_area
+        nir_padath_area
+        aegmallon_area
+        raucundath_area
+        him_goroth_area
+        sarnfuin_area
+        esgal_erthad_area
+        osteithel_area
+        arfang_area
+        tindu_taurath_area
+        arngwend_area
+        nimmithrin_area
+        cuhend_area
+        iantlanc_area
+        brithramb_area
+        falaslad_area
+        orran_area
+        erienros_area
+        glorrais_area
+        golda_bar_area
+        borestel_area
+        adangren_area
+        celebmorn_area
+        duilthorn_area
+        cirfirin_area
+        sirthol_area
+        celeblost_area
+        pinnthcalen_area
+        penlostin_area
+        elfirin_area
+        glorardh_area
+        legcae_area
+        dimbrost_area
+        pelrandir_area
+        forniaur_area
+        gyrthance_area
+        dimb_cebir_area
+        pantruth_area
+        lemminas_area
+        lem_certhas_area
+        ara_daer_area
+        cairlung_area
+        lemroval_area
+        ost_ranon_area
+        rhuuial_area
+        dalcalen_area
+        inuial_area
+        carchgwaith_area
+        samtaur_area
+        cirdu_area
+        balri_area
+        mereththoron_area
+        taurloth_area
+        camlach_area
+        roh_falas_area
+        ellland_area
+        crissanor_area
+        adolondion_area
+        esgalpent_area
+        cabedon_area
+        eglancornen_area
+        faer_naur_area
+        amon_calen_area
+        seregnen_area
+        loegrant_area
+        brithminthrinim_area
+        elcorn_area
+        bastrais_area
+        maegglos_area
+        baradnaer_area
+        ostgaladh_area
+        nentaur_area
+        pen_du_area
+        lemiaur_area
+        pinnathpent_area
+        pencainu_area
+        haudhedhel_area
+        fornthaur_area
+        hithhend_area
+        ost_thaurion_area
+        gwath_uial_area
+        ramsael_area
+        emynath_area
+        ardhnegythin_area
+        nursael_area
+        fangia_area
+        achadgwaen_area
+        dolbeleg_area
+        boren_area
+        duinaew_area
+        lebenras_area
+        forcebir_area
+        faradramb_area
+        taurdaer_area
+        haradornath_area
+        orpent_area
+        enedhri_area
+        methedrandir_area
+        esgal_tinu_area
+        gothnor_area
+        nanbar_area
+        ost_ri_area
+    }
+}
+
+urd_region = {
+    areas = {
+        pinnathath_area
+        glorglosin_area
+        orchonnen_area
+        imladpen_area
+        caliach_area
+        belegiant_area
+        del_lad_area
+        fornglaurin_area
+        delamarth_area
+        radhglaur_area
+        thangardh_area
+        pelfalas_area
+        pantanorath_area
+        bal_du_area
+        falassire_area
+        cairlainion_area
+    }
+}
+
+far_east_lands_region = {
+    areas = {
+        galadrim_area
+        pen_ath_area
+        har_din_area
+        bararos_area
+        falas_thor_area
+        nim_cae_area
+        achad_ruth_area
+        daniell_area
+        golodhtaur_area
+        celebrinsul_area
+        nosgaladh_area
+        tol_lem_loth_area
+        halland_area
+        rammall_area
+        draug_hend_area
+        angraud_area
+        faradraision_area
+        minasbar_area
+        harpent_area
+        arntain_area
+        minasrillnu_area
+        nanfang_area
+        calsael_area
+        perrond_area
+        onodui_area
+        galadlain_area
+        brithrost_area 
+        faerhir_area
+        arcerth_area
+        felaonen_area
+        aglaren_area
+        dornranen_area
+        laegrim_area
+        goredhel_area
+        fornfang_area
+        pelgwend_area
+        barath_area
+        glor_du_area
+    }
+}
+
+far_east_lands_islands_region = {
+    areas = {
+        tol_golodhmithrin_area
+        tol_dornu_area
+        tol_odgroth_area
+        tol_helelach_area
+        tol_tolangren_area
+        tol_goldanaur_area
+    }
+}
+
+illuin_seas_region = {
+    areas = {
+        miraerion_sea_area
+        luinhith_sea_area  
+        aer_tegil_sea_area  
+        aeariaur_sea_area  
+        thangluin_sea_area
+        tawaraer_sea_area 
+        fanluin_sea_area 
+        baraaear_sea_area
+        daerluin_sea_area      
+        aearharad_sea_area
+        aearbaug_sea_area
+        baradluin_sea_area
+    }
+}
+
+eastern_seas_region = {
+    areas = {
+        aercarasin_sea_area  
+        aerithil_sea_area  
+        luin_fair_sea_area  
+        luinhur_sea_area  
+        aearhim_sea_area  
+        luindagor_sea_area  
+        aearram_sea_area  
+        eglaaer_sea_area  
+        esgal_aear_sea_area  
+        aearlond_sea_area  
+        aearaeg_sea_area  
+        aeargor_sea_area  
+        aerthang_sea_area  
+        tindu_aer_sea_area  
+        luinsam_sea_area  
+        laegluin_sea_area  
+        erebaear_sea_area  
+        fenear_sea_area  
+        gorluine_sea_area  
+    }
+}
+
+middle_earth_sea_region = {
+	areas = {
+		coast_of_lindon_sea_area
+		sea_of_himling_sea_area
+		coast_of_lothlann_sea_area
+		ice_bay_of_forochel_sea_area
+		coast_of_harlindon_sea_area
+		cape_vorn_sea_area
+		coast_of_enedwaith_sea_area
+		coast_of_andrast_sea_area
+		coast_of_anfalas_sea_area
+		bay_of_belfalas_sea_area
+		coast_of_harnendor_sea_area
+		gulf_of_mirlond_sea_area
+		coast_of_akhor_sea_area
+		gulf_of_umbar_sea_area
+		coast_of_mardruak_sea_area
+		coast_of_calenfalas_sea_area
+		sea_of_uialgaer_sea_area
+		middle_earth_ocean_sea_area
+        miraerion_sea_area
+        luinhith_sea_area
+        aer_tegil_sea_area
+        aeariaur_sea_area
+        thangluin_sea_area
+        tawaraer_sea_area
+        fanluin_sea_area
+        baraaear_sea_area
+        daerluin_sea_area
+        aearharad_sea_area
+        aearbaug_sea_area
+        baradluin_sea_area
+        aercarasin_sea_area
+        aerithil_sea_area
+        luin_fair_sea_area
+        luinhur_sea_area
+        aearhim_sea_area
+        luindagor_sea_area
+        aearram_sea_area
+        eglaaer_sea_area
+        esgal_aear_sea_area
+        aearlond_sea_area
+        aearaeg_sea_area
+        aeargor_sea_area
+        aerthang_sea_area
+        tindu_aer_sea_area
+        luinsam_sea_area
+        laegluin_sea_area
+        erebaear_sea_area
+        fenear_sea_area
+        gorluine_sea_area
+	}
+}

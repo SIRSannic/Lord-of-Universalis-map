@@ -1,0 +1,22 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_dale
+religion = religion_rhovanion
+technology_group = lotr_northron
+capital = 539
+government_rank = 1
+
+historical_friend = Z05
+historical_friend = X28
+
+9650.1.1 = {
+	monarch = {
+		name = "Alathius"
+		dynasty = "Athalareiksson"
+		adm = 5
+		dip = 4
+		mil = 4
+		birth_date = 9575.1.1	# 75
+		death_date = 9660.1.1 	# Not accurate
+	}
+}

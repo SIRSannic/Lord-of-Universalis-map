@@ -1,0 +1,28 @@
+# Province ID : 2429
+# Province Name : Foraer
+# Province Area : Gulf of Aerthang
+# Province Region : null
+# Province Super Region : null
+# Province Continent : null
+# Province Tradenode : null
+# Province Climate : null
+# Province is Sea Province : true
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 10
+native_ferocity = 8
+native_hostileness = 5
+
+base_tax = 5
+base_production = 9
+base_manpower = 7
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = naval_supplies
+

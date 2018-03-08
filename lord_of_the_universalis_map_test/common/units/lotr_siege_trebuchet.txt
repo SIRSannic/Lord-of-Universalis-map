@@ -1,0 +1,31 @@
+# Trebuchet
+type = artillery
+
+maneuver = 1
+offensive_morale = 3
+defensive_morale = 3
+offensive_fire = 3
+defensive_fire = 3
+offensive_shock = 3
+defensive_shock = 3
+
+
+trigger = {
+	OR = {
+	tag = X04
+	tag = X05
+	tag = X06
+        tag = X12
+	tag = X61
+	tag = X97
+	tag = X47
+	tag = X48
+	tag = X49
+	tag = X54
+	tag = X53
+	tag = X52
+	tag = X51
+	tag = X50
+	tag = Z55
+	}
+}

@@ -1,0 +1,893 @@
+##################################################################
+### Terrain Categories
+###
+### Terrain types: plains, mountains, hills, desert, artic, forest, jungle, marsh, pti
+### Types are used by the game to apply certain bonuses/maluses on movement/combat etc.
+###
+### Sound types: plains, forest, desert, sea, jungle, mountains
+
+categories =  {
+	pti = {
+		type = pti
+	}
+
+	ocean = {
+		color = { 255 255 255 }
+
+		sound_type = sea
+		is_water = yes
+
+		movement_cost = 1.0
+	}
+
+	inland_ocean = {
+		color = { 0 0 200 }
+
+		sound_type = sea
+		is_water = yes
+		inland_sea = yes
+
+		movement_cost = 1.0
+	}	
+
+	glacier = {
+		color = { 235 235 235 }
+
+		sound_type = desert
+
+		defence = 1
+		movement_cost = 1.30
+		supply_limit = 2		
+		local_development_cost = 0.5
+		nation_designer_cost_multiplier = 0.75		
+		
+		terrain_override = {		
+
+		}
+	}
+
+	farmlands = {
+		color = { 179 255 64 }
+
+		type = plains
+		sound_type = plains
+
+		movement_cost = 0.85
+		local_development_cost = -0.05
+		supply_limit = 10
+		allowed_num_of_buildings = 1
+		nation_designer_cost_multiplier = 1.05
+		
+		terrain_override = {
+
+		}		
+	}
+	
+	forest = {
+		color = { 31 116 16 }
+
+		type = forest
+		sound_type = forest
+		
+		movement_cost = 1.0
+		defence = 1
+		supply_limit = 5
+		local_development_cost = 0.2
+		nation_designer_cost_multiplier = 0.9
+		
+		terrain_override = { 
+			325 348 349 660 355 356 357 358 360 365 361 363 364 346 345 344 423 104 362 283 294 295 415 311 314 313 312 309 315 316 317 318 319 320 321 322 324 328 538 326 327 98 583 828
+			2592 2608 2609 2610 2611 2616 2617 2618 2619 2620 2621 2622 2623 2624
+		}                                      
+	}
+	
+	hills = {
+		color = { 113 176 151 }
+
+		type = hills
+		sound_type = mountain
+
+		movement_cost = 1.15
+		defence = 1
+		local_defensiveness = 0.1
+		local_development_cost = 0.25
+		nation_designer_cost_multiplier = 0.85
+		supply_limit = 5
+		
+		terrain_override = {
+			109 152 151 147 662 560 638 31 224 41 40 656 214 209 201 183 178 181 185 186 580 
+			89 86 91 93 658 84 85 94 266 254 248
+			130 134 139 2468 2470 2472
+		}
+	}
+
+	woods = {
+		color = { 41 155 22 }
+
+		type = forest
+		sound_type = forest
+
+		movement_cost = 0.85
+		defence = 1
+		local_development_cost = 0.15
+		nation_designer_cost_multiplier = 0.9
+		supply_limit = 6
+		
+		terrain_override = {
+			686 74 76 97
+		}
+	}
+	
+	mountain = {
+		color = { 105 24 4 }
+
+		type = mountains
+		sound_type = mountain
+
+		movement_cost = 1.25
+		defence = 2
+		local_defensiveness = 0.25
+		local_development_cost = 0.5
+		nation_designer_cost_multiplier = 0.75
+		supply_limit = 4
+		
+		terrain_override = {
+			149 654
+		}
+	}
+
+	impassable_mountains = {
+		color = { 128 128 128 }
+
+		sound_type = desert
+
+		movement_cost = 8.0
+		defence = 6
+		local_development_cost = 10		
+	}
+
+	grasslands = {
+		color = { 130 255 47 }
+
+		type = plains
+		sound_type = plains
+
+		movement_cost = 0.75
+		supply_limit = 8
+		allowed_num_of_buildings = 1
+		nation_designer_cost_multiplier = 1
+		
+		terrain_override = {
+			596 595 599 598 600 601 605 603 604 602 613 614 612 610 609 607 608 607 615 616 617 653 652 651 450 449 455 272 443 446 448 444
+		}
+	}
+
+	jungle = {
+		color = { 98 163 18 }
+
+		type = jungle
+		sound_type = jungle
+
+		movement_cost = 1.25
+		defence = 1
+		local_development_cost = 0.35
+		nation_designer_cost_multiplier = 0.8
+		supply_limit = 5
+		
+		terrain_override = {
+
+		}
+	}	
+	
+	marsh = {
+		color = { 13 189 130 }
+
+		type = marsh
+		sound_type = forest
+
+		movement_cost = 1.05
+		defence = 1
+		local_development_cost = 0.25
+		nation_designer_cost_multiplier = 0.85
+		supply_limit = 5
+
+		terrain_override = {
+			268 46 586
+		}
+	}
+	
+	desert = {
+		color = { 242 242 111 }
+
+		type = desert
+		sound_type = desert
+
+		movement_cost = 0.85
+		supply_limit = 4
+		local_development_cost = 0.35
+		nation_designer_cost_multiplier = 0.8
+		
+		terrain_override = {
+			136 135 137 138 142 141 143 146 484 145 144 476 479 483 480 477 481 478 482 485 675 524 518 519 520 521 522 530 531 533 535 534 536 537 467 472 468 469 473 470 474 471 475 460 463 464 458 462 459 465 457 456 461 466 447 454 453 452 451 647 648 646 649 494 491 488 486 487 490 489 492 493 496 498 497 499 509 502 500 516 503 505 504 506 508 507 510 511 512 513 515 514
+			434 645 523
+		}
+	}
+	
+	coastal_desert = {
+		color = { 255 211 110 }
+
+		type = desert
+		sound_type = desert
+
+		movement_cost = 0.85
+		local_development_cost = 0.25
+		nation_designer_cost_multiplier = 0.9		
+		supply_limit = 5
+
+		terrain_override = {
+			517 525 527 526 528 529 438 433 430 431 435 436 432 437 439 478 477 479 476 144 145 146 894 895
+		}	
+	}
+	
+	coastline = {
+		color = { 49 175 191 }
+
+		sound_type = sea
+
+		movement_cost = 0.75
+		local_development_cost = 0.25
+		nation_designer_cost_multiplier = 0.85		
+		supply_limit = 6 
+		
+		terrain_override = {
+			#124 129 131 132 140 2463 2464 2466 2467 2469 2496
+		}
+	}	
+	
+	drylands = {
+		color = { 232 172 102 }		
+
+		type = plains
+		sound_type = plains
+
+		movement_cost = 0.75
+		local_development_cost = 0.05
+		nation_designer_cost_multiplier = 0.95
+		supply_limit = 7
+		allowed_num_of_buildings = 1
+
+		terrain_override = {
+
+		}		
+	}
+
+	highlands = {
+		color = { 176 129 21 }
+
+		type = hills
+		sound_type = mountain
+		
+		supply_limit = 6
+		movement_cost = 1.15
+		defence = 1
+		local_defensiveness = 0.1
+		local_development_cost = 0.2
+		nation_designer_cost_multiplier = 0.9	
+
+		terrain_override = {
+
+		}
+	}
+
+	savannah = {
+		color = { 248 199 23  }
+
+		sound_type = plains
+
+		supply_limit = 6
+		movement_cost = 0.75
+		local_development_cost = 0.15
+		nation_designer_cost_multiplier = 0.95	
+		
+		terrain_override = {
+
+		}		
+	}
+	
+	steppe = {
+		color = { 147 200 83  }
+
+		type = plains
+		sound_type = plains
+
+		movement_cost = 0.75
+		local_development_cost = 0.20
+		nation_designer_cost_multiplier = 0.9	
+		supply_limit = 6
+		
+		terrain_override = {
+
+		}	
+	}		
+	
+	unique_minas_tirith = {
+		color = { 10 10 10 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 3
+		supply_limit = 10
+		
+		local_defensiveness = 0.50
+		
+		terrain_override = {
+			422
+		}
+	}
+	
+	unique_helmsdeep = {
+		color = { 20 20 20 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 2
+		supply_limit = 10
+		
+		local_defensiveness = 0.35
+		
+		terrain_override = {
+			122
+		}
+	}
+	
+	unique_mountdoom = {
+		color = { 30 30 30 }
+		sound_type = mountain
+		
+		movement_cost = 2
+		defence = 5
+		attrition = 5
+		supply_limit = 1
+		
+		local_defensiveness = 0.50
+		
+		terrain_override = {
+			148
+		}
+	}
+	
+	unique_osgilliath = {
+		color = { 40 40 40 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			428 427
+		}
+	}
+	
+	unique_dolguldur = {
+		color = { 50 50 50 }
+		sound_type = forest
+		
+		movement_cost = 0.75
+		defence = 1
+		attrition = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			310
+		}
+	}
+	
+	unique_erebor = {
+		color = { 50 50 50 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 2
+		supply_limit = 10
+		
+		local_defensiveness = 0.50
+		
+		terrain_override = {
+			292
+		}
+	}
+	
+	unique_dale = {
+		color = { 50 50 50 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0.10
+		
+		terrain_override = {
+			539
+		}
+	}
+	
+	unique_laketown = {
+		color = { 50 50 50 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 0
+		supply_limit = 10
+		
+		local_defensiveness = 0.10
+		
+		terrain_override = {
+			540
+		}
+	}
+	
+	unique_edoras = {
+		color = { 50 50 50 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0.15
+		
+		terrain_override = {
+			115
+		}
+	}
+	
+	unique_isengard = {
+		color = { 50 50 50 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0.15
+		
+		terrain_override = {
+			225
+		}
+	}
+	
+	unique_rivendell = {
+		color = { 50 50 50 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 8
+		
+		local_defensiveness = 0.15
+		
+		terrain_override = {
+			234
+		}
+	}
+	
+	unique_hobbitton = {
+		color = { 60 60 60 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			84
+		}
+	}
+	
+	unique_moria = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 1.5
+		defence = 2
+		attrition = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.5
+		
+		terrain_override = {
+			285 882
+		}
+	}
+	
+	unique_blackgate = {
+		color = { 60 60 60 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 2
+		attrition = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0.50
+		
+		terrain_override = {
+			691
+		}
+	}
+	
+	unique_umbar = {
+		color = { 60 60 60 }
+		sound_type = desert
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 8
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			430
+		}
+	}
+	
+	unique_fangorn = {
+		color = { 60 60 60 }
+		sound_type = forest
+		
+		movement_cost = 1.5
+		defence = 1
+		attrition = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			65 71
+		}
+	}
+	
+	unique_lothloria = {
+		color = { 60 60 60 }
+		sound_type = forest
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.10
+		
+		terrain_override = {
+			235
+		}
+	}
+	
+	unique_thalls = {
+		color = { 60 60 60 }
+		sound_type = forest
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.10
+		
+		terrain_override = {
+			323
+		}
+	}
+	
+	unique_gundabad = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 1.5
+		defence = 2
+		attrition = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			642
+		}
+	}
+	
+	unique_goblintown = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 1.5
+		defence = 2
+		attrition = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.10
+		
+		terrain_override = {
+			570
+		}
+	}
+	
+	unique_greyhavens = {
+		color = { 60 60 60 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			657
+		}
+	}
+	
+	unique_amonhen = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 10
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			677
+		}
+	}
+	
+	unique_baraddur = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 1.5
+		defence = 3
+		supply_limit = 0
+		
+		local_defensiveness = 0.50
+		
+		terrain_override = {
+			654
+		}
+	}
+	
+	unique_dolamroth = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			656
+		}
+	}
+	
+	unique_pass = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 3
+		defence = 1
+		attrition = 1
+		supply_limit = 1
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			676
+		}
+	}
+	
+	unique_shire = {
+		color = { 60 60 60 }
+		sound_type = farmlands
+		
+		movement_cost = 0.75
+		defence = 0
+		supply_limit = 10
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			73 74 75 76 77 78 83 85 86 87 88 89 90 91 92 93 94 95 97 
+		}
+	}
+	
+	unique_rohan = {
+		color = { 60 60 60 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 0
+		supply_limit = 5
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			110 111 112 113 114 117 118 119 120 121 190 191 192 193 194 226 227 230 388
+		}
+	}
+	
+	unique_mordor = {
+		color = { 60 60 60 }
+		sound_type = plains
+		
+		movement_cost = 0.80
+		defence = 0
+		attrition = 2
+		supply_limit = 0
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			72 109 147 150 151 152 233 332 333 334 662
+		}
+	}
+	
+	unique_bree = {
+		color = { 60 60 60 }
+		sound_type = plains
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			267
+		}
+	}
+	
+	unique_carndum = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 1
+		supply_limit = 5
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			624
+		}
+	}
+	
+	unique_cirithungol = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 1
+		attrition = 1
+		supply_limit = 0
+		
+		local_defensiveness = 0.25
+		
+		terrain_override = {
+			149
+		}
+	}
+	
+	unique_minasmorgul = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 0.75
+		defence = 2
+		attrition = 2
+		supply_limit = 0
+		
+		local_defensiveness = 0.50
+		
+		terrain_override = {
+			426
+		}
+	}
+	
+	unique_ithilien = {
+		color = { 60 60 60 }
+		sound_type = mountain
+		
+		movement_cost = 0.90
+		defence = 1
+		attrition = 0
+		supply_limit = 5
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			48 49 50 51 52 53 54 55 56 57
+		}
+	}
+	
+	unique_harad_river = {
+		color = { 220 210 0 }
+		sound_type = desert
+		
+		movement_cost = 0.85
+		defence = 0
+		attrition = 0
+		supply_limit = 6
+		
+		local_defensiveness = 0
+		
+		terrain_override = {
+			464 468 469 470 471 474 475 486 487 489 490 491 494 2476
+		}
+	}
+}
+
+##################################################################
+### Graphical terrain
+###		type	=	refers to the terrain defined above, "terrain category"'s 
+### 	color 	= 	index in bitmap color table (see terrain.bmp)
+###
+
+terrain = {
+	grasslands			= { type = grasslands		color = { 	0	 } }
+	hills				= { type = hills			color = { 	1	 } }
+	desert_mountain		= { type = mountain			color = { 	2	 } }
+	desert				= { type = desert			color = { 	3	 } }
+
+	plains				= { type = grasslands		color = { 	4	 } }
+	terrain_5			= { type = grasslands		color = { 	5	 } }
+	mountain			= { type = mountain			color = { 	6	 } }
+	desert_mountain_low	= { type = desert			color = { 	7	 } }
+
+	terrain_8			= { type = hills			color = { 	8	 } }
+	marsh				= { type = marsh			color = { 	9	 } }
+	terrain_10			= { type = farmlands		color = { 	10	 } }
+	terrain_11			= { type = farmlands		color = { 	11	 } }
+
+	forest_12			= { type = forest			color = { 	12	 } }
+	forest_13			= { type = forest			color = { 	13	 } }
+	forest_14			= { type = forest			color = { 	14	 } }
+	ocean				= { type = ocean			color = { 	15	 } }
+
+	snow				= { type = mountain 		color = { 	16	 } } # (SPECIAL CASE) Used to identify permanent snow
+	inland_ocean_17 	= { type = inland_ocean		color = {	17	 } }
+
+	coastal_desert_18	= { type = coastal_desert	color = { 	19	 } }
+	coastline			= { type = coastline		color = { 	35	 } }
+	
+	savannah			= { type = savannah 		color = {	20	 } }
+	drylands			= { type = drylands			color = {	22	 } }
+	highlands			= { type = highlands		color = {	23	 } }
+	dry_highlands		= { type = highlands		color = {	24	 } }
+	
+	woods				= { type = woods			color = { 	255	 } }
+	jungle				= { type = jungle			color = { 	254	 } }
+	
+	terrain_21			= { type = farmlands		color = { 	21	 } }	
+}
+
+##################################################################
+### Tree terrain
+###		terrain	=	refers to the terrain tag defined above
+### 	color 	= 	index in bitmap color table (see tree.bmp)
+###
+
+tree = {
+	forest				= { terrain = forest 			color = { 	3 4 6 7 19 20	} }
+	woods				= { terrain = woods 			color = { 	2 5 8 18	} }
+	jungle				= { terrain = jungle 			color = { 	13 14 15	} }
+	palms				= { terrain = desert 			color = { 	12	} }
+	savana				= { terrain = grasslands 		color = { 	27 28 29 30	} }
+}

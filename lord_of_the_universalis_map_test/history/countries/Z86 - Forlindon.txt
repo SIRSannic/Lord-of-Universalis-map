@@ -1,0 +1,21 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_sindar
+religion = religion_calaquendi
+technology_group = lotr_elven
+capital = 350
+
+historical_friend = X01
+historical_friend = X55
+
+2545.1.1 = {
+	monarch = {
+		name = "Aearon"
+		dynasty = "Nos Forlond"
+		adm = 5
+		dip = 3
+		mil = 3
+		birth_date = 2545.1.1	# 7255
+		death_date = 9660.1.1 	# Not accurate
+	}
+}

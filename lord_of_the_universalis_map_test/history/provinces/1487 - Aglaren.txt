@@ -1,0 +1,28 @@
+# Province ID : 1487
+# Province Name : Aglaren
+# Province Area : Aglaren
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Hae-Rhun
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 8
+native_ferocity = 3
+native_hostileness = 9
+
+base_tax = 8
+base_production = 1
+base_manpower = 2
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = copper
+

@@ -1,0 +1,548 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+# Edain
+edain_ideas = {
+	start = {
+		build_cost = -0.1
+		production_efficiency = 0.1
+	}
+	bonus = {
+		global_tax_modifier = 0.15
+	}
+	
+	trigger = {
+		culture_group = culture_group_edain
+	}
+	free = yes		#will be added at load.
+	
+	edain_1 = {
+		advisor_pool = 1
+	}
+	edain_2 = {
+		idea_cost = -0.05
+	}
+	edain_3 = {
+		ae_impact = -0.1
+	}
+	edain_4 = {
+		diplomatic_upkeep = 1
+	}
+	edain_5 = {
+		land_morale = 0.1
+	}
+	edain_6 = {
+		infantry_power = 0.1
+	}
+	edain_7 = {
+		siege_ability = 0.1
+	}
+}
+
+
+numenorean_ideas = {
+	start = {
+		army_tradition = 1
+		army_tradition_decay = -0.01
+	}
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		culture_group = culture_group_numenorean
+	}
+	free = yes		#will be added at load.
+	
+	numenorean_1 = {
+		heir_chance = 1
+	}
+	numenorean_2 = {
+		free_leader_pool = 1
+	}
+	numenorean_3 = {
+		legitimacy = 1
+	}
+	numenorean_4 = {
+		advisor_cost = -0.33
+	}
+	numenorean_5 = {
+		diplomats = 1
+	}
+	numenorean_6 = {
+		land_forcelimit_modifier = 0.25
+	}
+	numenorean_7 = {
+		prestige_from_land = 1
+	}
+}
+
+middlemen_ideas = {
+	start = {
+		global_manpower_modifier = 0.1
+		cavalry_cost = -0.1
+	}
+	bonus = {
+		cavalry_power = 0.1
+	}
+	
+	trigger = {
+		culture_group = culture_group_middlemen
+	}
+	free = yes		#will be added at load.
+	
+	middlemen_1 = {
+		discipline = 0.025
+	}
+	middlemen_2 = {
+		hostile_attrition = 1
+	}
+	middlemen_3 = {
+		diplomatic_reputation = 1
+	}
+	middlemen_4 = {
+		fabricate_claims_time = -0.25
+	}
+	middlemen_5 = {
+		build_power_cost = -0.25
+	}
+	middlemen_6 = {
+		production_efficiency = 0.1
+	}
+	middlemen_7 = {
+		prestige_decay = -0.01
+	}
+}
+
+forodwaith_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_forodwaith
+	}
+	free = yes		#will be added at load.
+	
+	forodwaith_1 = {
+		
+	}
+	forodwaith_2 = {
+		
+	}
+	forodwaith_3 = {
+		
+	}
+	forodwaith_4 = {
+		
+	}
+	forodwaith_5 = {
+		
+	}
+	forodwaith_6 = {
+		
+	}
+	forodwaith_7 = {
+		
+	}
+}
+
+haldadian_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_haldadian
+	}
+	free = yes		#will be added at load.
+	
+	haldadian_1 = {
+		
+	}
+	haldadian_2 = {
+		
+	}
+	haldadian_3 = {
+		
+	}
+	haldadian_4 = {
+		
+	}
+	haldadian_5 = {
+		
+	}
+	haldadian_6 = {
+		
+	}
+	haldadian_7 = {
+		
+	}
+}
+
+southron_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_southron
+	}
+	free = yes		#will be added at load.
+	
+	southron_1 = {
+		
+	}
+	southron_2 = {
+		
+	}
+	southron_3 = {
+		
+	}
+	southron_4 = {
+		
+	}
+	southron_5 = {
+		
+	}
+	southron_6 = {
+		
+	}
+	southron_7 = {
+		
+	}
+}
+
+easterling_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_easterling
+	}
+	free = yes		#will be added at load.
+	
+	easterling_1 = {
+		
+	}
+	easterling_2 = {
+		
+	}
+	easterling_3 = {
+		
+	}
+	easterling_4 = {
+		
+	}
+	easterling_5 = {
+		
+	}
+	easterling_6 = {
+		
+	}
+	easterling_7 = {
+		
+	}
+}
+
+halfling_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_halfling
+	}
+	free = yes		#will be added at load.
+	
+	halfling_1 = {
+		
+	}
+	halfling_2 = {
+		
+	}
+	halfling_3 = {
+		
+	}
+	halfling_4 = {
+		
+	}
+	halfling_5 = {
+		
+	}
+	halfling_6 = {
+		
+	}
+	halfling_7 = {
+		
+	}
+}
+
+dwarves_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_dwarves
+	}
+	free = yes		#will be added at load.
+	
+	dwarves_1 = {
+		
+	}
+	dwarves_2 = {
+		
+	}
+	dwarves_3 = {
+		
+	}
+	dwarves_4 = {
+		
+	}
+	dwarves_5 = {
+		
+	}
+	dwarves_6 = {
+		
+	}
+	dwarves_7 = {
+		
+	}
+}
+
+quendi_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_quendi
+	}
+	free = yes		#will be added at load.
+	
+	quendi_1 = {
+		
+	}
+	quendi_2 = {
+		
+	}
+	quendi_3 = {
+		
+	}
+	quendi_4 = {
+		
+	}
+	quendi_5 = {
+		
+	}
+	quendi_6 = {
+		
+	}
+	quendi_7 = {
+		
+	}
+}
+
+amanyar_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_amanyar
+	}
+	free = yes		#will be added at load.
+	
+	amanyar_1 = {
+		
+	}
+	amanyar_2 = {
+		
+	}
+	amanyar_3 = {
+		
+	}
+	amanyar_4 = {
+		
+	}
+	amanyar_5 = {
+		
+	}
+	amanyar_6 = {
+		
+	}
+	amanyar_7 = {
+		
+	}
+}
+
+umanyar_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_umanyar
+	}
+	free = yes		#will be added at load.
+	
+	umanyar_1 = {
+		
+	}
+	umanyar_2 = {
+		
+	}
+	umanyar_3 = {
+		
+	}
+	umanyar_4 = {
+		
+	}
+	umanyar_5 = {
+		
+	}
+	umanyar_6 = {
+		
+	}
+	umanyar_7 = {
+		
+	}
+}
+
+moriquendi_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_moriquendi
+	}
+	free = yes		#will be added at load.
+	
+	moriquendi_1 = {
+		
+	}
+	moriquendi_2 = {
+		
+	}
+	moriquendi_3 = {
+		
+	}
+	moriquendi_4 = {
+		
+	}
+	moriquendi_5 = {
+		
+	}
+	moriquendi_6 = {
+		
+	}
+	moriquendi_7 = {
+		
+	}
+}
+
+onodrim_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_onodrim
+	}
+	free = yes		#will be added at load.
+	
+	onodrim_1 = {
+		
+	}
+	onodrim_2 = {
+		
+	}
+	onodrim_3 = {
+		
+	}
+	onodrim_4 = {
+		
+	}
+	onodrim_5 = {
+		
+	}
+	onodrim_6 = {
+		
+	}
+	onodrim_7 = {
+		
+	}
+}
+
+melkor_ideas = {
+	start = {
+		
+	}
+	bonus = {
+		
+	}
+	
+	trigger = {
+		culture_group = culture_group_melkor
+	}
+	free = yes		#will be added at load.
+	
+	melkor_1 = {
+		
+	}
+	melkor_2 = {
+		
+	}
+	melkor_3 = {
+		
+	}
+	melkor_4 = {
+		
+	}
+	melkor_5 = {
+		
+	}
+	melkor_6 = {
+		
+	}
+	melkor_7 = {
+		
+	}
+}

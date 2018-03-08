@@ -1,0 +1,23 @@
+mercantilism = 0.1
+government = lotr_orc_clan
+primary_culture = culture_goblin
+religion = religion_goblin
+technology_group = lotr_goblin
+capital = 570
+
+historical_friend = X16
+historical_friend = X08
+historical_rival = X28
+
+2540.1.1 = {
+	monarch = {
+		name = "Great Goblin"
+		adm = 3
+		dip = 2
+		mil = 4
+		birth_date = 2540.1.1
+		death_date = 3300.3.15 	
+	}
+
+	add_ruler_personality = immortal_personality
+}

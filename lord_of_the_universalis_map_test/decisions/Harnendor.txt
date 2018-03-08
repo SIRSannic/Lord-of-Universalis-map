@@ -1,0 +1,54 @@
+country_decisions = {
+
+	harnendor_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X80 }
+			NOT = { tag = Z67 }
+			NOT = { tag = Z68 }
+			NOT = { tag = X31 }
+			AND = {
+				religion = religion_southron
+				primary_culture = culture_harondorian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+
+			owns_core_province = 125
+			owns_core_province = 130
+			owns_core_province = 133
+			owns_core_province = 139
+			owns_core_province = 142
+			owns_core_province = 2465
+			owns_core_province = 2471
+			
+		}
+		effect = {
+			change_tag = X80
+			add_prestige = 50
+			
+			X80 = {
+				set_capital = 2465		# Gobel Mirlond
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		ai_importance = 400
+	}
+}

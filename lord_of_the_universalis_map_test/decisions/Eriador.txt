@@ -1,0 +1,74 @@
+country_decisions = {
+
+	eriador_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = Z70 }
+			AND = {
+				religion = religion_eriadorians
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			
+			#Arthedain
+			owns_core_province = 243
+			owns_core_province = 253
+			owns_core_province = 259
+			owns_core_province = 267
+			owns_core_province = 659
+			owns_core_province = 2559
+			
+			#Rhudaur
+			owns_core_province = 296
+			owns_core_province = 300
+			owns_core_province = 308
+			owns_core_province = 373
+			owns_core_province = 2529
+			owns_core_province = 2535
+
+			#Cardolan
+			owns_core_province = 102
+			owns_core_province = 156
+			owns_core_province = 163
+			owns_core_province = 167
+			owns_core_province = 172
+			owns_core_province = 2504
+			owns_core_province = 2509
+		}
+		effect = {
+			change_tag = Z70
+			add_prestige = 100
+			
+			Z70 = {
+				set_capital = 267		# Bree
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

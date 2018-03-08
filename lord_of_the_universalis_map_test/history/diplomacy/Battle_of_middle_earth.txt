@@ -1,0 +1,328 @@
+
+# Battle of Middle Earth
+# Mordor and vassals
+alliance = {
+	first = X84
+	second = X71
+	start_date = 3018.1.1
+	end_date = 9651.1.1
+}
+
+march = {
+	first = X84
+	second = Z03
+	start_date = 2942.1.1
+	end_date = 9651.1.1
+}
+
+union = {
+	first = X84
+	second = X20
+	start_date = 2943.1.1
+	end_date = 9651.1.1
+}
+
+# Gondor and vassals
+
+union = {
+	first = X12
+	second = X97
+	start_date = 2560.1.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = X12
+	second = X70
+	start_date = 2560.1.1
+	end_date = 9651.1.1
+}
+
+
+
+# Reunited Kingdom
+
+alliance = {
+	first = Z99
+	second = X70
+	start_date = 3019.5.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = Z99
+	second = X01
+	start_date = 3019.5.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = Z99
+	second = X07
+	start_date = 3019.5.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = Z99
+	second = X17
+	start_date = 3019.5.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = Z99
+	second = Z05
+	start_date = 3019.5.1
+	end_date = 9651.1.1
+}
+
+union = {
+	first = Z99
+	second = X57
+	start_date = 3019.5.1
+	end_date = 9651.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X20
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X44
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X31
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X32
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X29
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X31
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+# Dol Guldur And Shadows of Mirkwood
+vassal = {
+	first = Z03
+	second = X16
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = Z99
+	second = X82
+	start_date = 3100.1.1
+	end_date = 9651.1.1
+}
+
+# Gundabad
+
+alliance = {
+	first = X09
+	second = Z02
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+alliance = {
+	first = X09
+	second = Z03
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Dunedain of Arnor
+guarantee = {
+	first = X61
+	second = X57
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+alliance = {
+	first = X61
+	second = X58
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+alliance = {
+	first = X61
+	second = X57
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+alliance = {
+	first = X57
+	second = X58
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Lindon
+union = {
+	first = X01
+	second = X55
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+union = {
+	first = X01
+	second = Z86
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+alliance = {
+	first = X07
+	second = X01
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Lothloria
+alliance = {
+	first = X14
+	second = X17
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+guarantee = {
+	first = X14
+	second = X13
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Erebor
+
+alliance = {
+	first = Z05
+	second = X17
+	start_date = 2589.1.1
+	end_date = 2770.5.5
+}
+
+union = {
+	first = X28
+	second = X25
+	start_date = 2560.1.1
+	end_date = 2589.1.1
+}
+
+union = {
+	first = Z05
+	second = X25
+	start_date = 2589.1.1
+	end_date = 2770.1.1
+}
+
+union = {
+	first = Z05
+	second = X25
+	start_date = 2941.11.23
+	end_date = 3500.1.1
+}
+
+vassal = {
+	first = X28
+	second = Z06
+	start_date = 2560.1.1
+	end_date = 2589.1.1
+}
+
+vassal = {
+	first = Z05
+	second = Z06
+	start_date = 2589.1.1
+	end_date = 2770.1.1
+}
+
+# Shire
+vassal = {
+	first = X57
+	second = X59
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Gobel Mirlond
+march = {
+	first = X98
+	second = Z91
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Gobel Ancalimon
+vassal = {
+	first = X99
+	second = Z87
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+vassal = {
+	first = X99
+	second = Z88
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+# Amonost
+march = {
+	first = Z93
+	second = Z89
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+march = {
+	first = Z93
+	second = Z94
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}
+
+vassal = {
+	first = Z93
+	second = Z90
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}

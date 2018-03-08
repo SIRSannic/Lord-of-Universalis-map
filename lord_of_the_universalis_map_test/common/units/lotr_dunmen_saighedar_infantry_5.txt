@@ -1,0 +1,34 @@
+# Rohirrim Swordsmen
+type = infantry
+unit_type = lotr_wildman
+
+maneuver = 1
+offensive_morale = 5
+defensive_morale = 4
+offensive_fire = 2
+defensive_fire = 0
+offensive_shock = 3
+defensive_shock = 3
+
+trigger = {
+	OR = {
+	primary_culture = culture_dunlending
+	primary_culture = culture_daoine
+	tag = Z18
+	tag = Z09
+	tag = Z18
+	tag = Z15
+	tag = Z12
+	tag = Z10
+	tag = Z24
+	tag = Z11
+	tag = Z20
+	tag = Z19
+	tag = Z13
+	tag = Z25
+	tag = Z08
+	tag = Z21
+	tag = Z23
+	tag = Z22
+	}
+}

@@ -1,0 +1,14 @@
+mercantilism = 0.1
+government = lotr_orc_clan
+primary_culture = culture_wight
+religion = religion_wight
+technology_group = lotr_orc
+capital = 106
+
+government_rank = 1
+
+historical_friend = X16
+historical_friend = X09
+historical_rival = X06
+historical_rival = X05
+historical_rival = X04

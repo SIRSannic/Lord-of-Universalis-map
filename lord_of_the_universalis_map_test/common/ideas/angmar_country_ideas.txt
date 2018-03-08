@@ -1,0 +1,61 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+
+ANG_ideas = {
+	start = {
+		ae_impact = -0.10
+		unjustified_demands = -0.25
+	}
+
+	bonus = {
+		global_unrest = -2
+	}
+	
+	trigger = {
+		OR = {
+			tag = X63
+		}
+	}
+	free = yes		#will be added at load.
+	
+	founded_on_iron_and_frost = {
+		production_efficiency = 0.25
+		land_attrition = -0.10
+	}
+	unleash_upon_arnor = {
+		siege_ability = 0.25
+		global_regiment_cost = -0.10
+	}
+	expanding_the_grip = {
+		province_warscore_cost = -0.2
+		core_creation = -0.25
+
+	}
+	destroying_the_kingdoms_of_arnor = {
+		army_tradition = 1
+		free_leader_pool = 1
+		war_exhaustion = -0.2
+
+	}
+	multiply_the_troops = {
+		manpower_recovery_speed = 0.25
+		reinforce_speed = 0.25
+
+	}
+	witch_king_of_angmar = {
+		leader_land_shock = 2
+		leader_siege = 1
+
+	}
+	fall_of_arnor = {
+		legitimacy = 2
+		prestige_decay = -0.01
+		culture_conversion_cost = -0.50
+		years_of_nationalism = -5
+	}
+}

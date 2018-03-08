@@ -1,0 +1,11 @@
+bookmark =
+{
+    # Wars of the Dwarves and Dragons
+	name = "LOTR_1_NAME"
+	desc = "LOTR_1_DESC"
+	date = 2560.1.1
+	
+	country = X28
+	country = X25
+	country = X09
+}

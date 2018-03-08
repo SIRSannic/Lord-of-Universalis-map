@@ -1,0 +1,28 @@
+# Province ID : 1462
+# Province Name : Cudinen
+# Province Area : Arcerth
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Hae-Rhun
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 2
+native_ferocity = 10
+native_hostileness = 10
+
+base_tax = 2
+base_production = 1
+base_manpower = 7
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = wine
+

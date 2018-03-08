@@ -1,0 +1,388 @@
+# Special countries..
+REB = "countries/Rebels.txt"
+PIR = "countries/Pirates.txt"
+NAT = "countries/Natives.txt"
+
+#	Country
+#		Culture
+#		Religion
+
+X01 = "countries/Lindon.txt"
+X02 = "countries/Khagolabbad.txt"
+X03 = "countries/Khagolabbad Faraku.txt"
+X04 = "countries/Arthedain.txt"
+X05 = "countries/Cardolan.txt"
+X06 = "countries/Rhudaur.txt"
+X07 = "countries/Rivendell.txt"
+X08 = "countries/Angmar.txt"
+X09 = "countries/Gundabad.txt"
+X10 = "countries/Dunland.txt"
+X11 = "countries/Old Pakel Land.txt"
+X12 = "countries/Gondor.txt"
+X13 = "countries/Fangorn.txt"
+X14 = "countries/Lothlorien.txt"
+X15 = "countries/Gladdenfields.txt"
+X16 = "countries/Shadows of Mirkwood.txt"
+X17 = "countries/Eryn Galen.txt"
+X18 = "countries/Harroch.txt"
+X19 = "countries/Haradnur.txt"
+X20 = "countries/Nurn.txt"
+X21 = "countries/Kas Rhun.txt"
+X22 = "countries/Gathod.txt"
+X23 = "countries/Rhovanion.txt"
+X24 = "countries/Ehwathr.txt"
+X25 = "countries/Dale.txt"
+X26 = "countries/Grasgard.txt"
+X27 = "countries/Carnen.txt"
+X28 = "countries/Durin's Folk.txt"
+X29 = "countries/Bellakar.txt"
+X30 = "countries/Akhor.txt"
+X31 = "countries/Haruzan.txt"
+X32 = "countries/Haradwaith.txt"
+X33 = "countries/Pezarsan.txt"
+X34 = "countries/Lurmsakun.txt"
+X35 = "countries/Arysis.txt"
+X36 = "countries/Ammu Khand.txt"
+X37 = "countries/Laorki.txt"
+X38 = "countries/Harmal.txt"
+X39 = "countries/Admal.txt"
+X40 = "countries/Olbamarl.txt"
+X41 = "countries/Gweithavar.txt"
+X42 = "countries/Nurunkhizdin.txt"
+X43 = "countries/Zirakdum.txt"
+X44 = "countries/Chelkar.txt"
+
+X46 = "countries/Andrast.txt"
+X47 = "countries/Pinnath Gelin.txt"
+X48 = "countries/Anfalas.txt"
+X49 = "countries/Lamedon.txt"
+X50 = "countries/Dor-en-Ernil.txt"
+X51 = "countries/Lebennin.txt"
+X52 = "countries/South Gondor.txt"
+X53 = "countries/Ithilien.txt"
+X54 = "countries/Calenardhon.txt"
+X55 = "countries/Harlindon.txt"
+
+# War of the Ring - 11361.1.1
+X56 = "countries/Lossoth.txt"
+X57 = "countries/Shire.txt"
+X58 = "countries/Breeland.txt"
+X59 = "countries/Buckland.txt"
+X60 = "countries/Tyrn Gorthad.txt"
+X61 = "countries/Dunedain of the North.txt"
+X62 = "countries/Hillmen of Angmar.txt"
+X63 = "countries/Nan Angmar.txt"
+X64 = "countries/Carn Dum.txt"
+X65 = "countries/Hillmen of Rhudaur.txt"
+X66 = "countries/Trollshaws.txt"
+X67 = "countries/Coldfells.txt"
+X68 = "countries/Vales of Anduin.txt"
+X69 = "countries/Saralainn.txt"
+X70 = "countries/Riddermark.txt"
+X71 = "countries/Isengard.txt"
+X72 = "countries/Dunlogan.txt"
+X73 = "countries/Druwaith Laden.txt"
+X74 = "countries/Balorn.txt"
+X75 = "countries/Abastmil.txt"
+X76 = "countries/Imlothim.txt"
+X77 = "countries/Druwaith Nimrais.txt"
+X78 = "countries/Umbar.txt"
+X79 = "countries/Abarloni.txt"
+X80 = "countries/Harnendor.txt"
+X81 = "countries/Nurad.txt"
+X82 = "countries/Wainriders.txt"
+X83 = "countries/Khand.txt"
+X84 = "countries/Mordor.txt"
+X85 = "countries/Rhun.txt"
+X86 = "countries/Dorwinion.txt"
+X87 = "countries/Jangovars.txt"
+X88 = "countries/Khundolars.txt"
+X89 = "countries/Balchoths.txt"
+X90 = "countries/Woodmen of Mirkwood.txt"
+X91 = "countries/Eagles.txt"
+X92 = "countries/Galadhmor.txt"
+X93 = "countries/Imlad Megli.txt"
+X94 = "countries/Eryn Aras.txt"
+X95 = "countries/Cell Angol.txt"
+X96 = "countries/Brogorn.txt"
+X97 = "countries/Dol Amroth.txt"
+X98 = "countries/Gobel Mirlond.txt"
+X99 = "countries/Gobel Ancalimon.txt"
+Z01 = "countries/Sagath.txt"
+Z02 = "countries/Goblintown.txt"
+Z03 = "countries/Dol Guldur.txt"
+Z04 = "countries/Mount Gram.txt"
+Z05 = "countries/Erebor.txt"
+Z06 = "countries/Iron Hills.txt"
+Z07 = "countries/Clans Aedilberga.txt"
+Z08 = "countries/Clans Airghiallu.txt"
+Z09 = "countries/Clans Caerinn.txt"
+Z10 = "countries/Clans Cairill.txt"
+Z11 = "countries/Clans Caithinn.txt"
+Z12 = "countries/Clans Circinn.txt"
+Z13 = "countries/Clans Fearchar.txt"
+Z14 = "countries/Clans Folcwalda.txt"
+Z15 = "countries/Clans Fortriu.txt"
+Z16 = "countries/Clans Gundiok.txt"
+Z17 = "countries/Clans Hunwalda.txt"
+Z18 = "countries/Clans Lugiu.txt"
+Z19 = "countries/Clans Maolfinn.txt"
+Z20 = "countries/Clans Maolrunaidh.txt"
+Z21 = "countries/Clans Maolseclain.txt"
+Z22 = "countries/Clans Murchadh.txt"
+Z23 = "countries/Clans Padraic.txt"
+Z24 = "countries/Clans Smertiu.txt"
+Z25 = "countries/Clans Gwathuirim.txt"
+Z26 = "countries/Moriquendi Cuind.txt"
+Z27 = "countries/Moriquendi Hwenti.txt"
+Z28 = "countries/Moriquendi Kindi.txt"
+Z29 = "countries/Moriquendi Kinn Lai.txt"
+Z30 = "countries/Moriquendi Penni.txt"
+Z31 = "countries/Moriquendi Windan.txt"
+Z32 = "countries/Asdriags.txt"
+Z33 = "countries/Waagath.txt"
+Z34 = "countries/Eregion.txt"
+Z35 = "countries/Framsburg.txt"
+Z36 = "countries/Wuduburg.txt"
+Z37 = "countries/Wrakyaburg.txt"
+Z39 = "countries/Beornings.txt"
+Z40 = "countries/Ered Nimrais.txt"
+Z41 = "countries/Eryn Vorn.txt"
+Z42 = "countries/Waldingas.txt"
+Z43 = "countries/Ibnathiuda.txt"
+Z44 = "countries/Eothraim.txt"
+Z45 = "countries/Siredain.txt"
+Z46 = "countries/Cerens.txt"
+Z47 = "countries/Faerdor.txt"
+Z48 = "countries/Thuin Boid.txt"
+Z49 = "countries/Eglain.txt"
+Z50 = "countries/Forodrim.txt"
+Z51 = "countries/The Old Forrest.txt"
+Z52 = "countries/Wights of Barrowdowns.txt"
+Z53 = "countries/Caras Celairnen.txt"
+Z54 = "countries/Blue Crags.txt"
+Z55 = "countries/Numeriador.txt"
+Z56 = "countries/Ereidain.txt"
+Z57 = "countries/Logath.txt"
+Z58 = "countries/Fustir-Gost.txt"
+Z59 = "countries/Barl Syrnac.txt"
+Z60 = "countries/Tharbad.txt"
+Z61 = "countries/Guldur.txt"
+Z62 = "countries/Nimwaith.txt"
+Z63 = "countries/Angmarrim Lowlands.txt"
+Z64 = "countries/Goblins of Moria.txt"
+Z65 = "countries/League of Abarloni.txt"
+Z66 = "countries/League of An Abar.txt"
+Z67 = "countries/Harad.txt"
+Z68 = "countries/Gulf of Mirlond.txt"
+Z69 = "countries/Arnor.txt"
+Z70 = "countries/Eriador.txt"
+Z71 = "countries/Thrors Company.txt"
+Z72 = "countries/Laketown.txt"
+Z73 = "countries/Moria.txt"
+Z74 = "countries/Nordinbad.txt"
+Z75 = "countries/Thorin Company.txt"
+Z76 = "countries/Chy Empire.txt"
+Z77 = "countries/Chey Sart.txt"
+Z78 = "countries/Acaana.txt"
+Z79 = "countries/Rocky Pass Orcs.txt"
+Z80 = "countries/Akalal-Zal.txt"
+Z81 = "countries/Aharin.txt"
+Z82 = "countries/Relmether.txt"
+Z83 = "countries/Ulgarth.txt"
+Z84 = "countries/Dyrians.txt"
+Z85 = "countries/loton.txt"
+Z86 = "countries/Forlindon.txt"
+Z87 = "countries/Romenor.txt"
+Z88 = "countries/Tirith Argon.txt"
+Z89 = "countries/Caradhram.txt"
+Z90 = "countries/Minas Laer.txt"
+Z91 = "countries/Aegthelion.txt"
+Z92 = "countries/Radhrim.txt"
+Z93 = "countries/Amonost.txt"
+Z94 = "countries/Galadrin.txt"
+Z95 = "countries/Kajbah.txt"
+Z96 = "countries/Tharmadin.txt"
+Z97 = "countries/Bretdrin.txt"
+Z98 = "countries/Deneral.txt"
+Z99 = "countries/Reunited Kingdom.txt"
+
+Y01 = "countries/Anorien.txt"
+Y02 = "countries/Lossarnach.txt"
+Y03 = "countries/Mornan.txt"
+Y04 = "countries/Tol Falas.txt"
+Y05 = "countries/Harondor.txt"
+
+# Mount Gram (Gram Mountains)
+# Carn Dum
+#	Hillmen of Angmar
+
+# Repeats are not noted here
+# War of the Ring (11361)
+#	Lossoth 
+#		Snowmen / culture_lossoth
+#		Lossoth	/ religion_lossoth
+#		lotr_men
+#	Shire
+#		Hobbits / culture_hobbit
+#		Periannath / religion_perian
+#		lotr_hobbit
+#	Bree-land
+#		Men of Bree / culture_breelander
+#		Haldadian / religion_haldadian
+#		lotr_men
+#	Buckland
+#		Hobbits / culture_hobbit
+#		Periannath / religion_perian
+#		lotr_hobbit
+#	Tyrn Gorthad
+#		Wights / culture_wight
+#		Wights / religion_wight
+#		lotr_nazgul
+#	Dunedain of the North
+#		Dunedain / culture_dunedain
+#		Dunedain / religion_dunedain
+#		lotr_arnor_men
+#	Hill-men of Angmar
+#		Hill-men / culture_hillmen
+#		Angmarim / religion_angmarim
+#		lotr_wildman
+#	Ithilien
+#		Wights / culture_wight
+#		Wights / religion_wight
+#		lotr_nazgul
+#	Nan Angmar
+#		Orcs / culture_orkish
+#		Orcs / religion_orkish
+#		lotr_orc
+#	Carn Dum
+#		Orcs / culture_orkish
+#		Orcs / religion_orkish
+#		lotr_orc
+#	Hill-men of Rhudaur
+#		Hill-men / culture_hillmen
+#		Haldadian / religion_haldadian
+#		lotr_wildman
+#	Trollshaws
+#		Trolls / culture_troll
+#		Troll / religion_olog
+#		lotr_troll
+#	Coldfells
+#		Trolls / culture_troll
+#		Troll / religion_olog
+#		lotr_troll
+#	Vales of Anduin
+#		Beornings / culture_beorning
+#		Northmen / religion_rhovanion
+#		lotr_northron
+#	Saralainn
+#		Daoine / culture_daoine
+#		Haldadian / religion_haldadian
+#		lotr_arnor_men
+#	Riddermark
+#		Rohirrim / culture_rohirrim
+#		Northmen / religion_rhovanion
+#		lotr_rohirrim
+#	Isengard
+#		Istari / culture_istari
+#		Ainur / religion_eruhini
+#		lotr_men
+#	Dunlogan
+#		Druwaithings / culture_druwaithing
+#		Haldadian / religion_haldadian
+#		lotr_wildman
+#	Druwaith Laden
+#		Dunlendings / culture_dunlending
+#		Haldadian / religion_haldadian
+#		lotr_wildman
+#	Balorn
+#		Druwaithings / culture_druwaithing
+#		Haldadian / religion_haldadian
+#		lotr_wildman
+#	Abastmil
+#		Druwaithings / culture_druwaithing
+#		Haldadian / religion_haldadian
+#		lotr_wildman
+#	Imlothim
+#		Druwaithings / culture_druwaithing
+#		Haldadian / religion_haldadian
+#		lotr_wildman
+#	Druwaith Nimrais
+#		Drughu / culture_druedain
+#		Druedain / religion_druedain
+#		lotr_wildman
+#	Umbar
+#		Black Numenoreans / culture_black_numenorean
+#		Black Numenoreans / religion_black_numenorean
+#		lotr_haradrim
+#	Abarloni
+#		Harondorim / culture_harondorian
+#		Southrons / religion_southron
+#		lotr_haradrim
+#	Harnendor
+#		Harondorim / culture_harondorian
+#		Southrons / religion_southron
+#		lotr_haradrim
+#	Nurad
+#		Nuriags / culture_nuriags
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+#	Wainriders
+#		Wainriders / culture_wainriders
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+#	Khand
+#		Variags / culture_variags
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+# 	Mordor
+#		Orc / culture_orkish
+#		Orc / religion_orkish
+#		lotr_orc
+#	Rhun
+#		Easterlings / culture_easterling
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+#	Dorwinion
+#		Dorwinrim / culture_dorwinrim
+#		Northmen / religion_rhovanion
+#		lotr_northron
+#	Jangovars
+#		Jangovars / culture_jangovars
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+#	Khundolars
+#		Khundolars / culture_khundolars
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+#	Balchoths
+#		Balchoths / culture_balchoth
+#		Easterlings / religion_easterlings
+#		lotr_easterling
+#	Woodmen of Mirkwood
+#		Woodsmen / culture_woodsmen
+#		Northmen / religion_rhovanion
+#		lotr_northron
+#	Eagles
+#		Great Eagles / culture_eagles
+#		Ainur / religion_eruhini	
+#	Galadhmor
+#		Spiders / culture_spider
+#		Spiders / religion_spider
+#		lotr_goblin
+#	Imlad Megli
+#		Spiders / culture_spider
+#		Spiders	/ religion_spider
+#		lotr_goblin
+#	Eryn Aras
+#		Spiders / culture_spider
+#		Spiders / religion_spider
+#		lotr_goblin
+#	Cell Angol
+#		Spiders / culture_spider
+#		Spiders / religion_spider
+#		lotr_goblin
+#	Brogorn
+#		Spiders / culture_spider
+#		Spiders / religion_spider
+#		lotr_goblin

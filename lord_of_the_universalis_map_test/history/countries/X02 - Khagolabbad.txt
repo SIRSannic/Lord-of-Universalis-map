@@ -1,0 +1,20 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_broadbeam
+religion = religion_mahal
+technology_group = lotr_dwarven
+capital = 237
+
+historical_friend = X03
+
+9650.1.1 = {
+	monarch = {
+		name = "Meothvitnîr"
+		dynasty = "Bit Althór"
+		adm = 3
+		dip = 2
+		mil = 5
+		birth_date = 9459.1.1	# 191
+		death_date = 9660.1.1 	# Not accurate
+	}
+}

@@ -1,0 +1,205 @@
+#Country Name: Please see filename.
+graphical_culture = westerngfx
+
+color = { 102 190 119 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_wildmen_tribes_men_1
+	lotr_wildmen_axe_raiders_2
+	lotr_wildmen_heavy_axemen_3
+
+	lotr_wildmen_mounted_tribesmen_1
+	lotr_wildmen_mounted_axe_raiders_2
+}
+
+monarch_names = {
+	"Abûmi" = 10
+	"Abrînu" = 10
+	"Adêr" = 10
+	"Adrîm" = 10
+	"Aghân" = 10
+	"Âgu" = 10
+	"Ambûghi" = 10
+	"Andrû" = 10
+	"Âri" = 10
+	"Awâb" = 10
+	"Baghâd" = 10
+	"Bâmu" = 10
+	"Bôr" = 10
+	"Brâghor" = 10
+	"Brâmbu" = 10
+	"Brâwâ" = 10
+	"Brûdor" = 10
+	"Brûnu" = 10
+	"Bûri" = 10
+	"Dagâr" = 10
+	"Daghân" = 10
+	"Dêrdru" = 10
+	"Dî" = 10
+	"Dragôr" = 10
+	"Drûnu" = 10
+	"Êrghân" = 10
+	"Gâbu" = 10
+	"Gâr" = 10
+	"Gâzu" = 10
+	"Ghâmi" = 10
+	"Ghâwa" = 10
+	"Ghân" = 10
+	"Ghêrdu" = 10
+	"Ghôrdu" = 10
+	"Ghûm" = 10
+	"Gîmi" = 10
+	"Grâtam" = 10
+	"Grî" = 10
+	"Grîga" = 10
+	"Grûghu" = 10
+	"Gûbi" = 10
+	"Gughân" = 10
+	"Gûmi" = 10
+	"Gûza" = 10
+	"Îbu" = 10
+	"Izûn" = 10
+	"Madrân" = 10
+	"Môrghu" = 10
+	"Naghân" = 10
+	"Ogû" = 10
+	"Ordrûg" = 10
+	"Ôrgrin" = 10
+	"Râmi" = 10
+	"Rûbêr" = 10
+	"Rûghi" = 10
+	"Saghân" = 10
+	"Tîghân" = 10
+	"Wâ" = 10
+	"Waghân" = 10
+	"Zîghi" = 10
+	"Zûn" = 10
+	
+	"Abûmi" = -10
+	"Abrîna" = -10
+	"Adêr" = -10
+	"Adrîm" = -10
+	"Âgi" = -10
+	"Ambûgha" = -10
+	"Andrî" = -10
+	"Arîgha" = -10
+	"Arû" = -10
+	"Awâb" = -10
+	"Baghâd" = -10
+	"Bâmi" = -10
+	"Bî" = -10
+	"Brâmbi" = -10
+	"Brâwi" = -10
+	"Brîghor" = -10
+	"Brûdri" = -10
+	"Brûni" = -10
+	"Bûri" = -10
+	"Darîgha" = -10
+	"Dêrdri" = -10
+	"Digâr" = -10
+	"Dî" = -10
+	"Dragêr" = -10
+	"Drûna" = -10
+	"Êrrîgha" = -10
+	"Gâbi" = -10
+	"Gâr" = -10
+	"Gâzi" = -10
+	"Ghâmi" = -10
+	"Ghâwa" = -10
+	"Ghêrdu" = -10
+	"Ghîm" = -10
+	"Ghôrdri" = -10
+	"Gîma" = -10
+	"Grâtam" = -10
+	"Grî" = -10
+	"Grîga" = -10
+	"Grûghi" = -10
+	"Gûbi" = -10
+	"Gûma" = -10
+	"Gurîgha" = -10
+	"Gûza" = -10
+	"Îbi" = -10
+	"Izûn" = -10
+	"Madrîn" = -10
+	"Môrghi" = -10
+	"Narîgha" = -10
+	"Ôgi" = -10
+	"Ordrîg" = -10
+	"Ôrgrin" = -10
+	"Râma" = -10
+	"Rîgha" = -10
+	"Rûbêr" = -10
+	"Rûgha" = -10
+	"Sarîgha" = -10
+	"Tîrîgha" = -10
+	"Wâ" = -10
+	"Warîgha" = -10
+	"Zîgha" = -10
+	"Zîn" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

@@ -1,0 +1,58 @@
+country_decisions = {
+
+	arthedain_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X04
+					exists = Z69}
+			NOT = { tag = X05 }
+			NOT = { tag = X06 }
+			AND = {
+				primary_culture = culture_dunedain
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 243
+			owns_core_province = 253
+			owns_core_province = 259
+			owns_core_province = 267
+			owns_core_province = 659
+			owns_core_province = 2559
+		}
+		effect = {
+			change_tag = X04
+			add_prestige = 50
+			
+			X04 = {
+				set_capital = 659		# Annunimas
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

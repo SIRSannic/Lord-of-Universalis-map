@@ -1,0 +1,28 @@
+# Province ID : 2337
+# Province Name : Tum Luin
+# Province Area : Aearlond Gulf
+# Province Region : null
+# Province Super Region : null
+# Province Continent : null
+# Province Tradenode : null
+# Province Climate : null
+# Province is Sea Province : true
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 5
+native_ferocity = 2
+native_hostileness = 5
+
+base_tax = 10
+base_production = 4
+base_manpower = 7
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = gold
+

@@ -1,0 +1,47 @@
+# Province ID : 994
+# Province Name : Emyn Arnen Balchoths
+# Province Area : Talath Balchorh
+# Province Region : Rhûn
+# Province Super Region : Rhûn
+# Province Continent : Middle Earth
+# Province Tradenode : Lóton
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = yes
+
+add_core = X89
+owner = X89
+controller = X89
+
+base_tax = 1
+base_production= 2
+base_manpower = 2
+
+culture = culture_balchoth
+religion = religion_easterlings
+
+trade_goods = grain
+hre = no
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul

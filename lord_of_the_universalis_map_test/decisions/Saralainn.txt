@@ -1,0 +1,59 @@
+country_decisions = {
+
+	saralainn_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X69 }
+			OR = {
+				primary_culture = culture_daoine
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 154
+			owns_core_province = 155
+			owns_core_province = 156
+			owns_core_province = 157
+			owns_core_province = 2502
+			owns_core_province = 2503
+			owns_core_province = 2504
+			owns_core_province = 2505
+
+		}
+		effect = {
+			change_tag = X69
+			add_prestige = 25
+			
+			X69 = {
+				set_capital = 156		# Suduri
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

@@ -1,0 +1,59 @@
+country_decisions = {
+
+	rhudaur_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X06
+				exists = Z69 }
+			NOT = { tag = X04 }
+			NOT = { tag = X05 }
+			OR = {
+				primary_culture = culture_dunedain
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 296
+			owns_core_province = 300
+			owns_core_province = 308
+			owns_core_province = 373
+			owns_core_province = 2529
+			owns_core_province = 2535
+			
+		}
+		effect = {
+			change_tag = X06
+			add_prestige = 50
+			
+			X06 = {
+				set_capital = 373		# Cameth Brin
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

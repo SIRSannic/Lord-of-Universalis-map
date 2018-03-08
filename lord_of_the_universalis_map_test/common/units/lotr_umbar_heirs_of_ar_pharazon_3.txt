@@ -1,0 +1,21 @@
+# Haradrim Cavalry
+type = cavalry
+unit_type = lotr_haradrim
+
+maneuver = 2
+offensive_morale = 5
+defensive_morale = 5
+offensive_fire = 0
+defensive_fire = 0
+offensive_shock = 4
+defensive_shock = 2
+
+trigger = {
+	OR = {
+	tag = X78
+	tag = X29
+	tag = X30
+	primary_culture = culture_black_numenorean
+	religion = religion_black_numenorean
+	}
+}

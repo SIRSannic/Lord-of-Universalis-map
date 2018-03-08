@@ -1,0 +1,11 @@
+government = lotr_principality
+mercantilism = 0.1
+primary_culture = culture_haruze
+religion = religion_southron
+technology_group = lotr_haradrim
+capital = 146	# Gobel Mírlond
+government_rank = 1
+
+historical_rival = X98
+
+national_focus = MIL

@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_troll
+religion = religion_olog
+technology_group = lotr_troll
+capital = 298
+
+government_rank = 1

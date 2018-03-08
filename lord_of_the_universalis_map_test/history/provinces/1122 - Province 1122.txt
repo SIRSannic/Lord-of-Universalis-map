@@ -1,0 +1,25 @@
+# Province ID : 1122
+# Province Name : Province 1122
+# Province Area : null
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : null
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+
+base_tax = 1
+base_production= 1
+base_manpower = 1
+
+culture = noculture
+religion = noreligion
+
+trade_goods = grain
+hre = no
+

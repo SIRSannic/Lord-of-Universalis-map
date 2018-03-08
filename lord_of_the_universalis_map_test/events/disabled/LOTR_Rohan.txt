@@ -1,0 +1,45 @@
+namespace = lotr_rohan
+
+#title: Constructing the Meduseld
+#desc: Your heir, [Root.Heir.GetName] has started building a great hall upon the hill of Edoras. He intends to build it with a straw roof, to make it appear as if it was made out of gold from far off. It will be richly decorated with tapestries depicting the history of the Rohirrim.
+#1: Let him build it.
+#2: Order him to tear it down.
+country_event = {
+	id = lotr_rohan.1
+	title = "lotr_rohan.1t"
+	desc = "lotr_rohan.1d"
+	picture = CITY_DEVELOPMENT_eventPicture
+	
+	trigger = {
+		tag = ROH
+		154 = {
+			owned_by = ROH
+		}
+		has_heir = yes
+		NOT = { is_year = 2600 }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+	
+	option = {
+		name = "lotr_rohan.1a"
+		
+		add_treasury = -200
+		add_prestige = 10
+		
+		154 = {
+			add_province_modifier = {
+				name = "meduseld"
+				duration = -3
+			}
+		}
+	}
+	
+	option = {
+		name = "lotr_rohan.1b"
+		
+		add_prestige = -25
+	}
+}

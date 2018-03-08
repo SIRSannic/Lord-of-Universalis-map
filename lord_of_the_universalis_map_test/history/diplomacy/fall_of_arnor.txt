@@ -1,0 +1,46 @@
+
+# Fall of Arnor
+# Sauron and vassals
+vassal = {
+	first = X16
+	second = X08
+	start_date = 9650.1.1
+	end_date = 9651.1.1
+}
+
+vassal = {
+	first = X16
+	second = X09
+	start_date = 9650.1.1
+	end_date = 9651.1.1
+}
+
+# Rhovanion
+alliance = {
+	first = X23
+	second = X24
+	start_date = 9650.1.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = X23
+	second = X26
+	start_date = 9650.1.1
+	end_date = 9651.1.1
+}
+
+alliance = {
+	first = X23
+	second = X27
+	start_date = 9650.1.1
+	end_date = 9651.1.1
+}
+
+# Dol Guldur And Shadows of Mirkwood
+vassal = {
+	first = Z03
+	second = X16
+	start_date = 2560.1.1
+	end_date = 3500.1.1
+}

@@ -1,0 +1,263 @@
+#Country Name: Please see filename.
+graphical_culture = muslimgfx
+
+color = { 82 151 175 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_easterling_tribesmen_1
+	lotr_easterling_clansmen_shields_2
+	lotr_easterling_golden_pikes_3
+	lotr_easterling_clan_guard_4
+	lotr_easterling_loke_flag_gamp_spearmen_5
+
+	lotr_easterling_horse_riders_1
+	lotr_easterling_steppe_riders_2
+	lotr_easterling_loke_innas_rim_cavalry_3
+	lotr_easterling_vainrider_chariot_4
+}
+
+monarch_names = {
+	"Afanasiy" = 10
+	"Athanasius" = 10
+	"Alexandr" = 10
+	"Alexander" = 10
+	"Alexei" = 10
+	"Alexis" = 10
+	"Andrei" = 10
+	"Andrew" = 10
+	"Boris" = 10
+	"Briachislav" = 10
+	"Bretislaus" = 10
+	"Daniil" = 10
+	"Daniel" = 10
+	"Davyd" = 10
+	"David" = 10
+	"Demid" = 10
+	"Dmitriy" = 10
+	"Demetrius" = 10
+	"Dobrynia" = 10
+	"Fedot" = 10
+	"Theodat" = 10
+	"Feodor" = 10
+	"Theodore" = 10
+	"Gavriil" = 10
+	"Gabriel" = 10
+	"Gleb" = 10
+	"Grigoriy" = 10
+	"Gregory" = 10
+	"Iakov" = 10
+	"Jacob" = 10
+	"Igor" = 10
+	"Iliya" = 10
+	"Ingvar" = 10
+	"Ingvar" = 10
+	"Ivan" = 10
+	"John" = 10
+	"Iziaslav" = 10
+	"Kirill" = 10
+	"Cyril" = 10
+	"Konstantin" = 10
+	"Constantine" = 10
+	"Koz'ma" = 10
+	"Cosma" = 10
+	"Lev" = 10
+	"Leo" = 10
+	"Matfei" = 10
+	"Matthew" = 10
+	"Mikhail" = 10
+	"Michael" = 10
+	"Mitrofan" = 10
+	"Mstislav" = 10
+	"Mstislav" = 10
+	"Nikita" = 10
+	"Oleg" = 10
+	"Helge" = 10
+	"Pavel" = 10
+	"Paul" = 10
+	"Putiata" = 10
+	"Radoslav" = 10
+	"Rodislav" = 10
+	"Rogvolod" = 10
+	"Roman" = 10
+	"Roman" = 10
+	"Rostislav" = 10
+	"Rurik" = 10
+	"Rurik" = 10
+	"Ruslan" = 10
+	"Simeon" = 10
+	"Simon" = 10
+	"Stanislav" = 10
+	"Stanislav" = 10
+	"Stepan" = 10
+	"Stephen" = 10
+	"Sudislav" = 10
+	"Svetozar" = 10
+	"Sviatopolk" = 10
+	"Svatopluk" = 10
+	"Sviatoslav" = 10
+	"Sviatoslav" = 10
+	"Terentiy" = 10
+	"Trifon" = 10
+	"Vasiliy" = 10
+	"Basil" = 10
+	"Vasilko" = 10
+	"Viacheslav" = 10
+	"Vladimir" = 10
+	"Vladimir" = 10
+	"Vladislav" = 10
+	"Vladislav" = 10
+	"Voislav" = 10
+	"Volodar" = 10
+	"Vseslav" = 10
+	"Vsevolod" = 10
+	"Vyshata" = 10
+	"Vysheslav" = 10
+	"Yaropolk" = 10
+	"Yaroslav" = 10
+	"Jaroslav" = 10
+	"Yefimiy" = 10
+	"Yelisey" = 10
+	"Yemelyan" = 10
+	"Emil" = 10
+	"Yeremey" = 10
+	"Yevstafiy" = 10
+	"Yuriy" = 10
+	"George" = 10
+	
+	"Agafya" = -10
+	"Agatha" = -10
+	"Agrafena" = -10
+	"Alexandra" = -10
+	"Anastasia" = -10
+	"Anastasia" = -10
+	"Anna" = -10
+	"Anna" = -10
+	"Boleslava" = -10
+	"Darya" = -10
+	"Dobrava" = -10
+	"Dobronega" = -10
+	"Dobroslava" = -10
+	"Yefimia" = -10
+	"Euphemia" = -10
+	"Yefrosinia" = -10
+	"Euphrosyne" = -10
+	"Yekaterina" = -10
+	"Catherine" = -10
+	"Yelizaveta" = -10
+	"Elisabeth" = -10
+	"Yevdokia" = -10
+	"Eudocia" = -10
+	"Yevpraxia" = -10
+	"Feodora" = -10
+	"Theodora" = -10
+	"Feodosia" = -10
+	"Theodosia" = -10
+	"Fevronia" = -10
+	"Gorislava" = -10
+	"Gradislava" = -10
+	"Gremislava" = -10
+	"Irina" = -10
+	"Irene" = -10
+	"Xenia" = -10
+	"Liubava" = -10
+	"Liudmila" = -10
+	"Malfrida" = -10
+	"Malusha" = -10
+	"Maria" = -10
+	"Maria" = -10
+	"Marina" = -10
+	"Olena" = -10
+	"Helen" = -10
+	"Olga" = -10
+	"Pereyaslava" = -10
+	"Praskovya" = -10
+	"Praxida" = -10
+	"Prebrana" = -10
+	"Predslava" = -10
+	"Premyslava" = -10
+	"Pribislava" = -10
+	"Rogneda" = -10
+	"Rostislava" = -10
+	"Sbyslava" = -10
+	"Sofia" = -10
+	"Sophia" = -10
+	"Sviatoslava" = -10
+	"Tatyana" = -10
+	"Ulita" = -10
+	"Ulyana" = -10
+	"Varvara" = -10
+	"Vasilisa" = -10
+	"Veleslava" = -10
+	"Verkhoslava" = -10
+	"Vseslava" = -10
+	"Viacheslava" = -10
+	"Yaroslava" = -10
+	"Zabava" = -10
+	"Zvenislava" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

@@ -1,0 +1,61 @@
+country_decisions = {
+
+	vales_of_anduin_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X68 }
+			OR = {
+				primary_culture = culture_nenedain
+				primary_culture = culture_mangeras
+				primary_culture = culture_northmen
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 399
+			owns_core_province = 403
+			owns_core_province = 404
+			owns_core_province = 415
+			owns_core_province = 416
+			owns_core_province = 689
+			owns_core_province = 2585
+
+			
+		}
+		effect = {
+			change_tag = X68
+			add_prestige = 25
+			
+			X68 = {
+				set_capital = 404		# Framsburg
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

@@ -1,0 +1,151 @@
+namespace = lotr_haradrm
+
+#title: Fury of the Haradrim
+#desc: The ancestors of the Haradrim were a fierce and cruel people, and where ancient enemies of the men of Gondor and their allies.
+#1: Glory to Harad.
+#2: Diplomacy isn't that bad.
+country_event = {
+	id = lotr_haradrm.1
+	title = "lotr_haradrm.1t"
+	desc = "lotr_haradrm.1d"
+	picture = BATTLE_eventPicture
+	
+	trigger = {
+		tag = HAD
+	}
+	
+	fire_only_once = yes
+	
+	mean_time_to_happen = {
+		months = 1
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_haradrm.1a"
+		
+		every_country = {
+			limit = {
+				religion_group = iluvatarism_group
+			}
+			add_opinion = {
+				who = HAD
+				modifier = fury_of_the_haradrim
+			}
+		}
+		
+		add_mil_power = 250
+		add_adm_power = 250
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "lotr_haradrm.1b"
+		
+		add_legitimacy = -25
+		add_dip_power = 250
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#title: Gondor must fall!
+#desc: For hundreds of years the Black Númenóreans have hated the men of Gondor. It is our duty to cut down Gondor and ensure she never grows to large.
+#1: War!
+#2: Let's think about this.
+country_event = {
+	id = lotr_haradrm.2
+	title = "lotr_haradrm.2t"
+	desc = "lotr_haradrm.2d"
+	picture = BATTLE_eventPicture
+	
+	trigger = {
+		tag = HAD
+		exists = GON
+		any_neighbor_country = {  
+			tag = GON
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 320
+
+		modifier = {
+			factor = 0.9
+			NOT = { stability = 0 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -1 }
+		}
+		modifier = {
+			factor = 0.9
+			NOT = { stability = -2 }
+		}
+		modifier = {
+			factor = 1.1
+			stability = 1
+		}
+		modifier = {
+			factor = 1.1
+			stability = 2
+		}
+		modifier = {
+			factor = 1.1
+			stability = 3
+		}
+	}
+	
+	option = {
+		name = "lotr_haradrm.2a"
+		
+		declare_war_with_cb = {
+			who = GON
+			casus_belli = cb_conquest
+		}
+
+		add_legitimacy = 25
+		
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = "lotr_haradrm.2b"
+		
+		add_legitimacy = -10
+		add_stability = -1
+		
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

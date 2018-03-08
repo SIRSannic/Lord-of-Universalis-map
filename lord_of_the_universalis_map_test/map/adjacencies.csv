@@ -1,0 +1,105 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
+27;123;sea;758;-1;-1;-1;-1;River Crossing, Lindon - Tir Ethir
+18;60;sea;759;1405;804;1411;799;River Crossing, Pelargir - Alagdor
+428;427;sea;761;1470;932;1474;932;River Crossing, 2 osgiliath
+8;49;sea;762;1462;971;1467;969;River Crossing, Cair Andros - Asgaril
+277;46;sea;764;-1;-1;-1;-1;River Crossing, Ethir Onodlo - Arandal
+677;329;sea;765;1354;1065;1361;1066;River Crossing, Amon hen - Amon Lhaw
+280;410;;767;-1;-1;-1;-1;River Crossing, Sarn Gebir - Haradnur
+280;406;;768;-1;-1;-1;-1;River Crossing, Sarn Gebir - Dor Firnen
+279;406;;769;-1;-1;-1;-1;River Crossing, Longhold - Dor Firnen
+281;406;;769;-1;-1;-1;-1;River Crossing, Parth Celebrant - Dor Firnen
+281;413;;769;-1;-1;-1;-1;River Crossing, Parth Celebrant - Amrun Anduin
+282;413;;770;-1;-1;-1;-1;River Crossing, Eorlsmead - Amrun Anduin
+284;414;;770;-1;-1;-1;-1;River Crossing, Nan Celebrant - Nan Anduin
+235;414;;770;-1;-1;-1;-1;River Crossing, Caras Galadhon - Nan Anduin
+398;414;;770;-1;-1;-1;-1;River Crossing, Burh Anduin - Nan Anduin
+2589;2590;;771;-1;-1;-1;-1;River Crossing, Burh Tregarth - Sarn Lothduin
+401;415;;771;-1;-1;-1;-1;River Crossing, Amon Ninglorin - Wuduburg
+2593;415;;771;-1;-1;-1;-1;River Crossing, Dundok - Wuduburg
+2595;416;;772;-1;-1;-1;-1;River Crossing, Stoorharbor - Mallendan
+271;416;;772;-1;-1;-1;-1;River Crossing, Gladdenfields - Mallendan
+402;416;;772;-1;-1;-1;-1;River Crossing, Athrad Laur - Mallendan
+2587;416;;773;-1;-1;-1;-1;River Crossing, Connash - Mallendan
+2587;689;;773;-1;-1;-1;-1;River Crossing, Connash - Beorns Hall
+2585;689;;773;-1;-1;-1;-1;River Crossing, Amon Thyoyn - Beorns Hall
+2598;689;;773;-1;-1;-1;-1;River Crossing, Carrock Vale - Beorns Hall
+2598;688;;773;-1;-1;-1;-1;River Crossing, Carrock Vale - Carrock
+403;418;;774;-1;-1;-1;-1;River Crossing, Methelburg - Mirkmaer
+2596;418;;774;-1;-1;-1;-1;River Crossing, Burh Thingstat - Mirkmaer
+2638;581;;778;-1;-1;-1;-1;River Crossing, Padvan - Gazar Ibar
+2638;811;;778;-1;-1;-1;-1;River Crossing, Padvan - Nan Celduin
+2638;811;;778;-1;-1;-1;-1;River Crossing, Szrel kain - Nan Celduin
+576;2661;;778;-1;-1;-1;-1;River Crossing, Szrel kain - Kardavan
+2629;2661;;779;-1;-1;-1;-1;River Crossing, Haradruin - Kardavan
+2630;2661;;779;-1;-1;-1;-1;River Crossing, Forodim - Kardavan
+565;2661;;779;-1;-1;-1;-1;River Crossing, Carad Surga - Kardavan
+565;2660;;779;-1;-1;-1;-1;River Crossing, Carad Surga - Lar-Sagra
+565;550;;779;-1;-1;-1;-1;River Crossing, Carad Surga - Govadnin
+2631;550;;779;-1;-1;-1;-1;River Crossing, Buhr Marhlinge - Govadnin
+562;2662;;780;-1;-1;-1;-1;River Crossing, Ehwathr - Burh Maridais
+562;545;;780;-1;-1;-1;-1;River Crossing, Ehwathr - Burh Kaupis
+561;545;;781;-1;-1;-1;-1;River Crossing, Burh Celduin - Burh Kaupis
+561;542;;781;-1;-1;-1;-1;River Crossing, Burh Celduin - Celduinim
+322;542;;782;-1;-1;-1;-1;River Crossing, Eastern Forest Path - Celduinim
+328;542;;782;-1;-1;-1;-1;River Crossing, Celondin - Celduinim
+328;541;;782;-1;-1;-1;-1;River Crossing, Celondin - Withibord
+328;2615;;782;-1;-1;-1;-1;River Crossing, Celondin - Aldburh
+432;438;sea;696;-1;-1;-1;-1;Caldur to Ardumir
+2505;379;;718;-1;-1;-1;-1;River Crossing, Ilfin - Gwathlethir
+2505;374;;718;-1;-1;-1;-1;River Crossing, Ilfin - Carras
+156;374;;718;-1;-1;-1;-1;River Crossing, Suduri - Carras
+158;374;;754;-1;-1;-1;-1;River Crossing, Talsir - Carras
+158;2570;;754;-1;-1;-1;-1;River Crossing, Talsir - Barad Colgrin
+2507;2570;;754;-1;-1;-1;-1;River Crossing, Amrelor - Barad Colgrin
+160;2570;;754;-1;-1;-1;-1;River Crossing, Daelmoth - Barad Colgrin
+2511;375;;755;-1;-1;-1;-1;River Crossing, Udandir - Haradaelmoth
+163;375;;755;-1;-1;-1;-1;River Crossing, Argond - Haradaelmoth
+163;2567;;755;-1;-1;-1;-1;River Crossing, Argond - Barad Vin
+2512;2567;;755;-1;-1;-1;-1;River Crossing, Undrond - Barad Vin
+2512;2569;;756;-1;-1;-1;-1;River Crossing, Undrond - Allinaapaa
+2512;376;;756;-1;-1;-1;-1;River Crossing, Undrond - Gwathlim
+2514;376;;756;-1;-1;-1;-1;River Crossing, Althil - Gwathlim
+165;377;;756;-1;-1;-1;-1;River Crossing, Entamundo - Gwathlolin
+172;377;;757;-1;-1;-1;-1;River Crossing, Tharbad - Gwathlolin
+1277;337;sea;726;-1;-1;-1;-1;Dol Ereb to Lairiardhon
+2225;2374;;2374;-1;-1;-1;-1;Links between the Middle Earth ocean, Illuin ocean and Far east ocean
+2226;2374;;2374;-1;-1;-1;-1;x
+2228;2374;;2374;-1;-1;-1;-1;x
+2231;2374;;2374;-1;-1;-1;-1;x
+2232;2374;;2374;-1;-1;-1;-1;x
+2225;2375;;2375;-1;-1;-1;-1;x
+2226;2375;;2375;-1;-1;-1;-1;x
+2228;2375;;2375;-1;-1;-1;-1;x
+2231;2375;;2375;-1;-1;-1;-1;x
+2232;2375;;2375;-1;-1;-1;-1;x
+2225;2378;;2378;-1;-1;-1;-1;x
+2226;2378;;2378;-1;-1;-1;-1;x
+2228;2378;;2378;-1;-1;-1;-1;x
+2231;2378;;2378;-1;-1;-1;-1;x
+2232;2378;;2378;-1;-1;-1;-1;x
+2225;2379;;2379;-1;-1;-1;-1;x
+2226;2379;;2379;-1;-1;-1;-1;x
+2228;2379;;2379;-1;-1;-1;-1;x
+2231;2379;;2379;-1;-1;-1;-1;x
+2232;2379;;2379;-1;-1;-1;-1;x
+2225;2360;;2360;-1;-1;-1;-1;x
+2226;2360;;2360;-1;-1;-1;-1;x
+2228;2360;;2360;-1;-1;-1;-1;x
+2231;2360;;2360;-1;-1;-1;-1;x
+2232;2360;;2360;-1;-1;-1;-1;x
+2225;2359;;2359;-1;-1;-1;-1;x
+2226;2359;;2359;-1;-1;-1;-1;x
+2228;2359;;2359;-1;-1;-1;-1;x
+2231;2359;;2359;-1;-1;-1;-1;x
+2232;2359;;2359;-1;-1;-1;-1;x
+738;2237;;2237;-1;-1;-1;-1;x
+736;2237;;2237;-1;-1;-1;-1;x
+735;2237;;2237;-1;-1;-1;-1;x
+738;2236;;2236;-1;-1;-1;-1;x
+736;2236;;2236;-1;-1;-1;-1;x
+735;2236;;2236;-1;-1;-1;-1;x
+738;2235;;2235;-1;-1;-1;-1;x
+736;2235;;2235;-1;-1;-1;-1;x
+735;2235;;2235;-1;-1;-1;-1;x
+-1;-1;;-1;-1;-1;-1;-1;-1

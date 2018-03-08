@@ -1,0 +1,229 @@
+########################################
+# Events for Isengard
+#
+#
+########################################
+
+namespace = flavor_isg
+normal_or_historical_nations = yes
+
+# Spawn Isengard
+province_event = {
+	id = flavor_isg.1
+	title = flavor_isg.1.t
+	desc = flavor_isg.1.d
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+	
+	major = yes
+
+	trigger = {
+		NOT = { exists = X71 }
+		is_year = 3018
+		isengard_area = {
+			is_empty = yes
+		}
+	}
+	option = { 
+		name = flavor_isg.1.a
+		isengard_area = {
+			add_core = X71
+		}		
+		
+		isengard_area = {
+			limit = {
+				is_empty = yes
+			}
+			cede_province = X71
+			225 = {
+				change_culture = culture_urukhai
+				change_religion = religion_uruk
+				change_trade_goods = iron
+				}
+			887 = {
+				change_culture = culture_urukhai
+				change_religion = religion_uruk
+				change_trade_goods = grain
+				}
+				
+			add_institution_embracement = {
+				which = renaissance
+				value = 100
+			}
+			add_institution_embracement = {
+				which = feudalism
+				value = 100
+			}
+			add_institution_embracement = {
+				which = new_world_i
+				value = 100
+			}
+			add_institution_embracement = {
+				which = printing_press
+				value = 100
+			}
+			add_institution_embracement = {
+				which = global_trade
+				value = 100
+			}
+			add_institution_embracement = {
+				which = manufactories
+				value = 100
+			}
+		}
+		
+		country_event = {
+				id = flavor_isg.2
+				days = 10
+		}
+	}
+}
+
+# Event to send to other province owners of the area when Isengard is formed.
+country_event = {
+	id = flavor_isg.2
+	title = flavor_isg.1.t
+	desc = flavor_isg.1.d
+	picture = BORDER_TENSION_eventPicture
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			tag = X71
+		}
+	}
+
+	option = { 
+		name = flavor_isg.2.a
+		tooltip = {
+			isengard_area = {
+				add_core = X71
+			}
+		}
+	}
+}
+
+country_event = {
+	id = flavor_isg.3
+	title = flavor_isg.3.t
+	desc = flavor_isg.3.d
+	picture = ANGRY_MOB_event_Picture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		is_year = 3018
+		AND = { exists = X71 }
+		OR = { 
+				exists = Z18 
+				exists = Z24 
+			 }
+	}
+
+	option = { 
+		name = flavor_isg.3.a
+		tooltip = {
+			isengard_area = {
+				add_core = X71
+			}
+		}
+	}
+}
+
+# Clans join Isengard
+country_event = {
+	id = flavor_isg.3
+	title = "flavor_isg.3.t"
+	desc = "flavor_isg.3.d"
+	picture = DIPLOMACY_eventPicture
+
+	major = yes
+	
+	fire_only_once = yes
+	
+	
+	trigger = {
+		tag = X71
+		is_year = 3018
+		is_subject = no
+		OR = {
+		Z18 = {
+			exists = yes
+			ai = yes
+			was_player = no
+			is_subject = no
+			is_neighbor_of = ROOT
+		}
+		Z24 = {
+			exists = yes
+			ai = yes
+			was_player = no
+			is_subject = no
+			is_neighbor_of = ROOT
+			}
+			NOT = { war_with = Z18 }
+			NOT = { war_with = Z24 }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	
+	option = {		# gets a union
+		name = "flavor_isg.3.a"
+		ai_chance = { factor = 90 }
+		create_union = Z18
+		create_union = Z24
+		add_opinion = {
+			who = Z18
+			modifier = isg_union
+		}
+		add_opinion = {
+			who = Z24
+			modifier = isg_union
+		}
+		Z18 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_union
+			}
+		}
+		Z24 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_union
+			}
+		}
+		every_known_country = {
+			limit = {
+				marriage_with = Z24
+				marriage_with = Z18
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = isg_negative
+			}
+		}
+	}
+	option = {		# No 
+		name = "flavor_isg.3.b"
+		ai_chance = { factor = 10 }
+		add_stability = 1
+		Z18 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_declined
+			}
+		}
+		Z24 = {
+			add_opinion = {
+				who = ROOT
+				modifier = isg_declined
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+# Province ID : 2150
+# Province Name : Camrim
+# Province Area : Cirdu
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Kargagis Ahar
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 1
+native_ferocity = 10
+native_hostileness = 7
+
+base_tax = 5
+base_production = 8
+base_manpower = 8
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = wine
+

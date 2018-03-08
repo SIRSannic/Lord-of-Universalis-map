@@ -1,0 +1,31 @@
+animation = {
+	name = "gondor_soldier_move_anim"
+	file = "gondor_soldier_move_anim.anim"
+}
+
+animation = {
+	name = "gondorattack_anim"
+	file = "gondorattack_anim.anim"
+}
+
+animation = {
+	name = "gondoridle_anim"
+	file = "gondoridle_anim.anim"
+}
+
+animation = {
+	name = "orc_move_anim"
+	file = "orc_move_anim.anim"
+}
+
+animation = {
+	name = "orc_attack_anim"
+	file = "orc_attack_anim.anim"
+}
+
+animation = {
+	name = "orc_idle_anim"
+	file = "orc_idle_anim.anim"
+}
+
+

@@ -1,0 +1,14 @@
+# Province ID : 841
+# Province Name : Province 841
+# Province Area : null
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : null
+# Province Climate : Impassable
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : true
+# Province Contents : 
+
+

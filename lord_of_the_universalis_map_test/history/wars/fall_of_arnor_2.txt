@@ -1,0 +1,16 @@
+name = "Angmarian War of Conquest"
+#casus_belli = cb_conquest type = take_capital_conquest
+war_goal = {
+	type = annex_country
+	casus_belli = cb_annex
+}
+
+9650.1.1 = {
+	add_attacker = X08
+	add_defender = X06
+}
+
+9651.4.1 = {
+	rem_attacker = X08
+	rem_defender = X06
+}

@@ -1,0 +1,280 @@
+#Country Name: Please see filename.
+
+graphical_culture = lotr_orc_gfx
+
+color = { 70  163  31 }
+
+historical_idea_groups = {
+	offensive_ideas
+	spy_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_goblin_snaga_spears_1
+	lotr_goblin_goblin_raiders_2
+	lotr_goblin_armoured_goblin_3
+
+	lotr_goblin_spider_riders_1
+	lotr_goblin_warg_riders_2
+	lotr_goblin_cave_troll_3
+}
+
+monarch_names = {
+    "Azog #0" = 10
+    "Bolg #0" = 10
+    "Búrz #0" = 10
+    "Gazbag #0" = 10
+    "Gazduf #0" = 10
+    "Gazdush #0" = 10
+    "Gazhúr #0" = 10
+    "Gazgash #0" = 10
+    "Gazbug #0" = 10
+    "Gazhorn #0" = 10
+    "Gazmog #0" = 10
+    "Gazmuz #0" = 10
+    "Gazrad #0" = 10
+    "Gazrat #0" = 10
+    "Gazthak #0" = 10
+    "Gazlag #0" = 10
+    "Gazlúk #0" = 10
+    "Gazlûn #0" = 10
+    "Gazlur #0" = 10
+    "Gaznag #0" = 10
+    "Gazuf #0" = 10
+    "Gazug #0" = 10
+    "Gazûl #0" = 10
+    "Ghash #0" = 10
+    "Golfimbul #0" = 10
+    "Gorbag #0" = 10
+    "Gorbug #0" = 10
+    "Gorduf #0" = 10
+    "Gordush #0" = 10
+    "Gorgash #0" = 10
+    "Gorgaz #0" = 10
+    "Gorhúr #0" = 10
+    "Gorlúk #0" = 10
+    "Gorlûn #0" = 10
+    "Gornag #0" = 10
+    "Gorshag #0" = 10
+    "Gorthak #0" = 10
+    "Gorûl #0" = 10
+    "Gorzag #0" = 10
+    "Grishnákh #0" = 10
+    "Lagbug #0" = 10
+    "Lagduf #0" = 10
+    "Lagdush #0" = 10
+    "Laghúr #0" = 10
+    "Laguf #0" = 10
+    "Laglúg #0" = 10
+    "Laglûn #0" = 10
+    "Lagrad #0" = 10
+    "Lagrat #0" = 10
+    "Lagthak #0" = 10
+    "Lug #0" = 10
+    "Lugbag #0" = 10
+    "Lugduf #0" = 10
+    "Lugdush #0" = 10
+    "Lughorn #0" = 10
+    "Lughúr #0" = 10
+    "Luglúk #0" = 10
+    "Luglûn #0" = 10
+    "Lugnag #0" = 10
+    "Lugthak #0" = 10
+    "Lugûl #0" = 10
+    "Lugzag #0" = 10
+    "Lûnbag #0" = 10
+    "Lûnbug #0" = 10
+    "Lûnduf #0" = 10
+    "Lûndush #0" = 10
+    "Lûngash #0" = 10
+    "Lûngaz #0" = 10
+    "Lûngor #0" = 10
+    "Lûnhúr #0" = 10
+    "Lûnlag #0" = 10
+    "Lûnlúk #0" = 10
+    "Lûnmaz #0" = 10
+    "Lûnrad #0" = 10
+    "Lûnrat #0" = 10
+    "Lûnshag #0" = 10
+    "Lûnthak #0" = 10
+    "Lûnuf #0" = 10
+    "Lûnug #0" = 10
+    "Lûnûl #0" = 10
+    "Lûnzag #0" = 10
+    "Maubag #0" = 10
+    "Maubug #0" = 10
+    "Mauduf #0" = 10
+    "Maudush #0" = 10
+    "Maugash #0" = 10
+    "Maugaz #0" = 10
+    "Maugor #0" = 10
+    "Mauhúr #0" = 10
+    "Maulúk #0" = 10
+    "Maulur #0" = 10
+    "Maunag #0" = 10
+    "Mauthak #0" = 10
+    "Mauzag #0" = 10
+    "Muzbag #0" = 10
+    "Muzbug #0" = 10
+    "Muzduf #0" = 10
+    "Muzdush #0" = 10
+    "Muzgash #0" = 10
+    "Muzgaz #0" = 10
+    "Muzgor #0" = 10
+    "Muzhúr #0" = 10
+    "Muzlag #0" = 10
+    "Muzlug #0" = 10
+    "Muzlúk #0" = 10
+    "Muzlûn #0" = 10
+    "Muzlur #0" = 10
+    "Muznag #0" = 10
+    "Muzrad #0" = 10
+    "Muzrat #0" = 10
+    "Muzthak #0" = 10
+    "Muzug #0" = 10
+    "Muzûl #0" = 10
+    "Nagbug #0" = 10
+    "Nagduf #0" = 10
+    "Nagdush #0" = 10
+    "Naghúr #0" = 10
+    "Naglug #0" = 10
+    "Naglúk #0" = 10
+    "Naglur #0" = 10
+    "Nagmuz #0" = 10
+    "Nagug #0" = 10
+    "Nagrad #0" = 10
+    "Nagrat #0" = 10
+    "Nagthak #0" = 10
+    "Nagzag #0" = 10
+    "Nûzu #0" = 10
+    "Radbag #0" = 10
+    "Radbug #0" = 10
+    "Radgash #0" = 10
+    "Radgaz #0" = 10
+    "Radhúr #0" = 10
+    "Radlag #0" = 10
+    "Radlúk #0" = 10
+    "Radmuz #0" = 10
+    "Radnag #0" = 10
+    "Radrat #0" = 10
+    "Radthak #0" = 10
+    "Radug #0" = 10
+    "Radzag #0" = 10
+    "Shagbug #0" = 10
+    "Shagduf #0" = 10
+    "Shagdush #0" = 10
+    "Shaglúk #0" = 10
+    "Shaglur #0" = 10
+    "Shagrad #0" = 10
+    "Shagrat #0" = 10
+    "Shagthak #0" = 10
+    "Shaguf #0" = 10
+    "Shagug #0" = 10
+    "Shagûl #0" = 10
+    "Snaga #0" = 10
+    "Ufgaz #0" = 10
+    "Uflug #0" = 10
+    "Uflúk #0" = 10
+    "Ufthak #0" = 10
+    "Ufzag #0" = 10
+    "Ugbag #0" = 10
+    "Ugduf #0" = 10
+    "Ugdush #0" = 10
+    "Ughúr #0" = 10
+    "Uglag #0" = 10
+    "Uglúk #0" = 10
+    "Uglur #0" = 10
+    "Ugmuz #0" = 10
+    "Ugnag #0" = 10
+    "Ugrad #0" = 10
+    "Ugrat #0" = 10
+    "Ugthak #0" = 10
+    "Ugzag #0" = 10
+    "Yagaz #0" = 10
+    "Yagbug #0" = 10
+    "Yagduf #0" = 10
+    "Yagdush #0" = 10
+    "Yaghúr #0" = 10
+    "Yaglug #0" = 10
+    "Yaglûn #0" = 10
+    "Yaglúk #0" = 10
+    "Yagmuz #0" = 10
+    "Yagor #0" = 10
+    "Yagrad #0" = 10
+    "Yagrat #0" = 10
+    "Yagthak #0" = 10
+    "Yaguf #0" = 10
+    "Yagug #0" = 10
+    "Yagûl #0" = 10
+    "Zagbug #0" = 10
+    "Zagduf #0" = 10
+    "Zagdush #0" = 10
+    "Zaghúr #0" = 10
+    "Zaglag #0" = 10
+    "Zaglug #0" = 10
+    "Zaglûn #0" = 10
+    "Zaglúk #0" = 10
+    "Zagmuz #0" = 10
+    "Zagrad #0" = 10
+    "Zagrat #0" = 10
+    "Zagthak #0" = 10
+    "Zaguf #0" = 10
+    "Zagug  #0" = 10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}

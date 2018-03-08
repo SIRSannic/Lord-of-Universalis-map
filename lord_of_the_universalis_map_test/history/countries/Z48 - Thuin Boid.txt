@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_wulfseggeas
+religion = religion_eriadorians
+technology_group = lotr_arnor_men
+capital = 296
+
+government_rank = 1

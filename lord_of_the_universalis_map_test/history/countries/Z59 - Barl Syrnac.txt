@@ -1,0 +1,9 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_lossoth
+religion = religion_lossoth
+technology_group = lotr_wildman
+capital = 822
+
+
+government_rank = 1

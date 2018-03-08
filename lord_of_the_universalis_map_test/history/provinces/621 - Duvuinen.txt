@@ -1,0 +1,47 @@
+# Province ID : 621
+# Province Name : Duvuinen
+# Province Area : Angmar Highlands
+# Province Region : Angmar
+# Province Super Region : Forodwaith
+# Province Continent : Middle Earth
+# Province Tradenode : Angmar
+# Province Climate : Severe_winter
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = yes
+
+add_core = X62
+owner = X62
+controller = X62
+
+base_tax = 1
+base_production= 2
+base_manpower = 2
+
+culture = culture_angmarrimhig
+religion = religion_angmarim
+
+trade_goods = grain
+hre = no
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul

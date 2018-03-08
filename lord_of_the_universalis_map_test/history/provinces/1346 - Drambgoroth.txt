@@ -1,0 +1,28 @@
+# Province ID : 1346
+# Province Name : Drambgoroth
+# Province Area : Har Din
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Hae-Rhun
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 9
+native_ferocity = 7
+native_hostileness = 6
+
+base_tax = 8
+base_production = 6
+base_manpower = 7
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = copper
+

@@ -1,0 +1,28 @@
+# Province ID : 1522
+# Province Name : Golodhmithrin
+# Province Area : Tol Golodhmithrin
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Uiliwen
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 20
+native_ferocity = 4
+native_hostileness = 8
+
+base_tax = 1
+base_production = 7
+base_manpower = 8
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = copper
+

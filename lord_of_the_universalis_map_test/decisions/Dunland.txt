@@ -1,0 +1,57 @@
+country_decisions = {
+
+	dunland_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X10 }
+			OR = {
+				primary_culture = culture_dunlending
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 293
+			owns_core_province = 381
+			owns_core_province = 382
+			owns_core_province = 383
+			owns_core_province = 384
+			owns_core_province = 385
+			owns_core_province = 2573
+		}
+		effect = {
+			change_tag = X10
+			add_prestige = 25
+			
+			X10 = {
+				set_capital = 2573		# Dilgul
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

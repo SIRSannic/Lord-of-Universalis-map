@@ -1,0 +1,12 @@
+mercantilism = 0.1
+government = lotr_hand_of_angmar
+primary_culture = culture_orkish
+religion = religion_orkish
+technology_group = lotr_orc
+capital = 624
+
+historical_friend = X16
+historical_friend = X09
+historical_rival = X06
+historical_rival = X05
+historical_rival = X04

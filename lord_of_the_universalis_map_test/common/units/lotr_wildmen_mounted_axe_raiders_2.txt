@@ -1,0 +1,25 @@
+# Rohirrim Cavalry
+type = cavalry
+unit_type = lotr_wildman
+
+maneuver = 2
+offensive_morale = 4
+defensive_morale = 0
+offensive_fire = 2
+defensive_fire = 0
+offensive_shock = 4
+defensive_shock = 0
+
+trigger = {
+	OR = {
+	tag = Z41
+	tag = X11
+	tag = X46
+	tag = Z40
+	tag = X19
+	primary_culture = culture_druedain
+	primary_culture = culture_dorwinrim
+	religion = religion_druedain
+	religion = religion_angmarim
+	}
+}

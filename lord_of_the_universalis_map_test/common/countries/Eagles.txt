@@ -1,0 +1,47 @@
+#Country Name: Please see filename.
+graphical_culture = westerngfx
+
+color = { 130 205 189 }
+
+historical_idea_groups = {
+	offensive_ideas
+	diplomatic_ideas
+	defensive_ideas
+	innovativeness_ideas
+	administrative_ideas
+	quantity_ideas
+	economic_ideas
+	aristocracy_ideas
+}
+
+historical_units = {
+	lotr_elven_silvan_archers_1
+	lotr_elven_silvan_ambushers_2
+	lotr_elven_silvan_poachers_3
+	lotr_elven_silvan_sentinel_4
+	lotr_elven_silvan_archer_5
+
+	lotr_elven_silvan_horse_archers_1
+	lotr_elven_silvan_mounted_sentinels_2
+	lotr_elven_silvan_mounted_archers_3
+}
+
+monarch_names = {
+	
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	
+}
+
+army_names = {
+	"Regiment of $PROVINCE$"
+}
+
+fleet_names = {
+	"Fleet of $PROVINCE$"
+}

@@ -1,0 +1,142 @@
+#Country Name: Please see filename.
+
+graphical_culture = indiangfx
+
+color = { 186  196  137 }
+
+historical_idea_groups = {
+	quantity_ideas
+	spy_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+	offensive_ideas
+	defensive_ideas
+	economic_ideas
+	trade_ideas
+}
+
+historical_units = {
+	lotr_haradrim_spearmen_1
+	lotr_haradrim_warband_spearmen_2
+	lotr_haradrim_muhad_tribesmen_3
+	lotr_haradrim_southron_pike_4
+	lotr_haradrim_serpant_guard_5
+
+	lotr_haradrim_horse_archers_1
+	lotr_haradrim_southron_horse_archer_2
+	lotr_haradrim_haradrim_raiders_3
+	lotr_haradrim_serpent_horse_guard_4
+	lotr_haradrim_amoured_mumakill_5
+}
+
+monarch_names = {
+    "Abaan #0" = 10
+    "Adnan #0" = 10
+    "Al Tufayl #0" = 10
+    "Amr #0" = 10
+    "Amro #0" = 10
+    "Aqil #0" = 10
+    "Bakr #0" = 10
+    "Dirar #0" = 10
+    "Ghasaan #0" = 10
+    "Haarith #0" = 10
+    "Haashim #0" = 10
+    "Hannad #0" = 10
+    "Hudhafah #0" = 10
+    "Hudhayfah #0" = 10
+    "Huthayfah #0" = 10
+    "Ikrimah #0" = 10
+    "Jibran #0" = 10
+    "Jubayr #0" = 10
+    "Khaldoon #0" = 10
+    "Khuzaymah #0" = 10
+    "Lubayd #0" = 10
+    "Marwan #0" = 10
+    "Maazin #0" = 10
+    "Mus’ab #0" = 10
+    "Muthanna #0" = 10
+    "Na’man #0" = 10
+    "Nawfal #0" = 10
+    "Nizar #0" = 10
+    "Qusay #0" = 10
+    "Sufyan #0" = 10
+    "Ubaadah #0" = 10
+    "Ubayy #0" = 10
+    "Udayl #0" = 10
+    "Umar #0" = 10
+    "Umaarah #0" = 10
+    "Umayr #0" = 10
+    "Utbah #0" = 10
+    "Waqqas #0" = 10
+    "Yaman #0" = 10
+    "Yazan #0" = 10
+
+    "Da’d #0" = -10
+    "Firyal #0" = -10
+    "Hind #0" = -10
+    "Khawlah #0" = -10
+    "Mawiyah #0" = -10
+    "May #0" = -10
+    "Nusaybah #0" = -10
+    "Ramlah #0" = -10
+    "Rudaynah #0" = -10
+    "Rumaylah #0" = -10
+    "Rumaythah #0" = -10
+    "Sawda #0" = -10
+    "Suhayr #0" = -10
+    "Sumayyaa #0" = -10
+    "Tamadhur #0" = -10
+    "Yusraa #0" = -10
+    "Usaymah #0" = -10
+}
+
+leader_names = {
+	
+}
+
+ship_names = {
+	Eagletree
+	Feathersun
+	Lowtree
+	Distantblade
+	Pineweaver
+	Oceanfang
+	Humbleripper
+	Wiseblood
+	Sunmantle
+	Grandpunch
+	Pyrefollower
+	Hawkfall
+	Heartsteam
+	Stonestrength
+	Mastertide
+	Gloomsworn
+	Redfist
+	Riverwinds
+	Skyspire
+	Fireclaw
+	Lunapike
+	Whitbane
+	Tarrensnow
+	Leafroot
+	Softswallow
+	Peacereaper
+	Stagarm
+	Monsterfury
+	Horsebinder
+	Strongmoon
+	Moltenmourn
+	Skymight
+	Covenstriker
+	Glowstrider
+	Farwatcher
+	Fallendown
+	Tarrengem
+	Stonestar
+	Fernstriker
+	Roughheart
+}
+
+army_names = {
+	"Men of $PROVINCE$"
+}

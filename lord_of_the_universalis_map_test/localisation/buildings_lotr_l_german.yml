@@ -1,0 +1,4 @@
+﻿l_german:
+ # Buildings
+ building_resettlement: "Resettlement"
+ building_resettlement_desc: "Allows you to remove the ruins in this province."

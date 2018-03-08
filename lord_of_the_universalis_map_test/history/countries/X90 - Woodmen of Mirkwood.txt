@@ -1,0 +1,6 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_woodsmen
+religion = religion_rhovanion
+technology_group = lotr_northron
+capital = 1

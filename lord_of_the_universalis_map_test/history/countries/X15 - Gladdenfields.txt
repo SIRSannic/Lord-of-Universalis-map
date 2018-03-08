@@ -1,0 +1,19 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_stoor
+religion = religion_perian
+technology_group = lotr_hobbit
+capital = 2595
+government_rank = 1
+
+9650.1.1 = {
+	monarch = {
+		name = "Ilberic"
+		dynasty = "of Gladden Fields"
+		adm = 3
+		dip = 3
+		mil = 1
+		birth_date = 9566.1.1	# 84
+		death_date = 9660.1.1 	# Not accurate
+	}
+}

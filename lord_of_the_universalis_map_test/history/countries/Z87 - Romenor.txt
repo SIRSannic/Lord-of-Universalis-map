@@ -1,0 +1,8 @@
+government = lotr_principality
+mercantilism = 0.1
+primary_culture = culture_haruze
+religion = religion_southron
+technology_group = lotr_haradrim
+capital = 141	# Romenor
+
+government_rank = 1

@@ -1,0 +1,220 @@
+country_decisions = {
+
+	# 1. Secure Dol Guldur
+	dol_guldur_secure_dol_guldur = {
+		major = yes
+		
+		potential = {
+			tag = Z03
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+			
+		}
+		
+		allow = {
+			amrun_anduin_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			nan_lanc_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			dol_guldur_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			galdesgal_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			narrows_of_mirkwood_area = {
+				type = all
+				owned_by = ROOT
+			}
+			
+			emyn-i-thang_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {	
+			add_adm_power = -50
+			set_country_flag = dol_guldur_first
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# 2. Build up Reserves
+	dol_guldur_build_up_reserves = {
+		major = yes
+		
+		potential = {
+			tag = Z03
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+			
+		}
+		
+		allow = {
+			adm_power = 1000
+			dip_power = 1000
+			mil_power = 1000
+		}
+		
+		effect = {	
+			add_adm_power = -1000
+			add_dip_power = -1000
+			add_mil_power = -1000
+			set_country_flag = dol_guldur_second
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# 3. Erebor Situation
+	dol_guldur_erebor_situation = {
+		major = yes
+		
+		potential = {
+			tag = Z03
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+			
+		}
+		
+		allow = {
+			OR = {
+				292 = {
+					is_core = ROOT
+					owned_by = ROOT
+				}
+				292 = {
+					is_empty = yes
+				}
+			}
+		}
+		
+		effect = {	
+			set_country_flag = dol_guldur_third
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# 4. Secure Border to Mordor
+	dol_guldur_secure_border_to_mordor = {
+		major = yes
+		
+		potential = {
+			tag = Z03
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+			
+		}
+		
+		allow = {
+			585 = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
+		}
+		
+		effect = {	
+			set_country_flag = dol_guldur_fourth
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# 5. Secure Power
+	dol_guldur_secure_power = {
+		major = yes
+		
+		potential = {
+			tag = Z03
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+		}
+		
+		allow = {
+			total_development = 200
+			adm_tech = 30
+			dip_tech = 30
+			mil_tech = 30
+		}
+		
+		effect = {	
+			set_country_flag = dol_guldur_fifth
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# Finish Securing Strength
+	dol_guldur_finish_securing_strength = {
+		major = yes
+		
+		potential = {
+			tag = Z03
+			
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+		}
+		
+		allow = {
+			tag = Z03
+		
+			has_country_flag = dol_guldur_first
+			has_country_flag = dol_guldur_second
+			has_country_flag = dol_guldur_third
+			has_country_flag = dol_guldur_fourth
+			has_country_flag = dol_guldur_fifth
+			
+			NOT = {
+				year = 2942
+				exists = X84
+			}
+		}
+		
+		effect = {	
+			set_country_flag = dol_guldur_finish_securing_strength
+			
+			country_event = {
+				id = flavor_dol_guldur.6
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

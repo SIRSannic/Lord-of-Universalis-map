@@ -1,0 +1,58 @@
+country_decisions = {
+
+	angmar_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X63 }
+			NOT = { exists = X08 }
+			AND = {
+				religion = religion_angmarim
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 621
+			owns_core_province = 624
+			owns_core_province = 631
+			owns_core_province = 633
+			owns_core_province = 2668
+			owns_core_province = 2670
+			owns_core_province = 2671
+		}
+		effect = {
+			change_tag = X08
+			add_prestige = 50
+			
+			X08 = {
+				set_capital = 624		# Carn Dum
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

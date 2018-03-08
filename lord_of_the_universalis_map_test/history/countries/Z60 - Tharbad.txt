@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = lotr_absolute_mayorship
+primary_culture = culture_gwathlo
+religion = religion_eriadorians
+technology_group = lotr_arnor_men
+capital = 172
+
+government_rank = 1

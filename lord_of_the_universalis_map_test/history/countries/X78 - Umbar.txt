@@ -1,0 +1,8 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_black_numenorean
+add_accepted_culture = culture_umbareans
+religion = religion_black_numenorean
+technology_group = lotr_haradrim
+capital = 430
+

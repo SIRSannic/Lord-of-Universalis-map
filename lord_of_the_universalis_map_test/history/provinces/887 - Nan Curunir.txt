@@ -1,0 +1,59 @@
+# Province ID : 887
+# Province Name : Nan Curunir
+# Province Area : Isengard
+# Province Region : Rohan
+# Province Super Region : Rohan
+# Province Continent : Middle Earth
+# Province Tradenode : Riddermark
+# Province Climate : Mild_winter
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = yes
+
+base_tax = 1
+base_production= 1
+base_manpower = 1
+
+culture = culture_calending
+religion = religion_haldadian
+
+trade_goods = grain
+hre = no
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul
+
+3018.1.1 = { 
+	culture = culture_urukhai 
+	religion = religion_uruk 
+	add_core = X71 
+	owner = X71
+	controller = X71  
+}
+
+3019.4.2 = {
+	owner = XXX
+	controller = XXX
+	culture = culture_entish
+	religion = religion_enyd
+}
+

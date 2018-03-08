@@ -1,0 +1,20 @@
+objectTypes = {
+
+	#pdxmesh = {
+	#	name = "aow_reformation_centre_mesh"
+	#	file = "gfx/models/Mapitems/aow_reformation_centre.mesh"		
+	#	scale = 0.7
+	#}
+	
+	#pdxmesh = {
+	#	name = "aow_reformation_centre_broken_mesh"
+	#	file = "gfx/models/Mapitems/aow_reformation_centre_broken.mesh"		
+	#	scale = 0.7
+	#}
+	
+	pdxmesh = {
+		name = "minas_tirith_monument_mesh"
+		file = "gfx/models/Mapitems/minas_tirith.mesh"		
+		scale = 1.0
+	}
+}

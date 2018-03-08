@@ -1,0 +1,28 @@
+# Province ID : 1421
+# Province Name : Imladcerth
+# Province Area : Faradraision
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Hae-Rhun
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 18
+native_ferocity = 9
+native_hostileness = 6
+
+base_tax = 10
+base_production = 7
+base_manpower = 5
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = wool
+

@@ -1,0 +1,67 @@
+country_decisions = {
+
+	rhovanion_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X23 }
+			AND = {
+				religion = religion_rhovanion
+			}
+			OR = {
+				primary_culture = culture_eastbighters
+				primary_culture = culture_dorwinrim
+				primary_culture = culture_northmen
+			}
+			
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			
+			owns_core_province = 331
+			owns_core_province = 562
+			owns_core_province = 565
+			owns_core_province = 566
+			owns_core_province = 568
+			owns_core_province = 569
+			owns_core_province = 575
+			owns_core_province = 577
+			owns_core_province = 582
+			owns_core_province = 590
+			
+		}
+		effect = {
+			change_tag = X23
+			add_prestige = 100
+			
+			X23 = {
+				set_capital = 577		# Riavod
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

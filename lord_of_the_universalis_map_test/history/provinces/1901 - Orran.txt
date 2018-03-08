@@ -1,0 +1,28 @@
+# Province ID : 1901
+# Province Name : Orran
+# Province Area : Orran
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Kargagis Ahar
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 20
+native_ferocity = 3
+native_hostileness = 7
+
+base_tax = 1
+base_production = 6
+base_manpower = 3
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = gold
+

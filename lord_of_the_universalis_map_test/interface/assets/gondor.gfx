@@ -1,0 +1,35 @@
+objectTypes = {	
+	
+	###################################################################################################################
+	#####                                                                                                         #####
+	#####                                                   LEVEL 1                                               #####
+	#####                                                                                                         #####
+	###################################################################################################################
+		
+	pdxmesh = {
+		name = "mesh_gondor_infantry_1"
+		
+		file = "gfx/models/Units/gondoridle.mesh"
+
+		animation = { id = "attack"				type = "gondorattack_anim" }
+		animation = { id = "death"				type = "rifleman_death_animation" }		
+		animation = { id = "idle"				type = "gondoridle_anim" }
+		animation = { id = "walk"				type = "gondor_soldier_move_anim" }
+		animation = { id = "retreat"			type = "gondor_soldier_move_anim" }
+		
+		scale = 0.5
+	}	
+pdxmesh = {
+		name = "spear_gondorian"
+		file = "gfx/models/Units/gondor_spear.mesh"
+	scale = 0.5
+	}
+pdxmesh = {
+		name = "shield_gondorian"
+		
+		file = "gfx/models/Units/shield_gondor.mesh"
+	scale = 0.5
+	}	
+	
+	
+	}

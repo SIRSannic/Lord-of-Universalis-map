@@ -1,0 +1,62 @@
+# Province ID : 2613
+# Province Name : Ulgerstat
+# Province Area : Nan Annen
+# Province Region : Rhovanion
+# Province Super Region : Rhovanion
+# Province Continent : Middle Earth
+# Province Tradenode : Dale
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+
+is_city = yes
+
+add_core = X25
+owner = X25
+controller = X25
+
+base_tax = 1
+base_production= 2
+base_manpower = 1
+
+culture = culture_barding
+religion = religion_rhovanion
+
+trade_goods = grain
+hre = no
+
+discovered_by = lotr_men
+discovered_by = lotr_arnor_men
+discovered_by = lotr_dwarven
+discovered_by = lotr_elven
+discovered_by = lotr_easterling
+discovered_by = lotr_haradrim
+
+discovered_by = lotr_rohirrim
+discovered_by = lotr_northron
+discovered_by = lotr_wildman
+discovered_by = lotr_hobbit
+discovered_by = lotr_ent
+discovered_by = lotr_orc
+discovered_by = lotr_goblin
+discovered_by = lotr_troll
+discovered_by = lotr_uruk_hai
+discovered_by = lotr_dragon
+discovered_by = lotr_nazgul
+
+2770.1.1 = {
+	add_core = Z72
+	controller = Z72
+	owner = Z72
+}
+
+2941.11.23 = {
+	add_core = X25
+	controller = X25
+	owner = X25
+	culture = culture_barding
+	religion = religion_rhovanion
+}

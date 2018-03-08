@@ -1,0 +1,62 @@
+country_decisions = {
+
+	khand_nation = {
+		major = yes
+		potential = {
+			NOT = { exists = X83 }
+			NOT = { tag = X85 }
+			OR = {
+				primary_culture = culture_variags
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 1
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 6
+			is_subject = no
+			is_at_war = no
+			owns_core_province = 272
+			owns_core_province = 443
+			owns_core_province = 444
+			owns_core_province = 446
+			owns_core_province = 447
+			owns_core_province = 448
+			owns_core_province = 449
+			owns_core_province = 451
+			owns_core_province = 452
+			owns_core_province = 453
+			owns_core_province = 454
+			owns_core_province = 455
+		}
+		effect = {
+			change_tag = X83
+			add_prestige = 25
+			
+			X83 = {
+				set_capital = 449		# Ammu Khand
+			}
+			swap_free_idea_group = yes		#keep progress
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

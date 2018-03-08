@@ -1,0 +1,10 @@
+spriteTypes = {
+    #----------------------------------------------
+    # Buildings
+    #----------------------------------------------
+	spriteType = {
+		name = "GFX_resettlement"
+		texturefile = "gfx//interface//buildings//resettelment.tga"
+		loadType = "INGAME"
+	}
+}

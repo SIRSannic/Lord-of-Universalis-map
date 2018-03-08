@@ -1,0 +1,28 @@
+# Province ID : 1736
+# Province Name : Fantinuin
+# Province Area : Baradnaer
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Kargagis Ahar
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 19
+native_ferocity = 2
+native_hostileness = 8
+
+base_tax = 10
+base_production = 3
+base_manpower = 5
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = gold
+

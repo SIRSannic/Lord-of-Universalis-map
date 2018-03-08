@@ -1,0 +1,22 @@
+mercantilism = 0.1
+government = lotr_kingship
+primary_culture = culture_avari
+religion = religion_moriquendi
+technology_group = lotr_elven
+capital = 932
+
+government_rank = 1
+
+2560.1.1 = {
+	monarch = {
+		name = "The Ever Living"
+		dynasty = "Lol"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 2540.1.1	# 3103
+		death_date = 9660.1.1 # Not accurate
+	}
+
+	add_ruler_personality = immortal_personality
+}

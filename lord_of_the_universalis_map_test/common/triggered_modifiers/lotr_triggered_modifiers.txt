@@ -1,0 +1,54 @@
+fall_of_arnor = {
+	potential = {
+		OR = {
+			tag = X04
+			tag = X05
+			tag = X06
+		}
+	}
+	trigger = {
+		OR = {
+			tag = X04
+			tag = X05
+			tag = X06
+		}
+		NOT = { has_country_flag = reunited_arnor }
+	}
+	
+	global_manpower_modifier = -0.5
+	global_regiment_cost = 0.5
+	land_forcelimit_modifier = -0.25
+	manpower_recovery_speed = -0.25
+	
+	global_tax_modifier = -0.25
+	production_efficiency = -0.25
+}
+
+crusader = {
+	potential = {
+		religion = religion_southron
+		crusade_target = {
+			exists = yes
+		}
+		
+	}
+
+	trigger = {
+		
+		crusade_target = {
+			war_with = ROOT
+			any_province = {
+				controlled_by = root
+			}
+		}  
+		land_maintenance = 1.0
+	}
+
+	global_manpower_modifier = 0.3
+	global_tax_modifier = 0.1
+	land_morale = 0.10
+	prestige = 1
+	papal_influence = 1
+	devotion = 0.25
+	#icon = 9
+}

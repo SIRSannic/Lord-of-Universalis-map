@@ -1,0 +1,28 @@
+# Province ID : 1752
+# Province Name : Imladpen
+# Province Area : Imladpen
+# Province Region : null
+# Province Super Region : null
+# Province Continent : Middle Earth
+# Province Tradenode : Urd
+# Province Climate : null
+# Province is Sea Province : false
+# Province is Lake Province : false
+# Province is WasteLand Province : false
+# Province Contents : 
+
+is_city = no
+native_size = 12
+native_ferocity = 2
+native_hostileness = 10
+
+base_tax = 8
+base_production = 7
+base_manpower = 3
+
+culture = culture_wilderness
+religion = religion_wilderness
+
+hre = no
+trade_goods = grain
+
