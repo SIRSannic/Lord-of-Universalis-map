@@ -537,7 +537,7 @@ taur-e-ndaedlos_area = {
 }
 
 emyn-i-thang_area = {
-321 322 324 328 538 831
+321 322 324 328 538
 }
 
 narrows_of_mirkwood_area = {
